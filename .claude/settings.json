@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yes)",
+      "Bash(rm -rf /c/Users/pamau/AppData/Local/Temp/claude/waso-scaffold && npm create vite@latest /c/Users/pamau/AppData/Local/Temp/claude/waso-scaffold -- --template react-ts 2>&1 | tail -40)",
+      "Bash(rm -rf \"/c/Users/pamau/Documents/Projets/Waso/C\")",
+      "Bash(mkdir -p /tmp/waso-scaffold)",
+      "Read(//tmp/**)",
+      "Bash(cd /tmp/waso-scaffold && ls -la)",
+      "Bash(cp -r /tmp/waso-scaffold/. \"/c/Users/pamau/Documents/Projets/Waso/\")",
+      "Bash(rm -rf /tmp/waso-scaffold)",
+      "Bash(npm install *)",
+      "Bash(npm audit *)",
+      "Bash(npm ls *)",
+      "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Bash(magick -version)",
+      "Bash(rm -f src/App.css src/assets/react.svg)",
+      "Bash(rmdir src/assets)",
+      "Bash(node data/build-birds.mjs)",
+      "Bash(python3 -c ' *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173/Waso/)",
+      "Bash(cat /tmp/vite-dev.log)",
+      "Bash(pkill -f \"vite\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\pamau\\AppData\\Local\\Temp\\claude"
+    ]
+  }
+}

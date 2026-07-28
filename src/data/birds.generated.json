@@ -1,0 +1,5456 @@
+[
+  {
+    "id": "branta-bernicla",
+    "scientificName": "Branta bernicla",
+    "fullScientificName": "Branta bernicla (Linnaeus, 1758)",
+    "frenchName": "Bernache cravant",
+    "category": "A",
+    "famille": "Branta",
+    "rarete": "Commun"
+  },
+  {
+    "id": "branta-ruficollis",
+    "scientificName": "Branta ruficollis",
+    "fullScientificName": "Branta ruficollis (Pallas, 1769)",
+    "frenchName": "Bernache à cou roux",
+    "category": "A",
+    "famille": "Branta",
+    "rarete": "Epique"
+  },
+  {
+    "id": "anser-fabalis",
+    "scientificName": "Anser fabalis",
+    "fullScientificName": "Anser fabalis (Latham, 1787)",
+    "frenchName": "Oie de taïga",
+    "category": "A",
+    "famille": "Anser",
+    "rarete": "Rare"
+  },
+  {
+    "id": "anser-brachyrhynchus",
+    "scientificName": "Anser brachyrhynchus",
+    "fullScientificName": "Anser brachyrhynchus Baillon, 1834",
+    "frenchName": "Oie à bec court",
+    "category": "A",
+    "famille": "Anser",
+    "rarete": "Rare"
+  },
+  {
+    "id": "anser-serrirostris",
+    "scientificName": "Anser serrirostris",
+    "fullScientificName": "Anser serrirostris Gould, 1852",
+    "frenchName": "Oie de toundra",
+    "category": "A",
+    "famille": "Anser",
+    "rarete": "Rare"
+  },
+  {
+    "id": "anser-albifrons",
+    "scientificName": "Anser albifrons",
+    "fullScientificName": "Anser albifrons (Scopoli, 1769)",
+    "frenchName": "Oie rieuse",
+    "category": "A",
+    "famille": "Anser",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anser-erythropus",
+    "scientificName": "Anser erythropus",
+    "fullScientificName": "Anser erythropus (Linnaeus, 1758)",
+    "frenchName": "Oie naine",
+    "category": "A",
+    "famille": "Anser",
+    "rarete": "Epique"
+  },
+  {
+    "id": "cygnus-columbianus",
+    "scientificName": "Cygnus columbianus",
+    "fullScientificName": "Cygnus columbianus (Ord, 1815)",
+    "frenchName": "Cygne de Bewick",
+    "category": "A",
+    "famille": "Cygnus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "cygnus-cygnus",
+    "scientificName": "Cygnus cygnus",
+    "fullScientificName": "Cygnus cygnus (Linnaeus, 1758)",
+    "frenchName": "Cygne chanteur",
+    "category": "A",
+    "famille": "Cygnus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "tadorna-tadorna",
+    "scientificName": "Tadorna tadorna",
+    "fullScientificName": "Tadorna tadorna (Linnaeus, 1758)",
+    "frenchName": "Tadorne de Belon",
+    "category": "A",
+    "famille": "Tadorna",
+    "rarete": "Commun"
+  },
+  {
+    "id": "sibirionetta-formosa",
+    "scientificName": "Sibirionetta formosa",
+    "fullScientificName": "Sibirionetta formosa (Georgi, 1775)",
+    "frenchName": "Sarcelle élégante",
+    "category": "A",
+    "famille": "Sibirionetta",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "spatula-querquedula",
+    "scientificName": "Spatula querquedula",
+    "fullScientificName": "Spatula querquedula (Linnaeus, 1758)",
+    "frenchName": "Sarcelle d'été",
+    "category": "A",
+    "famille": "Spatula",
+    "rarete": "Commun"
+  },
+  {
+    "id": "spatula-discors",
+    "scientificName": "Spatula discors",
+    "fullScientificName": "Spatula discors (Linnaeus, 1766)",
+    "frenchName": "Sarcelle à ailes bleues",
+    "category": "A",
+    "famille": "Spatula",
+    "rarete": "Epique"
+  },
+  {
+    "id": "spatula-clypeata",
+    "scientificName": "Spatula clypeata",
+    "fullScientificName": "Spatula clypeata (Linnaeus, 1758)",
+    "frenchName": "Canard souchet",
+    "category": "A",
+    "famille": "Spatula",
+    "rarete": "Commun"
+  },
+  {
+    "id": "mareca-strepera",
+    "scientificName": "Mareca strepera",
+    "fullScientificName": "Mareca strepera (Linnaeus, 1758)",
+    "frenchName": "Canard chipeau",
+    "category": "A",
+    "famille": "Mareca",
+    "rarete": "Commun"
+  },
+  {
+    "id": "mareca-penelope",
+    "scientificName": "Mareca penelope",
+    "fullScientificName": "Mareca penelope (Linnaeus, 1758)",
+    "frenchName": "Canard siffleur",
+    "category": "A",
+    "famille": "Mareca",
+    "rarete": "Commun"
+  },
+  {
+    "id": "mareca-americana",
+    "scientificName": "Mareca americana",
+    "fullScientificName": "Mareca americana (Gmelin, JF, 1789)",
+    "frenchName": "Canard à front blanc",
+    "category": "A",
+    "famille": "Mareca",
+    "rarete": "Epique"
+  },
+  {
+    "id": "anas-rubripes",
+    "scientificName": "Anas rubripes",
+    "fullScientificName": "Anas rubripes Brewster, 1902",
+    "frenchName": "Canard noir",
+    "category": "A",
+    "famille": "Anas",
+    "rarete": "Epique"
+  },
+  {
+    "id": "anas-acuta",
+    "scientificName": "Anas acuta",
+    "fullScientificName": "Anas acuta Linnaeus, 1758",
+    "frenchName": "Canard pilet",
+    "category": "A",
+    "famille": "Anas",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anas-crecca",
+    "scientificName": "Anas crecca",
+    "fullScientificName": "Anas crecca Linnaeus, 1758",
+    "frenchName": "Sarcelle d'hiver",
+    "category": "A",
+    "famille": "Anas",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anas-carolinensis",
+    "scientificName": "Anas carolinensis",
+    "fullScientificName": "Anas carolinensis Gmelin, JF, 1789",
+    "frenchName": "Sarcelle à ailes vertes",
+    "category": "A",
+    "famille": "Anas",
+    "rarete": "Epique"
+  },
+  {
+    "id": "marmaronetta-angustirostris",
+    "scientificName": "Marmaronetta angustirostris",
+    "fullScientificName": "Marmaronetta angustirostris (Ménétries, 1832)",
+    "frenchName": "Sarcelle marbrée",
+    "category": "A",
+    "famille": "Marmaronetta",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "netta-rufina",
+    "scientificName": "Netta rufina",
+    "fullScientificName": "Netta rufina (Pallas, 1773)",
+    "frenchName": "Nette rousse",
+    "category": "A",
+    "famille": "Netta",
+    "rarete": "Commun"
+  },
+  {
+    "id": "aythya-ferina",
+    "scientificName": "Aythya ferina",
+    "fullScientificName": "Aythya ferina (Linnaeus, 1758)",
+    "frenchName": "Fuligule milouin",
+    "category": "A",
+    "famille": "Aythya",
+    "rarete": "Commun"
+  },
+  {
+    "id": "aythya-nyroca",
+    "scientificName": "Aythya nyroca",
+    "fullScientificName": "Aythya nyroca (Güldenstädt, 1770)",
+    "frenchName": "Fuligule nyroca",
+    "category": "A",
+    "famille": "Aythya",
+    "rarete": "Rare"
+  },
+  {
+    "id": "aythya-collaris",
+    "scientificName": "Aythya collaris",
+    "fullScientificName": "Aythya collaris (Donovan, 1809)",
+    "frenchName": "Fuligule à bec cerclé",
+    "category": "A",
+    "famille": "Aythya",
+    "rarete": "Epique"
+  },
+  {
+    "id": "aythya-fuligula",
+    "scientificName": "Aythya fuligula",
+    "fullScientificName": "Aythya fuligula (Linnaeus, 1758)",
+    "frenchName": "Fuligule morillon",
+    "category": "A",
+    "famille": "Aythya",
+    "rarete": "Commun"
+  },
+  {
+    "id": "aythya-marila",
+    "scientificName": "Aythya marila",
+    "fullScientificName": "Aythya marila (Linnaeus, 1761)",
+    "frenchName": "Fuligule milouinan",
+    "category": "A",
+    "famille": "Aythya",
+    "rarete": "Rare"
+  },
+  {
+    "id": "aythya-affinis",
+    "scientificName": "Aythya affinis",
+    "fullScientificName": "Aythya affinis (Eyton, 1838)",
+    "frenchName": "Fuligule à tête noire",
+    "category": "A",
+    "famille": "Aythya",
+    "rarete": "Epique"
+  },
+  {
+    "id": "polysticta-stelleri",
+    "scientificName": "Polysticta stelleri",
+    "fullScientificName": "Polysticta stelleri (Pallas, 1769)",
+    "frenchName": "Eider de Steller",
+    "category": "A",
+    "famille": "Polysticta",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "somateria-spectabilis",
+    "scientificName": "Somateria spectabilis",
+    "fullScientificName": "Somateria spectabilis (Linnaeus, 1758)",
+    "frenchName": "Eider à tête grise",
+    "category": "A",
+    "famille": "Somateria",
+    "rarete": "Epique"
+  },
+  {
+    "id": "somateria-mollissima",
+    "scientificName": "Somateria mollissima",
+    "fullScientificName": "Somateria mollissima (Linnaeus, 1758)",
+    "frenchName": "Eider à duvet",
+    "category": "A",
+    "famille": "Somateria",
+    "rarete": "Commun"
+  },
+  {
+    "id": "melanitta-perspicillata",
+    "scientificName": "Melanitta perspicillata",
+    "fullScientificName": "Melanitta perspicillata (Linnaeus, 1758)",
+    "frenchName": "Macreuse à front blanc",
+    "category": "A",
+    "famille": "Melanitta",
+    "rarete": "Epique"
+  },
+  {
+    "id": "melanitta-fusca",
+    "scientificName": "Melanitta fusca",
+    "fullScientificName": "Melanitta fusca (Linnaeus, 1758)",
+    "frenchName": "Macreuse brune",
+    "category": "A",
+    "famille": "Melanitta",
+    "rarete": "Rare"
+  },
+  {
+    "id": "melanitta-nigra",
+    "scientificName": "Melanitta nigra",
+    "fullScientificName": "Melanitta nigra (Linnaeus, 1758)",
+    "frenchName": "Macreuse noire",
+    "category": "A",
+    "famille": "Melanitta",
+    "rarete": "Commun"
+  },
+  {
+    "id": "melanitta-americana",
+    "scientificName": "Melanitta americana",
+    "fullScientificName": "Melanitta americana (Swainson, 1832)",
+    "frenchName": "Macreuse à bec jaune",
+    "category": "A",
+    "famille": "Melanitta",
+    "rarete": "Epique"
+  },
+  {
+    "id": "clangula-hyemalis",
+    "scientificName": "Clangula hyemalis",
+    "fullScientificName": "Clangula hyemalis (Linnaeus, 1758)",
+    "frenchName": "Harelde boréale",
+    "category": "A",
+    "famille": "Clangula",
+    "rarete": "Rare"
+  },
+  {
+    "id": "bucephala-albeola",
+    "scientificName": "Bucephala albeola",
+    "fullScientificName": "Bucephala albeola (Linnaeus, 1758)",
+    "frenchName": "Garrot albéole",
+    "category": "A",
+    "famille": "Bucephala",
+    "rarete": "Epique"
+  },
+  {
+    "id": "bucephala-clangula",
+    "scientificName": "Bucephala clangula",
+    "fullScientificName": "Bucephala clangula (Linnaeus, 1758)",
+    "frenchName": "Garrot à œil d'or",
+    "category": "A",
+    "famille": "Bucephala",
+    "rarete": "Commun"
+  },
+  {
+    "id": "mergellus-albellus",
+    "scientificName": "Mergellus albellus",
+    "fullScientificName": "Mergellus albellus (Linnaeus, 1758)",
+    "frenchName": "Harle piette",
+    "category": "A",
+    "famille": "Mergellus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "mergus-merganser",
+    "scientificName": "Mergus merganser",
+    "fullScientificName": "Mergus merganser Linnaeus, 1758",
+    "frenchName": "Harle bièvre",
+    "category": "A",
+    "famille": "Mergus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "mergus-serrator",
+    "scientificName": "Mergus serrator",
+    "fullScientificName": "Mergus serrator Linnaeus, 1758",
+    "frenchName": "Harle huppé",
+    "category": "A",
+    "famille": "Mergus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "oxyura-leucocephala",
+    "scientificName": "Oxyura leucocephala",
+    "fullScientificName": "Oxyura leucocephala (Scopoli, 1769)",
+    "frenchName": "Erismature à tête blanche",
+    "category": "A",
+    "famille": "Oxyura",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "tetrastes-bonasia",
+    "scientificName": "Tetrastes bonasia",
+    "fullScientificName": "Tetrastes bonasia (Linnaeus, 1758)",
+    "frenchName": "Gélinotte des bois",
+    "category": "A",
+    "famille": "Tetrastes",
+    "rarete": "Rare"
+  },
+  {
+    "id": "lagopus-muta",
+    "scientificName": "Lagopus muta",
+    "fullScientificName": "Lagopus muta (Montin, 1781)",
+    "frenchName": "Lagopède alpin",
+    "category": "A",
+    "famille": "Lagopus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "tetrao-urogallus",
+    "scientificName": "Tetrao urogallus",
+    "fullScientificName": "Tetrao urogallus Linnaeus, 1758",
+    "frenchName": "Grand Tétras",
+    "category": "A",
+    "famille": "Tetrao",
+    "rarete": "Rare"
+  },
+  {
+    "id": "lyrurus-tetrix",
+    "scientificName": "Lyrurus tetrix",
+    "fullScientificName": "Lyrurus tetrix (Linnaeus, 1758)",
+    "frenchName": "Tétras lyre",
+    "category": "A",
+    "famille": "Lyrurus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "coturnix-coturnix",
+    "scientificName": "Coturnix coturnix",
+    "fullScientificName": "Coturnix coturnix (Linnaeus, 1758)",
+    "frenchName": "Caille des blés",
+    "category": "A",
+    "famille": "Coturnix",
+    "rarete": "Commun"
+  },
+  {
+    "id": "alectoris-graeca",
+    "scientificName": "Alectoris graeca",
+    "fullScientificName": "Alectoris graeca (Meisner, 1804)",
+    "frenchName": "Perdrix bartavelle",
+    "category": "A",
+    "famille": "Alectoris",
+    "rarete": "Rare"
+  },
+  {
+    "id": "chordeiles-minor",
+    "scientificName": "Chordeiles minor",
+    "fullScientificName": "Chordeiles minor (Forster, JR, 1771)",
+    "frenchName": "Engoulevent d’Amérique",
+    "category": "A",
+    "famille": "Chordeiles",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "caprimulgus-ruficollis",
+    "scientificName": "Caprimulgus ruficollis",
+    "fullScientificName": "Caprimulgus ruficollis Temminck, 1820",
+    "frenchName": "Engoulevent à collier roux",
+    "category": "A",
+    "famille": "Caprimulgus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "caprimulgus-europaeus",
+    "scientificName": "Caprimulgus europaeus",
+    "fullScientificName": "Caprimulgus europaeus Linnaeus, 1758",
+    "frenchName": "Engoulevent d'Europe",
+    "category": "A",
+    "famille": "Caprimulgus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "chaetura-pelagica",
+    "scientificName": "Chaetura pelagica",
+    "fullScientificName": "Chaetura pelagica (Linnaeus, 1758)",
+    "frenchName": "Martinet ramoneur",
+    "category": "A",
+    "famille": "Chaetura",
+    "rarete": "Epique"
+  },
+  {
+    "id": "tachymarptis-melba",
+    "scientificName": "Tachymarptis melba",
+    "fullScientificName": "Tachymarptis melba (Linnaeus, 1758)",
+    "frenchName": "Martinet à ventre blanc",
+    "category": "A",
+    "famille": "Tachymarptis",
+    "rarete": "Rare"
+  },
+  {
+    "id": "apus-apus",
+    "scientificName": "Apus apus",
+    "fullScientificName": "Apus apus (Linnaeus, 1758)",
+    "frenchName": "Martinet noir",
+    "category": "A",
+    "famille": "Apus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "apus-pallidus",
+    "scientificName": "Apus pallidus",
+    "fullScientificName": "Apus pallidus (Shelley, 1870)",
+    "frenchName": "Martinet pâle",
+    "category": "A",
+    "famille": "Apus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "apus-affinis",
+    "scientificName": "Apus affinis",
+    "fullScientificName": "Apus affinis (Gray, JE, 1830)",
+    "frenchName": "Martinet des maisons",
+    "category": "A",
+    "famille": "Apus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "apus-caffer",
+    "scientificName": "Apus caffer",
+    "fullScientificName": "Apus caffer (Lichtenstein, MHK, 1823)",
+    "frenchName": "Martinet cafre",
+    "category": "A",
+    "famille": "Apus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "otis-tarda",
+    "scientificName": "Otis tarda",
+    "fullScientificName": "Otis tarda Linnaeus, 1758",
+    "frenchName": "Outarde barbue",
+    "category": "A",
+    "famille": "Otis",
+    "rarete": "Rare"
+  },
+  {
+    "id": "tetrax-tetrax",
+    "scientificName": "Tetrax tetrax",
+    "fullScientificName": "Tetrax tetrax (Linnaeus, 1758)",
+    "frenchName": "Outarde canepetière",
+    "category": "A",
+    "famille": "Tetrax",
+    "rarete": "Rare"
+  },
+  {
+    "id": "clamator-glandarius",
+    "scientificName": "Clamator glandarius",
+    "fullScientificName": "Clamator glandarius (Linnaeus, 1758)",
+    "frenchName": "Coucou geai",
+    "category": "A",
+    "famille": "Clamator",
+    "rarete": "Rare"
+  },
+  {
+    "id": "coccyzus-americanus",
+    "scientificName": "Coccyzus americanus",
+    "fullScientificName": "Coccyzus americanus (Linnaeus, 1758)",
+    "frenchName": "Coulicou à bec jaune",
+    "category": "A",
+    "famille": "Coccyzus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "coccyzus-erythropthalmus",
+    "scientificName": "Coccyzus erythropthalmus",
+    "fullScientificName": "Coccyzus erythropthalmus (Wilson, A, 1811)",
+    "frenchName": "Coulicou à bec noir",
+    "category": "A",
+    "famille": "Coccyzus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "cuculus-canorus",
+    "scientificName": "Cuculus canorus",
+    "fullScientificName": "Cuculus canorus Linnaeus, 1758",
+    "frenchName": "Coucou gris",
+    "category": "A",
+    "famille": "Cuculus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "syrrhaptes-paradoxus",
+    "scientificName": "Syrrhaptes paradoxus",
+    "fullScientificName": "Syrrhaptes paradoxus (Pallas, 1773)",
+    "frenchName": "Syrrhapte paradoxal",
+    "category": "A",
+    "famille": "Syrrhaptes",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "pterocles-alchata",
+    "scientificName": "Pterocles alchata",
+    "fullScientificName": "Pterocles alchata (Linnaeus, 1766)",
+    "frenchName": "Ganga cata",
+    "category": "A",
+    "famille": "Pterocles",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "columba-oenas",
+    "scientificName": "Columba oenas",
+    "fullScientificName": "Columba oenas Linnaeus, 1758",
+    "frenchName": "Pigeon colombin",
+    "category": "A",
+    "famille": "Columba",
+    "rarete": "Commun"
+  },
+  {
+    "id": "columba-palumbus",
+    "scientificName": "Columba palumbus",
+    "fullScientificName": "Columba palumbus Linnaeus, 1758",
+    "frenchName": "Pigeon ramier",
+    "category": "A",
+    "famille": "Columba",
+    "rarete": "Commun"
+  },
+  {
+    "id": "streptopelia-turtur",
+    "scientificName": "Streptopelia turtur",
+    "fullScientificName": "Streptopelia turtur (Linnaeus, 1758)",
+    "frenchName": "Tourterelle des bois",
+    "category": "A",
+    "famille": "Streptopelia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "streptopelia-orientalis",
+    "scientificName": "Streptopelia orientalis",
+    "fullScientificName": "Streptopelia orientalis (Latham, 1790)",
+    "frenchName": "Tourterelle orientale",
+    "category": "A",
+    "famille": "Streptopelia",
+    "rarete": "Epique"
+  },
+  {
+    "id": "streptopelia-decaocto",
+    "scientificName": "Streptopelia decaocto",
+    "fullScientificName": "Streptopelia decaocto (Frivaldszky, 1838)",
+    "frenchName": "Tourterelle turque",
+    "category": "A",
+    "famille": "Streptopelia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "rallus-aquaticus",
+    "scientificName": "Rallus aquaticus",
+    "fullScientificName": "Rallus aquaticus Linnaeus, 1758",
+    "frenchName": "Râle d'eau",
+    "category": "A",
+    "famille": "Rallus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "crex-crex",
+    "scientificName": "Crex crex",
+    "fullScientificName": "Crex crex (Linnaeus, 1758)",
+    "frenchName": "Râle des genêts",
+    "category": "A",
+    "famille": "Crex",
+    "rarete": "Rare"
+  },
+  {
+    "id": "porzana-carolina",
+    "scientificName": "Porzana carolina",
+    "fullScientificName": "Porzana carolina (Linnaeus, 1758)",
+    "frenchName": "Marouette de Caroline",
+    "category": "A",
+    "famille": "Porzana",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "porzana-porzana",
+    "scientificName": "Porzana porzana",
+    "fullScientificName": "Porzana porzana (Linnaeus, 1766)",
+    "frenchName": "Marouette ponctuée",
+    "category": "A",
+    "famille": "Porzana",
+    "rarete": "Rare"
+  },
+  {
+    "id": "gallinula-chloropus",
+    "scientificName": "Gallinula chloropus",
+    "fullScientificName": "Gallinula chloropus (Linnaeus, 1758)",
+    "frenchName": "Gallinule poule-d'eau",
+    "category": "A",
+    "famille": "Gallinula",
+    "rarete": "Commun"
+  },
+  {
+    "id": "fulica-atra",
+    "scientificName": "Fulica atra",
+    "fullScientificName": "Fulica atra Linnaeus, 1758",
+    "frenchName": "Foulque macroule",
+    "category": "A",
+    "famille": "Fulica",
+    "rarete": "Commun"
+  },
+  {
+    "id": "porphyrio-alleni",
+    "scientificName": "Porphyrio alleni",
+    "fullScientificName": "Porphyrio alleni Thomson, 1842",
+    "frenchName": "Talève d'Allen",
+    "category": "A",
+    "famille": "Porphyrio",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "zapornia-pusilla",
+    "scientificName": "Zapornia pusilla",
+    "fullScientificName": "Zapornia pusilla (Pallas, 1776)",
+    "frenchName": "Marouette de Baillon",
+    "category": "A",
+    "famille": "Zapornia",
+    "rarete": "Rare"
+  },
+  {
+    "id": "zapornia-parva",
+    "scientificName": "Zapornia parva",
+    "fullScientificName": "Zapornia parva (Scopoli, 1769)",
+    "frenchName": "Marouette poussin",
+    "category": "A",
+    "famille": "Zapornia",
+    "rarete": "Rare"
+  },
+  {
+    "id": "antigone-canadensis",
+    "scientificName": "Antigone canadensis",
+    "fullScientificName": "Antigone canadensis (Linnaeus, 1758)",
+    "frenchName": "Grue du Canada",
+    "category": "A",
+    "famille": "Antigone",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "grus-virgo",
+    "scientificName": "Grus virgo",
+    "fullScientificName": "Grus virgo (Linnaeus, 1758)",
+    "frenchName": "Grue demoiselle",
+    "category": "A",
+    "famille": "Grus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "grus-grus",
+    "scientificName": "Grus grus",
+    "fullScientificName": "Grus grus (Linnaeus, 1758)",
+    "frenchName": "Grue cendrée",
+    "category": "A",
+    "famille": "Grus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "tachybaptus-ruficollis",
+    "scientificName": "Tachybaptus ruficollis",
+    "fullScientificName": "Tachybaptus ruficollis (Pallas, 1764)",
+    "frenchName": "Grèbe castagneux",
+    "category": "A",
+    "famille": "Tachybaptus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "podilymbus-podiceps",
+    "scientificName": "Podilymbus podiceps",
+    "fullScientificName": "Podilymbus podiceps (Linnaeus, 1758)",
+    "frenchName": "Grèbe à bec bigarré",
+    "category": "A",
+    "famille": "Podilymbus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "podiceps-grisegena",
+    "scientificName": "Podiceps grisegena",
+    "fullScientificName": "Podiceps grisegena (Boddaert, 1783)",
+    "frenchName": "Grèbe jougris",
+    "category": "A",
+    "famille": "Podiceps",
+    "rarete": "Rare"
+  },
+  {
+    "id": "podiceps-cristatus",
+    "scientificName": "Podiceps cristatus",
+    "fullScientificName": "Podiceps cristatus (Linnaeus, 1758)",
+    "frenchName": "Grèbe huppé",
+    "category": "A",
+    "famille": "Podiceps",
+    "rarete": "Commun"
+  },
+  {
+    "id": "podiceps-auritus",
+    "scientificName": "Podiceps auritus",
+    "fullScientificName": "Podiceps auritus (Linnaeus, 1758)",
+    "frenchName": "Grèbe esclavon",
+    "category": "A",
+    "famille": "Podiceps",
+    "rarete": "Rare"
+  },
+  {
+    "id": "podiceps-nigricollis",
+    "scientificName": "Podiceps nigricollis",
+    "fullScientificName": "Podiceps nigricollis Brehm, CL, 1831",
+    "frenchName": "Grèbe à cou noir",
+    "category": "A",
+    "famille": "Podiceps",
+    "rarete": "Commun"
+  },
+  {
+    "id": "phoenicopterus-roseus",
+    "scientificName": "Phoenicopterus roseus",
+    "fullScientificName": "Phoenicopterus roseus Pallas, 1811",
+    "frenchName": "Flamant rose",
+    "category": "A",
+    "famille": "Phoenicopterus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "phoeniconaias-minor",
+    "scientificName": "Phoeniconaias minor",
+    "fullScientificName": "Phoeniconaias minor (Geoffroy Saint-Hilaire, É, 1798)",
+    "frenchName": "Flamant nain",
+    "category": "A",
+    "famille": "Phoeniconaias",
+    "rarete": "Epique"
+  },
+  {
+    "id": "burhinus-oedicnemus",
+    "scientificName": "Burhinus oedicnemus",
+    "fullScientificName": "Burhinus oedicnemus (Linnaeus, 1758)",
+    "frenchName": "Œdicnème criard",
+    "category": "A",
+    "famille": "Burhinus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "haematopus-ostralegus",
+    "scientificName": "Haematopus ostralegus",
+    "fullScientificName": "Haematopus ostralegus Linnaeus, 1758",
+    "frenchName": "Huîtrier pie",
+    "category": "A",
+    "famille": "Haematopus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "himantopus-himantopus",
+    "scientificName": "Himantopus himantopus",
+    "fullScientificName": "Himantopus himantopus (Linnaeus, 1758)",
+    "frenchName": "Echasse blanche",
+    "category": "A",
+    "famille": "Himantopus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "recurvirostra-avosetta",
+    "scientificName": "Recurvirostra avosetta",
+    "fullScientificName": "Recurvirostra avosetta Linnaeus, 1758",
+    "frenchName": "Avocette élégante",
+    "category": "A",
+    "famille": "Recurvirostra",
+    "rarete": "Commun"
+  },
+  {
+    "id": "pluvialis-squatarola",
+    "scientificName": "Pluvialis squatarola",
+    "fullScientificName": "Pluvialis squatarola (Linnaeus, 1758)",
+    "frenchName": "Pluvier argenté",
+    "category": "A",
+    "famille": "Pluvialis",
+    "rarete": "Commun"
+  },
+  {
+    "id": "pluvialis-apricaria",
+    "scientificName": "Pluvialis apricaria",
+    "fullScientificName": "Pluvialis apricaria (Linnaeus, 1758)",
+    "frenchName": "Pluvier doré",
+    "category": "A",
+    "famille": "Pluvialis",
+    "rarete": "Commun"
+  },
+  {
+    "id": "pluvialis-fulva",
+    "scientificName": "Pluvialis fulva",
+    "fullScientificName": "Pluvialis fulva (Gmelin, JF, 1789)",
+    "frenchName": "Pluvier fauve",
+    "category": "A",
+    "famille": "Pluvialis",
+    "rarete": "Epique"
+  },
+  {
+    "id": "pluvialis-dominica",
+    "scientificName": "Pluvialis dominica",
+    "fullScientificName": "Pluvialis dominica (Müller, PLS, 1776)",
+    "frenchName": "Pluvier bronzé",
+    "category": "A",
+    "famille": "Pluvialis",
+    "rarete": "Epique"
+  },
+  {
+    "id": "eudromias-morinellus",
+    "scientificName": "Eudromias morinellus",
+    "fullScientificName": "Eudromias morinellus (Linnaeus, 1758)",
+    "frenchName": "Guignard d'Eurasie",
+    "category": "A",
+    "famille": "Eudromias",
+    "rarete": "Rare"
+  },
+  {
+    "id": "charadrius-vociferus",
+    "scientificName": "Charadrius vociferus",
+    "fullScientificName": "Charadrius vociferus Linnaeus, 1758",
+    "frenchName": "Gravelot kildir",
+    "category": "A",
+    "famille": "Charadrius",
+    "rarete": "Epique"
+  },
+  {
+    "id": "charadrius-hiaticula",
+    "scientificName": "Charadrius hiaticula",
+    "fullScientificName": "Charadrius hiaticula Linnaeus, 1758",
+    "frenchName": "Grand Gravelot",
+    "category": "A",
+    "famille": "Charadrius",
+    "rarete": "Commun"
+  },
+  {
+    "id": "charadrius-dubius",
+    "scientificName": "Charadrius dubius",
+    "fullScientificName": "Charadrius dubius Scopoli, 1786",
+    "frenchName": "Petit Gravelot",
+    "category": "A",
+    "famille": "Charadrius",
+    "rarete": "Commun"
+  },
+  {
+    "id": "vanellus-vanellus",
+    "scientificName": "Vanellus vanellus",
+    "fullScientificName": "Vanellus vanellus (Linnaeus, 1758)",
+    "frenchName": "Vanneau huppé",
+    "category": "A",
+    "famille": "Vanellus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "vanellus-gregarius",
+    "scientificName": "Vanellus gregarius",
+    "fullScientificName": "Vanellus gregarius (Pallas, 1771)",
+    "frenchName": "Vanneau sociable",
+    "category": "A",
+    "famille": "Vanellus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "vanellus-leucurus",
+    "scientificName": "Vanellus leucurus",
+    "fullScientificName": "Vanellus leucurus (Lichtenstein, MHK, 1823)",
+    "frenchName": "Vanneau à queue blanche",
+    "category": "A",
+    "famille": "Vanellus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "anarhynchus-asiaticus",
+    "scientificName": "Anarhynchus asiaticus",
+    "fullScientificName": "Anarhynchus asiaticus (Pallas, 1773)",
+    "frenchName": "Gravelot asiatique",
+    "category": "A",
+    "famille": "Anarhynchus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "anarhynchus-atrifrons",
+    "scientificName": "Anarhynchus atrifrons",
+    "fullScientificName": "Anarhynchus atrifrons (Wagler, 1829)",
+    "frenchName": "Gravelot tibétain",
+    "category": "A",
+    "famille": "Anarhynchus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "anarhynchus-leschenaultii",
+    "scientificName": "Anarhynchus leschenaultii",
+    "fullScientificName": "Anarhynchus leschenaultii (Lesson, 1826)",
+    "frenchName": "Gravelot de Leschenault",
+    "category": "A",
+    "famille": "Anarhynchus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "anarhynchus-pecuarius",
+    "scientificName": "Anarhynchus pecuarius",
+    "fullScientificName": "Anarhynchus pecuarius (Temminck, 1823)",
+    "frenchName": "Gravelot pâtre",
+    "category": "A",
+    "famille": "Anarhynchus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "anarhynchus-alexandrinus",
+    "scientificName": "Anarhynchus alexandrinus",
+    "fullScientificName": "Anarhynchus alexandrinus (Linnaeus, 1758)",
+    "frenchName": "Gravelot à collier interrompu",
+    "category": "A",
+    "famille": "Anarhynchus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "bartramia-longicauda",
+    "scientificName": "Bartramia longicauda",
+    "fullScientificName": "Bartramia longicauda (Bechstein, 1812)",
+    "frenchName": "Bartramie des champs",
+    "category": "A",
+    "famille": "Bartramia",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "numenius-phaeopus",
+    "scientificName": "Numenius phaeopus",
+    "fullScientificName": "Numenius phaeopus (Linnaeus, 1758)",
+    "frenchName": "Courlis corlieu",
+    "category": "A",
+    "famille": "Numenius",
+    "rarete": "Commun"
+  },
+  {
+    "id": "numenius-hudsonicus",
+    "scientificName": "Numenius hudsonicus",
+    "fullScientificName": "Numenius hudsonicus (Latham, 1790)",
+    "frenchName": "Courlis hudsonien",
+    "category": "A",
+    "famille": "Numenius",
+    "rarete": "Epique"
+  },
+  {
+    "id": "numenius-tenuirostris",
+    "scientificName": "Numenius tenuirostris",
+    "fullScientificName": "Numenius tenuirostris Vieillot, 1817",
+    "frenchName": "Courlis à bec grêle",
+    "category": "A",
+    "famille": "Numenius",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "numenius-arquata",
+    "scientificName": "Numenius arquata",
+    "fullScientificName": "Numenius arquata (Linnaeus, 1758)",
+    "frenchName": "Courlis cendré",
+    "category": "A",
+    "famille": "Numenius",
+    "rarete": "Commun"
+  },
+  {
+    "id": "limosa-lapponica",
+    "scientificName": "Limosa lapponica",
+    "fullScientificName": "Limosa lapponica (Linnaeus, 1758)",
+    "frenchName": "Barge rousse",
+    "category": "A",
+    "famille": "Limosa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "limosa-limosa",
+    "scientificName": "Limosa limosa",
+    "fullScientificName": "Limosa limosa (Linnaeus, 1758)",
+    "frenchName": "Barge à queue noire",
+    "category": "A",
+    "famille": "Limosa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "limnodromus-scolopaceus",
+    "scientificName": "Limnodromus scolopaceus",
+    "fullScientificName": "Limnodromus scolopaceus (Say, 1822)",
+    "frenchName": "Bécassin à long bec",
+    "category": "A",
+    "famille": "Limnodromus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "limnodromus-griseus",
+    "scientificName": "Limnodromus griseus",
+    "fullScientificName": "Limnodromus griseus (Gmelin, JF, 1789)",
+    "frenchName": "Bécassin à bec court",
+    "category": "A",
+    "famille": "Limnodromus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "lymnocryptes-minimus",
+    "scientificName": "Lymnocryptes minimus",
+    "fullScientificName": "Lymnocryptes minimus (Brünnich, 1764)",
+    "frenchName": "Bécassine sourde",
+    "category": "A",
+    "famille": "Lymnocryptes",
+    "rarete": "Rare"
+  },
+  {
+    "id": "scolopax-minor",
+    "scientificName": "Scolopax minor",
+    "fullScientificName": "Scolopax minor Gmelin, JF, 1789",
+    "frenchName": "Bécasse d'Amérique",
+    "category": "A",
+    "famille": "Scolopax",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "scolopax-rusticola",
+    "scientificName": "Scolopax rusticola",
+    "fullScientificName": "Scolopax rusticola Linnaeus, 1758",
+    "frenchName": "Bécasse des bois",
+    "category": "A",
+    "famille": "Scolopax",
+    "rarete": "Commun"
+  },
+  {
+    "id": "gallinago-media",
+    "scientificName": "Gallinago media",
+    "fullScientificName": "Gallinago media (Latham, 1787)",
+    "frenchName": "Bécassine double",
+    "category": "A",
+    "famille": "Gallinago",
+    "rarete": "Rare"
+  },
+  {
+    "id": "gallinago-gallinago",
+    "scientificName": "Gallinago gallinago",
+    "fullScientificName": "Gallinago gallinago (Linnaeus, 1758)",
+    "frenchName": "Bécassine des marais",
+    "category": "A",
+    "famille": "Gallinago",
+    "rarete": "Commun"
+  },
+  {
+    "id": "gallinago-delicata",
+    "scientificName": "Gallinago delicata",
+    "fullScientificName": "Gallinago delicata (Ord, 1825)",
+    "frenchName": "Bécassine de Wilson",
+    "category": "A",
+    "famille": "Gallinago",
+    "rarete": "Epique"
+  },
+  {
+    "id": "phalaropus-tricolor",
+    "scientificName": "Phalaropus tricolor",
+    "fullScientificName": "Phalaropus tricolor (Vieillot, 1819)",
+    "frenchName": "Phalarope de Wilson",
+    "category": "A",
+    "famille": "Phalaropus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "phalaropus-fulicarius",
+    "scientificName": "Phalaropus fulicarius",
+    "fullScientificName": "Phalaropus fulicarius (Linnaeus, 1758)",
+    "frenchName": "Phalarope à bec large",
+    "category": "A",
+    "famille": "Phalaropus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "phalaropus-lobatus",
+    "scientificName": "Phalaropus lobatus",
+    "fullScientificName": "Phalaropus lobatus (Linnaeus, 1758)",
+    "frenchName": "Phalarope à bec étroit",
+    "category": "A",
+    "famille": "Phalaropus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "xenus-cinereus",
+    "scientificName": "Xenus cinereus",
+    "fullScientificName": "Xenus cinereus (Güldenstädt, 1775)",
+    "frenchName": "Chevalier bargette",
+    "category": "A",
+    "famille": "Xenus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "actitis-hypoleucos",
+    "scientificName": "Actitis hypoleucos",
+    "fullScientificName": "Actitis hypoleucos (Linnaeus, 1758)",
+    "frenchName": "Chevalier guignette",
+    "category": "A",
+    "famille": "Actitis",
+    "rarete": "Commun"
+  },
+  {
+    "id": "actitis-macularius",
+    "scientificName": "Actitis macularius",
+    "fullScientificName": "Actitis macularius (Linnaeus, 1766)",
+    "frenchName": "Chevalier grivelé",
+    "category": "A",
+    "famille": "Actitis",
+    "rarete": "Epique"
+  },
+  {
+    "id": "tringa-ochropus",
+    "scientificName": "Tringa ochropus",
+    "fullScientificName": "Tringa ochropus Linnaeus, 1758",
+    "frenchName": "Chevalier culblanc",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "tringa-solitaria",
+    "scientificName": "Tringa solitaria",
+    "fullScientificName": "Tringa solitaria Wilson, A, 1813",
+    "frenchName": "Chevalier solitaire",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "tringa-brevipes",
+    "scientificName": "Tringa brevipes",
+    "fullScientificName": "Tringa brevipes (Vieillot, 1816)",
+    "frenchName": "Chevalier de Sibérie",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "tringa-stagnatilis",
+    "scientificName": "Tringa stagnatilis",
+    "fullScientificName": "Tringa stagnatilis (Bechstein, 1803)",
+    "frenchName": "Chevalier stagnatile",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Rare"
+  },
+  {
+    "id": "tringa-glareola",
+    "scientificName": "Tringa glareola",
+    "fullScientificName": "Tringa glareola Linnaeus, 1758",
+    "frenchName": "Chevalier sylvain",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "tringa-totanus",
+    "scientificName": "Tringa totanus",
+    "fullScientificName": "Tringa totanus (Linnaeus, 1758)",
+    "frenchName": "Chevalier gambette",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "tringa-flavipes",
+    "scientificName": "Tringa flavipes",
+    "fullScientificName": "Tringa flavipes (Gmelin, JF, 1789)",
+    "frenchName": "Chevalier à pattes jaunes",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Epique"
+  },
+  {
+    "id": "tringa-semipalmata",
+    "scientificName": "Tringa semipalmata",
+    "fullScientificName": "Tringa semipalmata (Gmelin, JF, 1789)",
+    "frenchName": "Chevalier semipalmé",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "tringa-erythropus",
+    "scientificName": "Tringa erythropus",
+    "fullScientificName": "Tringa erythropus (Pallas, 1764)",
+    "frenchName": "Chevalier arlequin",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "tringa-nebularia",
+    "scientificName": "Tringa nebularia",
+    "fullScientificName": "Tringa nebularia (Gunnerus, 1767)",
+    "frenchName": "Chevalier aboyeur",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "tringa-melanoleuca",
+    "scientificName": "Tringa melanoleuca",
+    "fullScientificName": "Tringa melanoleuca (Gmelin, JF, 1789)",
+    "frenchName": "Chevalier criard",
+    "category": "A",
+    "famille": "Tringa",
+    "rarete": "Epique"
+  },
+  {
+    "id": "arenaria-interpres",
+    "scientificName": "Arenaria interpres",
+    "fullScientificName": "Arenaria interpres (Linnaeus, 1758)",
+    "frenchName": "Tournepierre à collier",
+    "category": "A",
+    "famille": "Arenaria",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calidris-canutus",
+    "scientificName": "Calidris canutus",
+    "fullScientificName": "Calidris canutus (Linnaeus, 1758)",
+    "frenchName": "Bécasseau maubèche",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calidris-pugnax",
+    "scientificName": "Calidris pugnax",
+    "fullScientificName": "Calidris pugnax (Linnaeus, 1758)",
+    "frenchName": "Combattant varié",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calidris-falcinellus",
+    "scientificName": "Calidris falcinellus",
+    "fullScientificName": "Calidris falcinellus (Pontoppidan, 1763)",
+    "frenchName": "Bécasseau falcinelle",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Rare"
+  },
+  {
+    "id": "calidris-acuminata",
+    "scientificName": "Calidris acuminata",
+    "fullScientificName": "Calidris acuminata (Horsfield, 1821)",
+    "frenchName": "Bécasseau à queue pointue",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Epique"
+  },
+  {
+    "id": "calidris-himantopus",
+    "scientificName": "Calidris himantopus",
+    "fullScientificName": "Calidris himantopus (Bonaparte, 1826)",
+    "frenchName": "Bécasseau à échasses",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Epique"
+  },
+  {
+    "id": "calidris-ferruginea",
+    "scientificName": "Calidris ferruginea",
+    "fullScientificName": "Calidris ferruginea (Pontoppidan, 1763)",
+    "frenchName": "Bécasseau cocorli",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calidris-temminckii",
+    "scientificName": "Calidris temminckii",
+    "fullScientificName": "Calidris temminckii (Leisler, 1812)",
+    "frenchName": "Bécasseau de Temminck",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calidris-subminuta",
+    "scientificName": "Calidris subminuta",
+    "fullScientificName": "Calidris subminuta (Middendorff, 1853)",
+    "frenchName": "Bécasseau à longs doigts",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "calidris-ruficollis",
+    "scientificName": "Calidris ruficollis",
+    "fullScientificName": "Calidris ruficollis (Pallas, 1776)",
+    "frenchName": "Bécasseau à cou roux",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Epique"
+  },
+  {
+    "id": "calidris-subruficollis",
+    "scientificName": "Calidris subruficollis",
+    "fullScientificName": "Calidris subruficollis (Vieillot, 1819)",
+    "frenchName": "Bécasseau rousset",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Epique"
+  },
+  {
+    "id": "calidris-alba",
+    "scientificName": "Calidris alba",
+    "fullScientificName": "Calidris alba (Pallas, 1764)",
+    "frenchName": "Bécasseau sanderling",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calidris-alpina",
+    "scientificName": "Calidris alpina",
+    "fullScientificName": "Calidris alpina (Linnaeus, 1758)",
+    "frenchName": "Bécasseau variable",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calidris-maritima",
+    "scientificName": "Calidris maritima",
+    "fullScientificName": "Calidris maritima (Brünnich, 1764)",
+    "frenchName": "Bécasseau violet",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Rare"
+  },
+  {
+    "id": "calidris-bairdii",
+    "scientificName": "Calidris bairdii",
+    "fullScientificName": "Calidris bairdii (Coues, 1861)",
+    "frenchName": "Bécasseau de Baird",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Epique"
+  },
+  {
+    "id": "calidris-minuta",
+    "scientificName": "Calidris minuta",
+    "fullScientificName": "Calidris minuta (Leisler, 1812)",
+    "frenchName": "Bécasseau minute",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calidris-minutilla",
+    "scientificName": "Calidris minutilla",
+    "fullScientificName": "Calidris minutilla (Vieillot, 1819)",
+    "frenchName": "Bécasseau minuscule",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Epique"
+  },
+  {
+    "id": "calidris-fuscicollis",
+    "scientificName": "Calidris fuscicollis",
+    "fullScientificName": "Calidris fuscicollis (Vieillot, 1819)",
+    "frenchName": "Bécasseau de Bonaparte",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Epique"
+  },
+  {
+    "id": "calidris-melanotos",
+    "scientificName": "Calidris melanotos",
+    "fullScientificName": "Calidris melanotos (Vieillot, 1819)",
+    "frenchName": "Bécasseau tacheté",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Epique"
+  },
+  {
+    "id": "calidris-mauri",
+    "scientificName": "Calidris mauri",
+    "fullScientificName": "Calidris mauri (Cabanis, 1857)",
+    "frenchName": "Bécasseau d'Alaska",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "calidris-pusilla",
+    "scientificName": "Calidris pusilla",
+    "fullScientificName": "Calidris pusilla (Linnaeus, 1766)",
+    "frenchName": "Bécasseau semipalmé",
+    "category": "A",
+    "famille": "Calidris",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "cursorius-cursor",
+    "scientificName": "Cursorius cursor",
+    "fullScientificName": "Cursorius cursor (Latham, 1787)",
+    "frenchName": "Courvite isabelle",
+    "category": "A",
+    "famille": "Cursorius",
+    "rarete": "Epique"
+  },
+  {
+    "id": "glareola-maldivarum",
+    "scientificName": "Glareola maldivarum",
+    "fullScientificName": "Glareola maldivarum Forster, JR, 1795",
+    "frenchName": "Glaréole orientale",
+    "category": "A",
+    "famille": "Glareola",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "glareola-nordmanni",
+    "scientificName": "Glareola nordmanni",
+    "fullScientificName": "Glareola nordmanni Fischer von Waldheim, 1842",
+    "frenchName": "Glaréole à ailes noires",
+    "category": "A",
+    "famille": "Glareola",
+    "rarete": "Epique"
+  },
+  {
+    "id": "glareola-pratincola",
+    "scientificName": "Glareola pratincola",
+    "fullScientificName": "Glareola pratincola (Linnaeus, 1766)",
+    "frenchName": "Glaréole à collier",
+    "category": "A",
+    "famille": "Glareola",
+    "rarete": "Rare"
+  },
+  {
+    "id": "onychoprion-fuscatus",
+    "scientificName": "Onychoprion fuscatus",
+    "fullScientificName": "Onychoprion fuscatus (Linnaeus, 1766)",
+    "frenchName": "Sterne fuligineuse",
+    "category": "A",
+    "famille": "Onychoprion",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "onychoprion-anaethetus",
+    "scientificName": "Onychoprion anaethetus",
+    "fullScientificName": "Onychoprion anaethetus (Scopoli, 1786)",
+    "frenchName": "Sterne bridée",
+    "category": "A",
+    "famille": "Onychoprion",
+    "rarete": "Epique"
+  },
+  {
+    "id": "sternula-albifrons",
+    "scientificName": "Sternula albifrons",
+    "fullScientificName": "Sternula albifrons (Pallas, 1764)",
+    "frenchName": "Sterne naine",
+    "category": "A",
+    "famille": "Sternula",
+    "rarete": "Commun"
+  },
+  {
+    "id": "gelochelidon-nilotica",
+    "scientificName": "Gelochelidon nilotica",
+    "fullScientificName": "Gelochelidon nilotica (Gmelin, JF, 1789)",
+    "frenchName": "Sterne hansel",
+    "category": "A",
+    "famille": "Gelochelidon",
+    "rarete": "Rare"
+  },
+  {
+    "id": "hydroprogne-caspia",
+    "scientificName": "Hydroprogne caspia",
+    "fullScientificName": "Hydroprogne caspia (Pallas, 1770)",
+    "frenchName": "Sterne caspienne",
+    "category": "A",
+    "famille": "Hydroprogne",
+    "rarete": "Rare"
+  },
+  {
+    "id": "chlidonias-hybrida",
+    "scientificName": "Chlidonias hybrida",
+    "fullScientificName": "Chlidonias hybrida (Pallas, 1811)",
+    "frenchName": "Guifette moustac",
+    "category": "A",
+    "famille": "Chlidonias",
+    "rarete": "Commun"
+  },
+  {
+    "id": "chlidonias-niger",
+    "scientificName": "Chlidonias niger",
+    "fullScientificName": "Chlidonias niger (Linnaeus, 1758)",
+    "frenchName": "Guifette noire",
+    "category": "A",
+    "famille": "Chlidonias",
+    "rarete": "Commun"
+  },
+  {
+    "id": "chlidonias-leucopterus",
+    "scientificName": "Chlidonias leucopterus",
+    "fullScientificName": "Chlidonias leucopterus (Temminck, 1815)",
+    "frenchName": "Guifette leucoptère",
+    "category": "A",
+    "famille": "Chlidonias",
+    "rarete": "Rare"
+  },
+  {
+    "id": "sterna-forsteri",
+    "scientificName": "Sterna forsteri",
+    "fullScientificName": "Sterna forsteri Nuttall, 1834",
+    "frenchName": "Sterne de Forster",
+    "category": "A",
+    "famille": "Sterna",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "sterna-paradisaea",
+    "scientificName": "Sterna paradisaea",
+    "fullScientificName": "Sterna paradisaea Pontoppidan, 1763",
+    "frenchName": "Sterne arctique",
+    "category": "A",
+    "famille": "Sterna",
+    "rarete": "Rare"
+  },
+  {
+    "id": "sterna-hirundo",
+    "scientificName": "Sterna hirundo",
+    "fullScientificName": "Sterna hirundo Linnaeus, 1758",
+    "frenchName": "Sterne pierregarin",
+    "category": "A",
+    "famille": "Sterna",
+    "rarete": "Commun"
+  },
+  {
+    "id": "sterna-dougallii",
+    "scientificName": "Sterna dougallii",
+    "fullScientificName": "Sterna dougallii Montagu, 1813",
+    "frenchName": "Sterne de Dougall",
+    "category": "A",
+    "famille": "Sterna",
+    "rarete": "Rare"
+  },
+  {
+    "id": "thalasseus-sandvicensis",
+    "scientificName": "Thalasseus sandvicensis",
+    "fullScientificName": "Thalasseus sandvicensis (Latham, 1787)",
+    "frenchName": "Sterne caugek",
+    "category": "A",
+    "famille": "Thalasseus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "thalasseus-elegans",
+    "scientificName": "Thalasseus elegans",
+    "fullScientificName": "Thalasseus elegans (Gambel, 1849)",
+    "frenchName": "Sterne élégante",
+    "category": "A",
+    "famille": "Thalasseus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "thalasseus-bengalensis",
+    "scientificName": "Thalasseus bengalensis",
+    "fullScientificName": "Thalasseus bengalensis (Lesson, R, 1831)",
+    "frenchName": "Sterne voyageuse",
+    "category": "A",
+    "famille": "Thalasseus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "thalasseus-maximus",
+    "scientificName": "Thalasseus maximus",
+    "fullScientificName": "Thalasseus maximus (Boddaert, 1783)",
+    "frenchName": "Sterne royale",
+    "category": "A",
+    "famille": "Thalasseus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "hydrocoloeus-minutus",
+    "scientificName": "Hydrocoloeus minutus",
+    "fullScientificName": "Hydrocoloeus minutus (Pallas, 1776)",
+    "frenchName": "Mouette pygmée",
+    "category": "A",
+    "famille": "Hydrocoloeus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "rhodostethia-rosea",
+    "scientificName": "Rhodostethia rosea",
+    "fullScientificName": "Rhodostethia rosea (MacGillivray, W, 1824)",
+    "frenchName": "Mouette de Ross",
+    "category": "A",
+    "famille": "Rhodostethia",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "rissa-tridactyla",
+    "scientificName": "Rissa tridactyla",
+    "fullScientificName": "Rissa tridactyla (Linnaeus, 1758)",
+    "frenchName": "Mouette tridactyle",
+    "category": "A",
+    "famille": "Rissa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "pagophila-eburnea",
+    "scientificName": "Pagophila eburnea",
+    "fullScientificName": "Pagophila eburnea (Phipps, 1774)",
+    "frenchName": "Mouette blanche",
+    "category": "A",
+    "famille": "Pagophila",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "xema-sabini",
+    "scientificName": "Xema sabini",
+    "fullScientificName": "Xema sabini (Sabine, 1819)",
+    "frenchName": "Mouette de Sabine",
+    "category": "A",
+    "famille": "Xema",
+    "rarete": "Rare"
+  },
+  {
+    "id": "chroicocephalus-genei",
+    "scientificName": "Chroicocephalus genei",
+    "fullScientificName": "Chroicocephalus genei (Brème, 1839)",
+    "frenchName": "Goéland railleur",
+    "category": "A",
+    "famille": "Chroicocephalus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "chroicocephalus-philadelphia",
+    "scientificName": "Chroicocephalus philadelphia",
+    "fullScientificName": "Chroicocephalus philadelphia (Ord, 1815)",
+    "frenchName": "Mouette de Bonaparte",
+    "category": "A",
+    "famille": "Chroicocephalus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "chroicocephalus-ridibundus",
+    "scientificName": "Chroicocephalus ridibundus",
+    "fullScientificName": "Chroicocephalus ridibundus (Linnaeus, 1766)",
+    "frenchName": "Mouette rieuse",
+    "category": "A",
+    "famille": "Chroicocephalus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "leucophaeus-atricilla",
+    "scientificName": "Leucophaeus atricilla",
+    "fullScientificName": "Leucophaeus atricilla (Linnaeus, 1758)",
+    "frenchName": "Mouette atricille",
+    "category": "A",
+    "famille": "Leucophaeus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "leucophaeus-pipixcan",
+    "scientificName": "Leucophaeus pipixcan",
+    "fullScientificName": "Leucophaeus pipixcan (Wagler, 1831)",
+    "frenchName": "Mouette de Franklin",
+    "category": "A",
+    "famille": "Leucophaeus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "ichthyaetus-ichthyaetus",
+    "scientificName": "Ichthyaetus ichthyaetus",
+    "fullScientificName": "Ichthyaetus ichthyaetus (Pallas, 1773)",
+    "frenchName": "Goéland ichthyaète",
+    "category": "A",
+    "famille": "Ichthyaetus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "ichthyaetus-audouinii",
+    "scientificName": "Ichthyaetus audouinii",
+    "fullScientificName": "Ichthyaetus audouinii (Payraudeau, 1826)",
+    "frenchName": "Goéland d'Audouin",
+    "category": "A",
+    "famille": "Ichthyaetus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "ichthyaetus-melanocephalus",
+    "scientificName": "Ichthyaetus melanocephalus",
+    "fullScientificName": "Ichthyaetus melanocephalus (Temminck, 1820)",
+    "frenchName": "Mouette mélanocéphale",
+    "category": "A",
+    "famille": "Ichthyaetus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "larus-canus",
+    "scientificName": "Larus canus",
+    "fullScientificName": "Larus canus Linnaeus, 1758",
+    "frenchName": "Goéland cendré",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "larus-delawarensis",
+    "scientificName": "Larus delawarensis",
+    "fullScientificName": "Larus delawarensis Ord, 1815",
+    "frenchName": "Goéland à bec cerclé",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "larus-cachinnans",
+    "scientificName": "Larus cachinnans",
+    "fullScientificName": "Larus cachinnans Pallas, 1811",
+    "frenchName": "Goéland pontique",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "larus-dominicanus",
+    "scientificName": "Larus dominicanus",
+    "fullScientificName": "Larus dominicanus Lichtenstein, MHK, 1823",
+    "frenchName": "Goéland dominicain",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "larus-argentatus",
+    "scientificName": "Larus argentatus",
+    "fullScientificName": "Larus argentatus Pontoppidan, 1763",
+    "frenchName": "Goéland argenté",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "larus-vegae",
+    "scientificName": "Larus vegae",
+    "fullScientificName": "Larus vegae (Palmén, 1887)",
+    "frenchName": "Goéland de la Véga",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "larus-michahellis",
+    "scientificName": "Larus michahellis",
+    "fullScientificName": "Larus michahellis Naumann, JF, 1840",
+    "frenchName": "Goéland leucophée",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "larus-marinus",
+    "scientificName": "Larus marinus",
+    "fullScientificName": "Larus marinus Linnaeus, 1758",
+    "frenchName": "Goéland marin",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "larus-hyperboreus",
+    "scientificName": "Larus hyperboreus",
+    "fullScientificName": "Larus hyperboreus Gunnerus, 1767",
+    "frenchName": "Goéland bourgmestre",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "larus-fuscus",
+    "scientificName": "Larus fuscus",
+    "fullScientificName": "Larus fuscus Linnaeus, 1758",
+    "frenchName": "Goéland brun",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "larus-smithsonianus",
+    "scientificName": "Larus smithsonianus",
+    "fullScientificName": "Larus smithsonianus Coues, 1862",
+    "frenchName": "Goéland d'Amérique",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "larus-glaucoides",
+    "scientificName": "Larus glaucoides",
+    "fullScientificName": "Larus glaucoides Meyer, B, 1822",
+    "frenchName": "Goéland à ailes blanches",
+    "category": "A",
+    "famille": "Larus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "stercorarius-longicaudus",
+    "scientificName": "Stercorarius longicaudus",
+    "fullScientificName": "Stercorarius longicaudus Vieillot, 1819",
+    "frenchName": "Labbe à longue queue",
+    "category": "A",
+    "famille": "Stercorarius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "stercorarius-parasiticus",
+    "scientificName": "Stercorarius parasiticus",
+    "fullScientificName": "Stercorarius parasiticus (Linnaeus, 1758)",
+    "frenchName": "Labbe parasite",
+    "category": "A",
+    "famille": "Stercorarius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "stercorarius-pomarinus",
+    "scientificName": "Stercorarius pomarinus",
+    "fullScientificName": "Stercorarius pomarinus (Temminck, 1815)",
+    "frenchName": "Labbe pomarin",
+    "category": "A",
+    "famille": "Stercorarius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "stercorarius-skua",
+    "scientificName": "Stercorarius skua",
+    "fullScientificName": "Stercorarius skua (Brünnich, 1764)",
+    "frenchName": "Grand Labbe",
+    "category": "A",
+    "famille": "Stercorarius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "stercorarius-maccormicki",
+    "scientificName": "Stercorarius maccormicki",
+    "fullScientificName": "Stercorarius maccormicki Saunders, 1893",
+    "frenchName": "Labbe de McCormick",
+    "category": "A",
+    "famille": "Stercorarius",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "fratercula-arctica",
+    "scientificName": "Fratercula arctica",
+    "fullScientificName": "Fratercula arctica (Linnaeus, 1758)",
+    "frenchName": "Macareux moine",
+    "category": "A",
+    "famille": "Fratercula",
+    "rarete": "Rare"
+  },
+  {
+    "id": "cepphus-grylle",
+    "scientificName": "Cepphus grylle",
+    "fullScientificName": "Cepphus grylle (Linnaeus, 1758)",
+    "frenchName": "Guillemot à miroir",
+    "category": "A",
+    "famille": "Cepphus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "alca-torda",
+    "scientificName": "Alca torda",
+    "fullScientificName": "Alca torda Linnaeus, 1758",
+    "frenchName": "Pingouin torda",
+    "category": "A",
+    "famille": "Alca",
+    "rarete": "Rare"
+  },
+  {
+    "id": "alle-alle",
+    "scientificName": "Alle alle",
+    "fullScientificName": "Alle alle (Linnaeus, 1758)",
+    "frenchName": "Mergule nain",
+    "category": "A",
+    "famille": "Alle",
+    "rarete": "Epique"
+  },
+  {
+    "id": "uria-lomvia",
+    "scientificName": "Uria lomvia",
+    "fullScientificName": "Uria lomvia (Linnaeus, 1758)",
+    "frenchName": "Guillemot de Brünnich",
+    "category": "A",
+    "famille": "Uria",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "uria-aalge",
+    "scientificName": "Uria aalge",
+    "fullScientificName": "Uria aalge (Pontoppidan, 1763)",
+    "frenchName": "Guillemot de Troïl",
+    "category": "A",
+    "famille": "Uria",
+    "rarete": "Rare"
+  },
+  {
+    "id": "gavia-stellata",
+    "scientificName": "Gavia stellata",
+    "fullScientificName": "Gavia stellata (Pontoppidan, 1763)",
+    "frenchName": "Plongeon catmarin",
+    "category": "A",
+    "famille": "Gavia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "gavia-arctica",
+    "scientificName": "Gavia arctica",
+    "fullScientificName": "Gavia arctica (Linnaeus, 1758)",
+    "frenchName": "Plongeon arctique",
+    "category": "A",
+    "famille": "Gavia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "gavia-immer",
+    "scientificName": "Gavia immer",
+    "fullScientificName": "Gavia immer (Brünnich, 1764)",
+    "frenchName": "Plongeon imbrin",
+    "category": "A",
+    "famille": "Gavia",
+    "rarete": "Rare"
+  },
+  {
+    "id": "gavia-adamsii",
+    "scientificName": "Gavia adamsii",
+    "fullScientificName": "Gavia adamsii (Gray, GR, 1859)",
+    "frenchName": "Plongeon à bec blanc",
+    "category": "A",
+    "famille": "Gavia",
+    "rarete": "Rare"
+  },
+  {
+    "id": "oceanites-oceanicus",
+    "scientificName": "Oceanites oceanicus",
+    "fullScientificName": "Oceanites oceanicus (Kühl, 1820)",
+    "frenchName": "Océanite de Wilson",
+    "category": "A",
+    "famille": "Oceanites",
+    "rarete": "Rare"
+  },
+  {
+    "id": "thalassarche-melanophris",
+    "scientificName": "Thalassarche melanophris",
+    "fullScientificName": "Thalassarche melanophris (Temminck, 1828)",
+    "frenchName": "Albatros à sourcils noirs",
+    "category": "A",
+    "famille": "Thalassarche",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "thalassarche-chlororhynchos",
+    "scientificName": "Thalassarche chlororhynchos",
+    "fullScientificName": "Thalassarche chlororhynchos (Gmelin, JF, 1789)",
+    "frenchName": "Albatros à bec jaune",
+    "category": "A",
+    "famille": "Thalassarche",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "hydrobates-pelagicus",
+    "scientificName": "Hydrobates pelagicus",
+    "fullScientificName": "Hydrobates pelagicus (Linnaeus, 1758)",
+    "frenchName": "Océanite tempête",
+    "category": "A",
+    "famille": "Hydrobates",
+    "rarete": "Rare"
+  },
+  {
+    "id": "hydrobates-monorhis",
+    "scientificName": "Hydrobates monorhis",
+    "fullScientificName": "Hydrobates monorhis (Swinhoe, 1867)",
+    "frenchName": "Océanite de Swinhoe",
+    "category": "A",
+    "famille": "Hydrobates",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "hydrobates-leucorhous",
+    "scientificName": "Hydrobates leucorhous",
+    "fullScientificName": "Hydrobates leucorhous (Vieillot, 1818)",
+    "frenchName": "Océanite culblanc",
+    "category": "A",
+    "famille": "Hydrobates",
+    "rarete": "Rare"
+  },
+  {
+    "id": "hydrobates-castro",
+    "scientificName": "Hydrobates castro",
+    "fullScientificName": "Hydrobates castro (Harcourt, 1851)",
+    "frenchName": "Océanite de Castro",
+    "category": "A",
+    "famille": "Hydrobates",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "fulmarus-glacialis",
+    "scientificName": "Fulmarus glacialis",
+    "fullScientificName": "Fulmarus glacialis (Linnaeus, 1761)",
+    "frenchName": "Fulmar boréal",
+    "category": "A",
+    "famille": "Fulmarus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calonectris-borealis",
+    "scientificName": "Calonectris borealis",
+    "fullScientificName": "Calonectris borealis (Cory, 1881)",
+    "frenchName": "Puffin cendré",
+    "category": "A",
+    "famille": "Calonectris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calonectris-diomedea",
+    "scientificName": "Calonectris diomedea",
+    "fullScientificName": "Calonectris diomedea (Scopoli, 1769)",
+    "frenchName": "Puffin de Scopoli",
+    "category": "A",
+    "famille": "Calonectris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "ardenna-grisea",
+    "scientificName": "Ardenna grisea",
+    "fullScientificName": "Ardenna grisea (Gmelin, JF, 1789)",
+    "frenchName": "Puffin fuligineux",
+    "category": "A",
+    "famille": "Ardenna",
+    "rarete": "Rare"
+  },
+  {
+    "id": "ardenna-tenuirostris",
+    "scientificName": "Ardenna tenuirostris",
+    "fullScientificName": "Ardenna tenuirostris (Temminck, 1836)",
+    "frenchName": "Puffin à bec grêle",
+    "category": "A",
+    "famille": "Ardenna",
+    "rarete": "Epique"
+  },
+  {
+    "id": "ardenna-gravis",
+    "scientificName": "Ardenna gravis",
+    "fullScientificName": "Ardenna gravis (O'Reilly, 1818)",
+    "frenchName": "Puffin majeur",
+    "category": "A",
+    "famille": "Ardenna",
+    "rarete": "Rare"
+  },
+  {
+    "id": "puffinus-puffinus",
+    "scientificName": "Puffinus puffinus",
+    "fullScientificName": "Puffinus puffinus (Brünnich, 1764)",
+    "frenchName": "Puffin des Anglais",
+    "category": "A",
+    "famille": "Puffinus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "puffinus-yelkouan",
+    "scientificName": "Puffinus yelkouan",
+    "fullScientificName": "Puffinus yelkouan (Acerbi, 1827)",
+    "frenchName": "Puffin yelkouan",
+    "category": "A",
+    "famille": "Puffinus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "puffinus-mauretanicus",
+    "scientificName": "Puffinus mauretanicus",
+    "fullScientificName": "Puffinus mauretanicus Lowe, 1921",
+    "frenchName": "Puffin des Baléares",
+    "category": "A",
+    "famille": "Puffinus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "ciconia-nigra",
+    "scientificName": "Ciconia nigra",
+    "fullScientificName": "Ciconia nigra (Linnaeus, 1758)",
+    "frenchName": "Cigogne noire",
+    "category": "A",
+    "famille": "Ciconia",
+    "rarete": "Rare"
+  },
+  {
+    "id": "ciconia-ciconia",
+    "scientificName": "Ciconia ciconia",
+    "fullScientificName": "Ciconia ciconia (Linnaeus, 1758)",
+    "frenchName": "Cigogne blanche",
+    "category": "A",
+    "famille": "Ciconia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "morus-bassanus",
+    "scientificName": "Morus bassanus",
+    "fullScientificName": "Morus bassanus (Linnaeus, 1758)",
+    "frenchName": "Fou de Bassan",
+    "category": "A",
+    "famille": "Morus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "sula-sula",
+    "scientificName": "Sula sula",
+    "fullScientificName": "Sula sula (Linnaeus, 1766)",
+    "frenchName": "Fou à pieds rouges",
+    "category": "A",
+    "famille": "Sula",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "sula-leucogaster",
+    "scientificName": "Sula leucogaster",
+    "fullScientificName": "Sula leucogaster (Boddaert, 1783)",
+    "frenchName": "Fou brun",
+    "category": "A",
+    "famille": "Sula",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "sula-dactylatra",
+    "scientificName": "Sula dactylatra",
+    "fullScientificName": "Sula dactylatra Lesson, R, 1831",
+    "frenchName": "Fou masqué",
+    "category": "A",
+    "famille": "Sula",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "microcarbo-pygmaeus",
+    "scientificName": "Microcarbo pygmaeus",
+    "fullScientificName": "Microcarbo pygmaeus (Pallas, 1773)",
+    "frenchName": "Cormoran pygmée",
+    "category": "A",
+    "famille": "Microcarbo",
+    "rarete": "Rare"
+  },
+  {
+    "id": "phalacrocorax-carbo",
+    "scientificName": "Phalacrocorax carbo",
+    "fullScientificName": "Phalacrocorax carbo (Linnaeus, 1758)",
+    "frenchName": "Grand Cormoran",
+    "category": "A",
+    "famille": "Phalacrocorax",
+    "rarete": "Commun"
+  },
+  {
+    "id": "gulosus-aristotelis",
+    "scientificName": "Gulosus aristotelis",
+    "fullScientificName": "Gulosus aristotelis (Linnaeus, 1761)",
+    "frenchName": "Cormoran huppé",
+    "category": "A",
+    "famille": "Gulosus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "nannopterum-auritum",
+    "scientificName": "Nannopterum auritum",
+    "fullScientificName": "Nannopterum auritum (Lesson, R, 1831)",
+    "frenchName": "Cormoran à aigrettes",
+    "category": "A",
+    "famille": "Nannopterum",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "plegadis-falcinellus",
+    "scientificName": "Plegadis falcinellus",
+    "fullScientificName": "Plegadis falcinellus (Linnaeus, 1766)",
+    "frenchName": "Ibis falcinelle",
+    "category": "A",
+    "famille": "Plegadis",
+    "rarete": "Rare"
+  },
+  {
+    "id": "p-l",
+    "scientificName": "– P. l.",
+    "fullScientificName": "– P. l. leucorodia Linnaeus, 1758",
+    "frenchName": "",
+    "category": "A",
+    "famille": "–",
+    "rarete": "Commun"
+  },
+  {
+    "id": "botaurus-stellaris",
+    "scientificName": "Botaurus stellaris",
+    "fullScientificName": "Botaurus stellaris (Linnaeus, 1758)",
+    "frenchName": "Butor étoilé",
+    "category": "A",
+    "famille": "Botaurus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "botaurus-sturmii-wagler",
+    "scientificName": "Botaurus sturmii(Wagler,",
+    "fullScientificName": "Botaurus sturmii(Wagler, 1827)",
+    "frenchName": "Blongios de Sturm",
+    "category": "A",
+    "famille": "Botaurus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "botaurus-minutus",
+    "scientificName": "Botaurus minutus",
+    "fullScientificName": "Botaurus minutus (Linnaeus, 1766)",
+    "frenchName": "Blongios nain",
+    "category": "A",
+    "famille": "Botaurus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "nycticorax-nycticorax",
+    "scientificName": "Nycticorax nycticorax",
+    "fullScientificName": "Nycticorax nycticorax (Linnaeus, 1758)",
+    "frenchName": "Bihoreau gris",
+    "category": "A",
+    "famille": "Nycticorax",
+    "rarete": "Commun"
+  },
+  {
+    "id": "egretta-garzetta",
+    "scientificName": "Egretta garzetta",
+    "fullScientificName": "Egretta garzetta (Linnaeus, 1766)",
+    "frenchName": "Aigrette garzette",
+    "category": "A",
+    "famille": "Egretta",
+    "rarete": "Commun"
+  },
+  {
+    "id": "egretta-gularis",
+    "scientificName": "Egretta gularis",
+    "fullScientificName": "Egretta gularis (Bosc, 1792)",
+    "frenchName": "Aigrette des récifs",
+    "category": "A",
+    "famille": "Egretta",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "butorides-virescens",
+    "scientificName": "Butorides virescens",
+    "fullScientificName": "Butorides virescens (Linnaeus, 1758)",
+    "frenchName": "Héron vert",
+    "category": "A",
+    "famille": "Butorides",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "ardeola-ralloides",
+    "scientificName": "Ardeola ralloides",
+    "fullScientificName": "Ardeola ralloides (Scopoli, 1769)",
+    "frenchName": "Crabier chevelu",
+    "category": "A",
+    "famille": "Ardeola",
+    "rarete": "Rare"
+  },
+  {
+    "id": "ardea-alba",
+    "scientificName": "Ardea alba",
+    "fullScientificName": "Ardea alba Linnaeus, 1758",
+    "frenchName": "Grande Aigrette",
+    "category": "A",
+    "famille": "Ardea",
+    "rarete": "Commun"
+  },
+  {
+    "id": "ardea-ibis",
+    "scientificName": "Ardea ibis",
+    "fullScientificName": "Ardea ibis Linnaeus, 1758",
+    "frenchName": "Héron garde-bœufs",
+    "category": "A",
+    "famille": "Ardea",
+    "rarete": "Commun"
+  },
+  {
+    "id": "ardea-cinerea",
+    "scientificName": "Ardea cinerea",
+    "fullScientificName": "Ardea cinerea Linnaeus, 1758",
+    "frenchName": "Héron cendré",
+    "category": "A",
+    "famille": "Ardea",
+    "rarete": "Commun"
+  },
+  {
+    "id": "ardea-herodias",
+    "scientificName": "Ardea herodias",
+    "fullScientificName": "Ardea herodias Linnaeus, 1758",
+    "frenchName": "Grand Héron",
+    "category": "A",
+    "famille": "Ardea",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "ardea-purpurea",
+    "scientificName": "Ardea purpurea",
+    "fullScientificName": "Ardea purpurea Linnaeus, 1766",
+    "frenchName": "Héron pourpré",
+    "category": "A",
+    "famille": "Ardea",
+    "rarete": "Commun"
+  },
+  {
+    "id": "ardea-melanocephala",
+    "scientificName": "Ardea melanocephala",
+    "fullScientificName": "Ardea melanocephala Children & Vigors, 1826",
+    "frenchName": "Héron mélanocéphale",
+    "category": "A",
+    "famille": "Ardea",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "pelecanus-onocrotalus",
+    "scientificName": "Pelecanus onocrotalus",
+    "fullScientificName": "Pelecanus onocrotalus Linnaeus, 1758",
+    "frenchName": "Pélican blanc",
+    "category": "A",
+    "famille": "Pelecanus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "pelecanus-crispus",
+    "scientificName": "Pelecanus crispus",
+    "fullScientificName": "Pelecanus crispus Bruch, 1832",
+    "frenchName": "Pélican frisé",
+    "category": "A",
+    "famille": "Pelecanus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "pandion-haliaetus",
+    "scientificName": "Pandion haliaetus",
+    "fullScientificName": "Pandion haliaetus (Linnaeus, 1758)",
+    "frenchName": "Balbuzard pêcheur",
+    "category": "A",
+    "famille": "Pandion",
+    "rarete": "Rare"
+  },
+  {
+    "id": "elanus-caeruleus",
+    "scientificName": "Elanus caeruleus",
+    "fullScientificName": "Elanus caeruleus (Desfontaines, 1789)",
+    "frenchName": "Elanion blanc",
+    "category": "A",
+    "famille": "Elanus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "gypaetus-barbatus",
+    "scientificName": "Gypaetus barbatus",
+    "fullScientificName": "Gypaetus barbatus (Linnaeus, 1758)",
+    "frenchName": "Gypaète barbu",
+    "category": "A",
+    "famille": "Gypaetus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "neophron-percnopterus",
+    "scientificName": "Neophron percnopterus",
+    "fullScientificName": "Neophron percnopterus (Linnaeus, 1758)",
+    "frenchName": "Vautour percnoptère",
+    "category": "A",
+    "famille": "Neophron",
+    "rarete": "Rare"
+  },
+  {
+    "id": "pernis-apivorus",
+    "scientificName": "Pernis apivorus",
+    "fullScientificName": "Pernis apivorus (Linnaeus, 1758)",
+    "frenchName": "Bondrée apivore",
+    "category": "A",
+    "famille": "Pernis",
+    "rarete": "Commun"
+  },
+  {
+    "id": "gyps-rueppelli",
+    "scientificName": "Gyps rueppelli",
+    "fullScientificName": "Gyps rueppelli (Brehm, AE, 1852)",
+    "frenchName": "Vautour de Rüppell",
+    "category": "A",
+    "famille": "Gyps",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "circaetus-gallicus",
+    "scientificName": "Circaetus gallicus",
+    "fullScientificName": "Circaetus gallicus (Gmelin, JF, 1788)",
+    "frenchName": "Circaète Jean-le-blanc",
+    "category": "A",
+    "famille": "Circaetus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "clanga-pomarina",
+    "scientificName": "Clanga pomarina",
+    "fullScientificName": "Clanga pomarina (Brehm, CL, 1831)",
+    "frenchName": "Aigle pomarin",
+    "category": "A",
+    "famille": "Clanga",
+    "rarete": "Rare"
+  },
+  {
+    "id": "clanga-clanga",
+    "scientificName": "Clanga clanga",
+    "fullScientificName": "Clanga clanga (Pallas, 1811)",
+    "frenchName": "Aigle criard",
+    "category": "A",
+    "famille": "Clanga",
+    "rarete": "Epique"
+  },
+  {
+    "id": "hieraaetus-pennatus",
+    "scientificName": "Hieraaetus pennatus",
+    "fullScientificName": "Hieraaetus pennatus (Gmelin, JF, 1788)",
+    "frenchName": "Aigle botté",
+    "category": "A",
+    "famille": "Hieraaetus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "aquila-nipalensis",
+    "scientificName": "Aquila nipalensis",
+    "fullScientificName": "Aquila nipalensis Hodgson, 1833",
+    "frenchName": "Aigle des steppes",
+    "category": "A",
+    "famille": "Aquila",
+    "rarete": "Epique"
+  },
+  {
+    "id": "aquila-adalberti",
+    "scientificName": "Aquila adalberti",
+    "fullScientificName": "Aquila adalberti Brehm, CL, 1861",
+    "frenchName": "Aigle ibérique",
+    "category": "A",
+    "famille": "Aquila",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "aquila-heliaca",
+    "scientificName": "Aquila heliaca",
+    "fullScientificName": "Aquila heliaca Savigny, 1809",
+    "frenchName": "Aigle impérial",
+    "category": "A",
+    "famille": "Aquila",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "aquila-chrysaetos",
+    "scientificName": "Aquila chrysaetos",
+    "fullScientificName": "Aquila chrysaetos (Linnaeus, 1758)",
+    "frenchName": "Aigle royal",
+    "category": "A",
+    "famille": "Aquila",
+    "rarete": "Rare"
+  },
+  {
+    "id": "aquila-fasciata",
+    "scientificName": "Aquila fasciata",
+    "fullScientificName": "Aquila fasciata Vieillot, 1822",
+    "frenchName": "Aigle de Bonelli",
+    "category": "A",
+    "famille": "Aquila",
+    "rarete": "Rare"
+  },
+  {
+    "id": "accipiter-nisus",
+    "scientificName": "Accipiter nisus",
+    "fullScientificName": "Accipiter nisus (Linnaeus, 1758)",
+    "frenchName": "Epervier d'Europe",
+    "category": "A",
+    "famille": "Accipiter",
+    "rarete": "Commun"
+  },
+  {
+    "id": "astur-gentilis",
+    "scientificName": "Astur gentilis",
+    "fullScientificName": "Astur gentilis (Linnaeus, 1758)",
+    "frenchName": "Autour des palombes",
+    "category": "A",
+    "famille": "Astur",
+    "rarete": "Commun"
+  },
+  {
+    "id": "circus-aeruginosus",
+    "scientificName": "Circus aeruginosus",
+    "fullScientificName": "Circus aeruginosus (Linnaeus, 1758)",
+    "frenchName": "Busard des roseaux",
+    "category": "A",
+    "famille": "Circus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "circus-cyaneus",
+    "scientificName": "Circus cyaneus",
+    "fullScientificName": "Circus cyaneus (Linnaeus, 1766)",
+    "frenchName": "Busard Saint-Martin",
+    "category": "A",
+    "famille": "Circus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "circus-hudsonius",
+    "scientificName": "Circus hudsonius",
+    "fullScientificName": "Circus hudsonius (Linnaeus, 1766)",
+    "frenchName": "Busard d'Amérique",
+    "category": "A",
+    "famille": "Circus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "circus-macrourus",
+    "scientificName": "Circus macrourus",
+    "fullScientificName": "Circus macrourus (Gmelin, SG, 1770)",
+    "frenchName": "Busard pâle",
+    "category": "A",
+    "famille": "Circus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "circus-pygargus",
+    "scientificName": "Circus pygargus",
+    "fullScientificName": "Circus pygargus (Linnaeus, 1758)",
+    "frenchName": "Busard cendré",
+    "category": "A",
+    "famille": "Circus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "milvus-milvus",
+    "scientificName": "Milvus milvus",
+    "fullScientificName": "Milvus milvus (Linnaeus, 1758)",
+    "frenchName": "Milan royal",
+    "category": "A",
+    "famille": "Milvus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "milvus-migrans",
+    "scientificName": "Milvus migrans",
+    "fullScientificName": "Milvus migrans (Boddaert, 1783)",
+    "frenchName": "Milan noir",
+    "category": "A",
+    "famille": "Milvus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "haliaeetus-albicilla",
+    "scientificName": "Haliaeetus albicilla",
+    "fullScientificName": "Haliaeetus albicilla (Linnaeus, 1758)",
+    "frenchName": "Pygargue à queue blanche",
+    "category": "A",
+    "famille": "Haliaeetus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "buteo-lagopus",
+    "scientificName": "Buteo lagopus",
+    "fullScientificName": "Buteo lagopus (Pontoppidan, 1763)",
+    "frenchName": "Buse pattue",
+    "category": "A",
+    "famille": "Buteo",
+    "rarete": "Rare"
+  },
+  {
+    "id": "buteo-rufinus",
+    "scientificName": "Buteo rufinus",
+    "fullScientificName": "Buteo rufinus (Cretzschmar, 1829)",
+    "frenchName": "Buse féroce",
+    "category": "A",
+    "famille": "Buteo",
+    "rarete": "Epique"
+  },
+  {
+    "id": "buteo-buteo",
+    "scientificName": "Buteo buteo",
+    "fullScientificName": "Buteo buteo (Linnaeus, 1758)",
+    "frenchName": "Buse variable",
+    "category": "A",
+    "famille": "Buteo",
+    "rarete": "Commun"
+  },
+  {
+    "id": "tyto-alba",
+    "scientificName": "Tyto alba",
+    "fullScientificName": "Tyto alba (Scopoli, 1769)",
+    "frenchName": "Effraie des clochers",
+    "category": "A",
+    "famille": "Tyto",
+    "rarete": "Commun"
+  },
+  {
+    "id": "aegolius-funereus",
+    "scientificName": "Aegolius funereus",
+    "fullScientificName": "Aegolius funereus (Linnaeus, 1758)",
+    "frenchName": "Chouette de Tengmalm",
+    "category": "A",
+    "famille": "Aegolius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "athene-noctua",
+    "scientificName": "Athene noctua",
+    "fullScientificName": "Athene noctua (Scopoli, 1769)",
+    "frenchName": "Chevêche d'Athéna",
+    "category": "A",
+    "famille": "Athene",
+    "rarete": "Commun"
+  },
+  {
+    "id": "glaucidium-passerinum",
+    "scientificName": "Glaucidium passerinum",
+    "fullScientificName": "Glaucidium passerinum (Linnaeus, 1758)",
+    "frenchName": "Chevêchette d'Europe",
+    "category": "A",
+    "famille": "Glaucidium",
+    "rarete": "Rare"
+  },
+  {
+    "id": "otus-scops",
+    "scientificName": "Otus scops",
+    "fullScientificName": "Otus scops (Linnaeus, 1758)",
+    "frenchName": "Petit-duc scops",
+    "category": "A",
+    "famille": "Otus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "asio-otus",
+    "scientificName": "Asio otus",
+    "fullScientificName": "Asio otus (Linnaeus, 1758)",
+    "frenchName": "Hibou moyen-duc",
+    "category": "A",
+    "famille": "Asio",
+    "rarete": "Commun"
+  },
+  {
+    "id": "asio-flammeus",
+    "scientificName": "Asio flammeus",
+    "fullScientificName": "Asio flammeus (Pontoppidan, 1763)",
+    "frenchName": "Hibou des marais",
+    "category": "A",
+    "famille": "Asio",
+    "rarete": "Rare"
+  },
+  {
+    "id": "bubo-scandiacus",
+    "scientificName": "Bubo scandiacus",
+    "fullScientificName": "Bubo scandiacus (Linnaeus, 1758)",
+    "frenchName": "Harfang des neiges",
+    "category": "A",
+    "famille": "Bubo",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "bubo-bubo",
+    "scientificName": "Bubo bubo",
+    "fullScientificName": "Bubo bubo (Linnaeus, 1758)",
+    "frenchName": "Grand-duc d'Europe",
+    "category": "A",
+    "famille": "Bubo",
+    "rarete": "Rare"
+  },
+  {
+    "id": "strix-aluco",
+    "scientificName": "Strix aluco",
+    "fullScientificName": "Strix aluco Linnaeus, 1758",
+    "frenchName": "Chouette hulotte",
+    "category": "A",
+    "famille": "Strix",
+    "rarete": "Commun"
+  },
+  {
+    "id": "upupa-epops",
+    "scientificName": "Upupa epops",
+    "fullScientificName": "Upupa epops Linnaeus, 1758",
+    "frenchName": "Huppe fasciée",
+    "category": "A",
+    "famille": "Upupa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "coracias-garrulus",
+    "scientificName": "Coracias garrulus",
+    "fullScientificName": "Coracias garrulus Linnaeus, 1758",
+    "frenchName": "Rollier d'Europe",
+    "category": "A",
+    "famille": "Coracias",
+    "rarete": "Rare"
+  },
+  {
+    "id": "alcedo-atthis",
+    "scientificName": "Alcedo atthis",
+    "fullScientificName": "Alcedo atthis (Linnaeus, 1758)",
+    "frenchName": "Martin-pêcheur d'Europe",
+    "category": "A",
+    "famille": "Alcedo",
+    "rarete": "Commun"
+  },
+  {
+    "id": "merops-persicus",
+    "scientificName": "Merops persicus",
+    "fullScientificName": "Merops persicus Pallas, 1773",
+    "frenchName": "Guêpier de Perse",
+    "category": "A",
+    "famille": "Merops",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "merops-apiaster",
+    "scientificName": "Merops apiaster",
+    "fullScientificName": "Merops apiaster Linnaeus, 1758",
+    "frenchName": "Guêpier d'Europe",
+    "category": "A",
+    "famille": "Merops",
+    "rarete": "Commun"
+  },
+  {
+    "id": "jynx-torquilla",
+    "scientificName": "Jynx torquilla",
+    "fullScientificName": "Jynx torquilla Linnaeus, 1758",
+    "frenchName": "Torcol fourmilier",
+    "category": "A",
+    "famille": "Jynx",
+    "rarete": "Commun"
+  },
+  {
+    "id": "picoides-tridactylus",
+    "scientificName": "Picoides tridactylus",
+    "fullScientificName": "Picoides tridactylus (Linnaeus, 1758)",
+    "frenchName": "Pic tridactyle",
+    "category": "A",
+    "famille": "Picoides",
+    "rarete": "Rare"
+  },
+  {
+    "id": "dendrocoptes-medius",
+    "scientificName": "Dendrocoptes medius",
+    "fullScientificName": "Dendrocoptes medius (Linnaeus, 1758)",
+    "frenchName": "Pic mar",
+    "category": "A",
+    "famille": "Dendrocoptes",
+    "rarete": "Commun"
+  },
+  {
+    "id": "dryobates-minor",
+    "scientificName": "Dryobates minor",
+    "fullScientificName": "Dryobates minor (Linnaeus, 1758)",
+    "frenchName": "Pic épeichette",
+    "category": "A",
+    "famille": "Dryobates",
+    "rarete": "Commun"
+  },
+  {
+    "id": "dendrocopos-major",
+    "scientificName": "Dendrocopos major",
+    "fullScientificName": "Dendrocopos major (Linnaeus, 1758)",
+    "frenchName": "Pic épeiche",
+    "category": "A",
+    "famille": "Dendrocopos",
+    "rarete": "Commun"
+  },
+  {
+    "id": "dendrocopos-leucotos",
+    "scientificName": "Dendrocopos leucotos",
+    "fullScientificName": "Dendrocopos leucotos (Bechstein, 1802)",
+    "frenchName": "Pic à dos blanc",
+    "category": "A",
+    "famille": "Dendrocopos",
+    "rarete": "Rare"
+  },
+  {
+    "id": "dryocopus-martius",
+    "scientificName": "Dryocopus martius",
+    "fullScientificName": "Dryocopus martius (Linnaeus, 1758)",
+    "frenchName": "Pic noir",
+    "category": "A",
+    "famille": "Dryocopus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "picus-viridis",
+    "scientificName": "Picus viridis",
+    "fullScientificName": "Picus viridis Linnaeus, 1758",
+    "frenchName": "Pic vert",
+    "category": "A",
+    "famille": "Picus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "picus-sharpei",
+    "scientificName": "Picus sharpei",
+    "fullScientificName": "Picus sharpei (Saunders, H, 1872)",
+    "frenchName": "Pic de Sharpe",
+    "category": "A",
+    "famille": "Picus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "picus-canus",
+    "scientificName": "Picus canus",
+    "fullScientificName": "Picus canus Gmelin, JF, 1788",
+    "frenchName": "Pic cendré",
+    "category": "A",
+    "famille": "Picus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "falco-naumanni",
+    "scientificName": "Falco naumanni",
+    "fullScientificName": "Falco naumanni Fleischer, JG, 1818",
+    "frenchName": "Faucon crécerellette",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Rare"
+  },
+  {
+    "id": "falco-tinnunculus",
+    "scientificName": "Falco tinnunculus",
+    "fullScientificName": "Falco tinnunculus Linnaeus, 1758",
+    "frenchName": "Faucon crécerelle",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Commun"
+  },
+  {
+    "id": "falco-vespertinus",
+    "scientificName": "Falco vespertinus",
+    "fullScientificName": "Falco vespertinus Linnaeus, 1766",
+    "frenchName": "Faucon kobez",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Rare"
+  },
+  {
+    "id": "falco-eleonorae",
+    "scientificName": "Falco eleonorae",
+    "fullScientificName": "Falco eleonorae Géné, 1839",
+    "frenchName": "Faucon d'Éléonore",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Rare"
+  },
+  {
+    "id": "falco-concolor",
+    "scientificName": "Falco concolor",
+    "fullScientificName": "Falco concolor Temminck, 1825",
+    "frenchName": "Faucon concolore",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "falco-columbarius",
+    "scientificName": "Falco columbarius",
+    "fullScientificName": "Falco columbarius Linnaeus, 1758",
+    "frenchName": "Faucon émerillon",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Rare"
+  },
+  {
+    "id": "falco-subbuteo",
+    "scientificName": "Falco subbuteo",
+    "fullScientificName": "Falco subbuteo Linnaeus, 1758",
+    "frenchName": "Faucon hobereau",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Commun"
+  },
+  {
+    "id": "falco-biarmicus",
+    "scientificName": "Falco biarmicus",
+    "fullScientificName": "Falco biarmicus Temminck, 1825",
+    "frenchName": "Faucon lanier",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "falco-cherrug",
+    "scientificName": "Falco cherrug",
+    "fullScientificName": "Falco cherrug Gray, JE, 1834",
+    "frenchName": "Faucon sacre",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "falco-rusticolus",
+    "scientificName": "Falco rusticolus",
+    "fullScientificName": "Falco rusticolus Linnaeus, 1758",
+    "frenchName": "Faucon gerfaut",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Epique"
+  },
+  {
+    "id": "falco-peregrinus",
+    "scientificName": "Falco peregrinus",
+    "fullScientificName": "Falco peregrinus Tunstall, 1771",
+    "frenchName": "Faucon pèlerin",
+    "category": "A",
+    "famille": "Falco",
+    "rarete": "Commun"
+  },
+  {
+    "id": "vireo-olivaceus",
+    "scientificName": "Vireo olivaceus",
+    "fullScientificName": "Vireo olivaceus (Linnaeus, 1766)",
+    "frenchName": "Viréo à œil rouge",
+    "category": "A",
+    "famille": "Vireo",
+    "rarete": "Epique"
+  },
+  {
+    "id": "oriolus-oriolus",
+    "scientificName": "Oriolus oriolus",
+    "fullScientificName": "Oriolus oriolus (Linnaeus, 1758)",
+    "frenchName": "Loriot d'Europe",
+    "category": "A",
+    "famille": "Oriolus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "lanius-excubitor",
+    "scientificName": "Lanius excubitor",
+    "fullScientificName": "Lanius excubitor Linnaeus, 1758",
+    "frenchName": "Pie-grièche grise",
+    "category": "A",
+    "famille": "Lanius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "lanius-meridionalis",
+    "scientificName": "Lanius meridionalis",
+    "fullScientificName": "Lanius meridionalis Temminck, 1820",
+    "frenchName": "Pie-grièche méridionale",
+    "category": "A",
+    "famille": "Lanius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "lanius-nubicus",
+    "scientificName": "Lanius nubicus",
+    "fullScientificName": "Lanius nubicus Lichtenstein, MHK, 1823",
+    "frenchName": "Pie-grièche masquée",
+    "category": "A",
+    "famille": "Lanius",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "lanius-minor",
+    "scientificName": "Lanius minor",
+    "fullScientificName": "Lanius minor Gmelin, JF, 1788",
+    "frenchName": "Pie-grièche à poitrine rose",
+    "category": "A",
+    "famille": "Lanius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "lanius-senator",
+    "scientificName": "Lanius senator",
+    "fullScientificName": "Lanius senator Linnaeus, 1758",
+    "frenchName": "Pie-grièche à tête rousse",
+    "category": "A",
+    "famille": "Lanius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "lanius-isabellinus",
+    "scientificName": "Lanius isabellinus",
+    "fullScientificName": "Lanius isabellinus Hemprich & Ehrenberg, 1833",
+    "frenchName": "Pie-grièche isabelle",
+    "category": "A",
+    "famille": "Lanius",
+    "rarete": "Epique"
+  },
+  {
+    "id": "lanius-collurio",
+    "scientificName": "Lanius collurio",
+    "fullScientificName": "Lanius collurio Linnaeus, 1758",
+    "frenchName": "Pie-grièche écorcheur",
+    "category": "A",
+    "famille": "Lanius",
+    "rarete": "Commun"
+  },
+  {
+    "id": "lanius-phoenicuroides",
+    "scientificName": "Lanius phoenicuroides",
+    "fullScientificName": "Lanius phoenicuroides (Schalow, 1875)",
+    "frenchName": "Pie-grièche du Turkestan",
+    "category": "A",
+    "famille": "Lanius",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "lanius-cristatus",
+    "scientificName": "Lanius cristatus",
+    "fullScientificName": "Lanius cristatus Linnaeus, 1758",
+    "frenchName": "Pie-grièche brune",
+    "category": "A",
+    "famille": "Lanius",
+    "rarete": "Epique"
+  },
+  {
+    "id": "garrulus-glandarius",
+    "scientificName": "Garrulus glandarius",
+    "fullScientificName": "Garrulus glandarius (Linnaeus, 1758)",
+    "frenchName": "Geai des chênes",
+    "category": "A",
+    "famille": "Garrulus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "pica-pica",
+    "scientificName": "Pica pica",
+    "fullScientificName": "Pica pica (Linnaeus, 1758)",
+    "frenchName": "Pie bavarde",
+    "category": "A",
+    "famille": "Pica",
+    "rarete": "Commun"
+  },
+  {
+    "id": "nucifraga-caryocatactes",
+    "scientificName": "Nucifraga caryocatactes",
+    "fullScientificName": "Nucifraga caryocatactes (Linnaeus, 1758)",
+    "frenchName": "Cassenoix moucheté",
+    "category": "A",
+    "famille": "Nucifraga",
+    "rarete": "Rare"
+  },
+  {
+    "id": "pyrrhocorax-pyrrhocorax",
+    "scientificName": "Pyrrhocorax pyrrhocorax",
+    "fullScientificName": "Pyrrhocorax pyrrhocorax (Linnaeus, 1758)",
+    "frenchName": "Crave à bec rouge",
+    "category": "A",
+    "famille": "Pyrrhocorax",
+    "rarete": "Rare"
+  },
+  {
+    "id": "pyrrhocorax-graculus",
+    "scientificName": "Pyrrhocorax graculus",
+    "fullScientificName": "Pyrrhocorax graculus (Linnaeus, 1766)",
+    "frenchName": "Chocard à bec jaune",
+    "category": "A",
+    "famille": "Pyrrhocorax",
+    "rarete": "Commun"
+  },
+  {
+    "id": "coloeus-monedula",
+    "scientificName": "Coloeus monedula",
+    "fullScientificName": "Coloeus monedula (Linnaeus, 1758)",
+    "frenchName": "Choucas des tours",
+    "category": "A",
+    "famille": "Coloeus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "coloeus-dauuricus",
+    "scientificName": "Coloeus dauuricus",
+    "fullScientificName": "Coloeus dauuricus (Pallas, 1776)",
+    "frenchName": "Choucas de Daourie",
+    "category": "A",
+    "famille": "Coloeus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "corvus-frugilegus",
+    "scientificName": "Corvus frugilegus",
+    "fullScientificName": "Corvus frugilegus Linnaeus, 1758",
+    "frenchName": "Corbeau freux",
+    "category": "A",
+    "famille": "Corvus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "corvus-corone",
+    "scientificName": "Corvus corone",
+    "fullScientificName": "Corvus corone Linnaeus, 1758",
+    "frenchName": "Corneille noire",
+    "category": "A",
+    "famille": "Corvus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "corvus-cornix",
+    "scientificName": "Corvus cornix",
+    "fullScientificName": "Corvus cornix Linnaeus, 1758",
+    "frenchName": "Corneille mantelée",
+    "category": "A",
+    "famille": "Corvus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "corvus-corax",
+    "scientificName": "Corvus corax",
+    "fullScientificName": "Corvus corax Linnaeus, 1758",
+    "frenchName": "Grand Corbeau",
+    "category": "A",
+    "famille": "Corvus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "bombycilla-garrulus",
+    "scientificName": "Bombycilla garrulus",
+    "fullScientificName": "Bombycilla garrulus (Linnaeus, 1758)",
+    "frenchName": "Jaseur boréal",
+    "category": "A",
+    "famille": "Bombycilla",
+    "rarete": "Rare"
+  },
+  {
+    "id": "periparus-ater",
+    "scientificName": "Periparus ater",
+    "fullScientificName": "Periparus ater (Linnaeus, 1758)",
+    "frenchName": "Mésange noire",
+    "category": "A",
+    "famille": "Periparus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "lophophanes-cristatus",
+    "scientificName": "Lophophanes cristatus",
+    "fullScientificName": "Lophophanes cristatus (Linnaeus, 1758)",
+    "frenchName": "Mésange huppée",
+    "category": "A",
+    "famille": "Lophophanes",
+    "rarete": "Commun"
+  },
+  {
+    "id": "poecile-palustris",
+    "scientificName": "Poecile palustris",
+    "fullScientificName": "Poecile palustris (Linnaeus, 1758)",
+    "frenchName": "Mésange nonnette",
+    "category": "A",
+    "famille": "Poecile",
+    "rarete": "Commun"
+  },
+  {
+    "id": "poecile-montanus",
+    "scientificName": "Poecile montanus",
+    "fullScientificName": "Poecile montanus (Conrad von Baldenstein, 1827)",
+    "frenchName": "Mésange boréale",
+    "category": "A",
+    "famille": "Poecile",
+    "rarete": "Commun"
+  },
+  {
+    "id": "cyanistes-caeruleus",
+    "scientificName": "Cyanistes caeruleus",
+    "fullScientificName": "Cyanistes caeruleus (Linnaeus, 1758)",
+    "frenchName": "Mésange bleue",
+    "category": "A",
+    "famille": "Cyanistes",
+    "rarete": "Commun"
+  },
+  {
+    "id": "parus-major",
+    "scientificName": "Parus major",
+    "fullScientificName": "Parus major Linnaeus, 1758",
+    "frenchName": "Mésange charbonnière",
+    "category": "A",
+    "famille": "Parus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "remiz-pendulinus",
+    "scientificName": "Remiz pendulinus",
+    "fullScientificName": "Remiz pendulinus (Linnaeus, 1758)",
+    "frenchName": "Rémiz penduline",
+    "category": "A",
+    "famille": "Remiz",
+    "rarete": "Rare"
+  },
+  {
+    "id": "panurus-biarmicus",
+    "scientificName": "Panurus biarmicus",
+    "fullScientificName": "Panurus biarmicus (Linnaeus, 1758)",
+    "frenchName": "Panure à moustaches",
+    "category": "A",
+    "famille": "Panurus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "ammomanes-cinctura",
+    "scientificName": "Ammomanes cinctura",
+    "fullScientificName": "Ammomanes cinctura (Gould, 1839)",
+    "frenchName": "Ammomane élégante",
+    "category": "A",
+    "famille": "Ammomanes",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "lullula-arborea",
+    "scientificName": "Lullula arborea",
+    "fullScientificName": "Lullula arborea (Linnaeus, 1758)",
+    "frenchName": "Alouette lulu",
+    "category": "A",
+    "famille": "Lullula",
+    "rarete": "Commun"
+  },
+  {
+    "id": "alauda-arvensis",
+    "scientificName": "Alauda arvensis",
+    "fullScientificName": "Alauda arvensis Linnaeus, 1758",
+    "frenchName": "Alouette des champs",
+    "category": "A",
+    "famille": "Alauda",
+    "rarete": "Commun"
+  },
+  {
+    "id": "galerida-theklae",
+    "scientificName": "Galerida theklae",
+    "fullScientificName": "Galerida theklae Brehm, AE, 1857",
+    "frenchName": "Cochevis de Thékla",
+    "category": "A",
+    "famille": "Galerida",
+    "rarete": "Rare"
+  },
+  {
+    "id": "galerida-cristata",
+    "scientificName": "Galerida cristata",
+    "fullScientificName": "Galerida cristata (Linnaeus, 1758)",
+    "frenchName": "Cochevis huppé",
+    "category": "A",
+    "famille": "Galerida",
+    "rarete": "Commun"
+  },
+  {
+    "id": "eremophila-alpestris",
+    "scientificName": "Eremophila alpestris",
+    "fullScientificName": "Eremophila alpestris (Linnaeus, 1758)",
+    "frenchName": "Alouette haussecol",
+    "category": "A",
+    "famille": "Eremophila",
+    "rarete": "Rare"
+  },
+  {
+    "id": "calandrella-brachydactyla",
+    "scientificName": "Calandrella brachydactyla",
+    "fullScientificName": "Calandrella brachydactyla (Leisler, 1814)",
+    "frenchName": "Alouette calandrelle",
+    "category": "A",
+    "famille": "Calandrella",
+    "rarete": "Commun"
+  },
+  {
+    "id": "melanocorypha-bimaculata",
+    "scientificName": "Melanocorypha bimaculata",
+    "fullScientificName": "Melanocorypha bimaculata (Ménétries, 1832)",
+    "frenchName": "Alouette monticole",
+    "category": "A",
+    "famille": "Melanocorypha",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "melanocorypha-calandra",
+    "scientificName": "Melanocorypha calandra",
+    "fullScientificName": "Melanocorypha calandra (Linnaeus, 1766)",
+    "frenchName": "Alouette calandre",
+    "category": "A",
+    "famille": "Melanocorypha",
+    "rarete": "Rare"
+  },
+  {
+    "id": "riparia-paludicola",
+    "scientificName": "Riparia paludicola",
+    "fullScientificName": "Riparia paludicola (Vieillot, 1817)",
+    "frenchName": "Hirondelle paludicole",
+    "category": "A",
+    "famille": "Riparia",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "riparia-riparia",
+    "scientificName": "Riparia riparia",
+    "fullScientificName": "Riparia riparia (Linnaeus, 1758)",
+    "frenchName": "Hirondelle de rivage",
+    "category": "A",
+    "famille": "Riparia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "ptyonoprogne-rupestris",
+    "scientificName": "Ptyonoprogne rupestris",
+    "fullScientificName": "Ptyonoprogne rupestris (Scopoli, 1769)",
+    "frenchName": "Hirondelle de rochers",
+    "category": "A",
+    "famille": "Ptyonoprogne",
+    "rarete": "Commun"
+  },
+  {
+    "id": "hirundo-rustica",
+    "scientificName": "Hirundo rustica",
+    "fullScientificName": "Hirundo rustica Linnaeus, 1758",
+    "frenchName": "Hirondelle rustique",
+    "category": "A",
+    "famille": "Hirundo",
+    "rarete": "Commun"
+  },
+  {
+    "id": "delichon-urbicum",
+    "scientificName": "Delichon urbicum",
+    "fullScientificName": "Delichon urbicum (Linnaeus, 1758)",
+    "frenchName": "Hirondelle de fenêtre",
+    "category": "A",
+    "famille": "Delichon",
+    "rarete": "Commun"
+  },
+  {
+    "id": "cecropis-rufula",
+    "scientificName": "Cecropis rufula",
+    "fullScientificName": "Cecropis rufula (Temminck, 1835)",
+    "frenchName": "Hirondelle rousseline",
+    "category": "A",
+    "famille": "Cecropis",
+    "rarete": "Rare"
+  },
+  {
+    "id": "petrochelidon-pyrrhonota",
+    "scientificName": "Petrochelidon pyrrhonota",
+    "fullScientificName": "Petrochelidon pyrrhonota (Vieillot, 1817)",
+    "frenchName": "Hirondelle à front blanc",
+    "category": "A",
+    "famille": "Petrochelidon",
+    "rarete": "Epique"
+  },
+  {
+    "id": "cettia-cetti",
+    "scientificName": "Cettia cetti",
+    "fullScientificName": "Cettia cetti (Temminck, 1820)",
+    "frenchName": "Bouscarle de Cetti",
+    "category": "A",
+    "famille": "Cettia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "aegithalos-caudatus",
+    "scientificName": "Aegithalos caudatus",
+    "fullScientificName": "Aegithalos caudatus (Linnaeus, 1758)",
+    "frenchName": "Orite à longue queue",
+    "category": "A",
+    "famille": "Aegithalos",
+    "rarete": "Commun"
+  },
+  {
+    "id": "phylloscopus-sibilatrix",
+    "scientificName": "Phylloscopus sibilatrix",
+    "fullScientificName": "Phylloscopus sibilatrix (Bechstein, 1793)",
+    "frenchName": "Pouillot siffleur",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "phylloscopus-bonelli",
+    "scientificName": "Phylloscopus bonelli",
+    "fullScientificName": "Phylloscopus bonelli (Vieillot, 1819)",
+    "frenchName": "Pouillot de Bonelli",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "phylloscopus-orientalis",
+    "scientificName": "Phylloscopus orientalis",
+    "fullScientificName": "Phylloscopus orientalis (Brehm, CL, 1855)",
+    "frenchName": "Pouillot oriental",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "phylloscopus-humei",
+    "scientificName": "Phylloscopus humei",
+    "fullScientificName": "Phylloscopus humei (Brooks, WE, 1878)",
+    "frenchName": "Pouillot de Hume",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "phylloscopus-inornatus",
+    "scientificName": "Phylloscopus inornatus",
+    "fullScientificName": "Phylloscopus inornatus (Blyth, 1842)",
+    "frenchName": "Pouillot à grands sourcils",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "phylloscopus-proregulus",
+    "scientificName": "Phylloscopus proregulus",
+    "fullScientificName": "Phylloscopus proregulus (Pallas, 1811)",
+    "frenchName": "Pouillot de Pallas",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "phylloscopus-schwarzi",
+    "scientificName": "Phylloscopus schwarzi",
+    "fullScientificName": "Phylloscopus schwarzi (Radde, 1863)",
+    "frenchName": "Pouillot de Schwarz",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "phylloscopus-fuscatus",
+    "scientificName": "Phylloscopus fuscatus",
+    "fullScientificName": "Phylloscopus fuscatus (Blyth, 1842)",
+    "frenchName": "Pouillot brun",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "phylloscopus-trochilus",
+    "scientificName": "Phylloscopus trochilus",
+    "fullScientificName": "Phylloscopus trochilus (Linnaeus, 1758)",
+    "frenchName": "Pouillot fitis",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "phylloscopus-collybita",
+    "scientificName": "Phylloscopus collybita",
+    "fullScientificName": "Phylloscopus collybita (Vieillot, 1817)",
+    "frenchName": "Pouillot véloce",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "phylloscopus-ibericus",
+    "scientificName": "Phylloscopus ibericus",
+    "fullScientificName": "Phylloscopus ibericus Ticehurst, 1937",
+    "frenchName": "Pouillot ibérique",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "phylloscopus-coronatus",
+    "scientificName": "Phylloscopus coronatus",
+    "fullScientificName": "Phylloscopus coronatus (Temminck & Schlegel, 1847)",
+    "frenchName": "Pouillot de Temminck",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "phylloscopus-plumbeitarsus",
+    "scientificName": "Phylloscopus plumbeitarsus",
+    "fullScientificName": "Phylloscopus plumbeitarsus Swinhoe, 1861",
+    "frenchName": "Pouillot à pattes sombres",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "phylloscopus-trochiloides",
+    "scientificName": "Phylloscopus trochiloides",
+    "fullScientificName": "Phylloscopus trochiloides (Sundevall, 1837)",
+    "frenchName": "Pouillot verdâtre",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "phylloscopus-borealis",
+    "scientificName": "Phylloscopus borealis",
+    "fullScientificName": "Phylloscopus borealis (Blasius, JH, 1858)",
+    "frenchName": "Pouillot boréal",
+    "category": "A",
+    "famille": "Phylloscopus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "acrocephalus-arundinaceus",
+    "scientificName": "Acrocephalus arundinaceus",
+    "fullScientificName": "Acrocephalus arundinaceus (Linnaeus, 1758)",
+    "frenchName": "Rousserolle turdoïde",
+    "category": "A",
+    "famille": "Acrocephalus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "acrocephalus-melanopogon",
+    "scientificName": "Acrocephalus melanopogon",
+    "fullScientificName": "Acrocephalus melanopogon (Temminck, 1823)",
+    "frenchName": "Lusciniole à moustaches",
+    "category": "A",
+    "famille": "Acrocephalus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "acrocephalus-paludicola",
+    "scientificName": "Acrocephalus paludicola",
+    "fullScientificName": "Acrocephalus paludicola (Vieillot, 1817)",
+    "frenchName": "Phragmite aquatique",
+    "category": "A",
+    "famille": "Acrocephalus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "acrocephalus-schoenobaenus",
+    "scientificName": "Acrocephalus schoenobaenus",
+    "fullScientificName": "Acrocephalus schoenobaenus (Linnaeus, 1758)",
+    "frenchName": "Phragmite des joncs",
+    "category": "A",
+    "famille": "Acrocephalus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "acrocephalus-agricola",
+    "scientificName": "Acrocephalus agricola",
+    "fullScientificName": "Acrocephalus agricola (Jerdon, 1845)",
+    "frenchName": "Rousserolle isabelle",
+    "category": "A",
+    "famille": "Acrocephalus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "acrocephalus-dumetorum",
+    "scientificName": "Acrocephalus dumetorum",
+    "fullScientificName": "Acrocephalus dumetorum Blyth, 1849",
+    "frenchName": "Rousserolle des buissons",
+    "category": "A",
+    "famille": "Acrocephalus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "acrocephalus-scirpaceus",
+    "scientificName": "Acrocephalus scirpaceus",
+    "fullScientificName": "Acrocephalus scirpaceus (Hermann, 1804)",
+    "frenchName": "Rousserolle effarvatte",
+    "category": "A",
+    "famille": "Acrocephalus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "acrocephalus-palustris",
+    "scientificName": "Acrocephalus palustris",
+    "fullScientificName": "Acrocephalus palustris (Bechstein, 1798)",
+    "frenchName": "Rousserolle verderolle",
+    "category": "A",
+    "famille": "Acrocephalus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "iduna-caligata",
+    "scientificName": "Iduna caligata",
+    "fullScientificName": "Iduna caligata (Lichtenstein, MHK, 1823)",
+    "frenchName": "Hypolaïs bottée",
+    "category": "A",
+    "famille": "Iduna",
+    "rarete": "Epique"
+  },
+  {
+    "id": "iduna-rama",
+    "scientificName": "Iduna rama",
+    "fullScientificName": "Iduna rama (Sykes, 1832)",
+    "frenchName": "Hypolaïs rama",
+    "category": "A",
+    "famille": "Iduna",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "iduna-pallida",
+    "scientificName": "Iduna pallida",
+    "fullScientificName": "Iduna pallida (Hemprich & Ehrenberg, 1833)",
+    "frenchName": "Hypolaïs pâle",
+    "category": "A",
+    "famille": "Iduna",
+    "rarete": "Epique"
+  },
+  {
+    "id": "iduna-opaca",
+    "scientificName": "Iduna opaca",
+    "fullScientificName": "Iduna opaca (Cabanis, 1850)",
+    "frenchName": "Hypolaïs obscure",
+    "category": "A",
+    "famille": "Iduna",
+    "rarete": "Rare"
+  },
+  {
+    "id": "hippolais-polyglotta",
+    "scientificName": "Hippolais polyglotta",
+    "fullScientificName": "Hippolais polyglotta (Vieillot, 1817)",
+    "frenchName": "Hypolaïs polyglotte",
+    "category": "A",
+    "famille": "Hippolais",
+    "rarete": "Commun"
+  },
+  {
+    "id": "hippolais-icterina",
+    "scientificName": "Hippolais icterina",
+    "fullScientificName": "Hippolais icterina (Vieillot, 1817)",
+    "frenchName": "Hypolaïs ictérine",
+    "category": "A",
+    "famille": "Hippolais",
+    "rarete": "Commun"
+  },
+  {
+    "id": "helopsaltes-certhiola",
+    "scientificName": "Helopsaltes certhiola",
+    "fullScientificName": "Helopsaltes certhiola (Pallas, 1811)",
+    "frenchName": "Locustelle de Pallas",
+    "category": "A",
+    "famille": "Helopsaltes",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "locustella-lanceolata",
+    "scientificName": "Locustella lanceolata",
+    "fullScientificName": "Locustella lanceolata (Temminck, 1840)",
+    "frenchName": "Locustelle lancéolée",
+    "category": "A",
+    "famille": "Locustella",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "locustella-fluviatilis",
+    "scientificName": "Locustella fluviatilis",
+    "fullScientificName": "Locustella fluviatilis (Wolf, 1810)",
+    "frenchName": "Locustelle fluviatile",
+    "category": "A",
+    "famille": "Locustella",
+    "rarete": "Rare"
+  },
+  {
+    "id": "locustella-luscinioides",
+    "scientificName": "Locustella luscinioides",
+    "fullScientificName": "Locustella luscinioides (Savi, 1824)",
+    "frenchName": "Locustelle luscinioïde",
+    "category": "A",
+    "famille": "Locustella",
+    "rarete": "Commun"
+  },
+  {
+    "id": "locustella-naevia",
+    "scientificName": "Locustella naevia",
+    "fullScientificName": "Locustella naevia (Boddaert, 1783)",
+    "frenchName": "Locustelle tachetée",
+    "category": "A",
+    "famille": "Locustella",
+    "rarete": "Commun"
+  },
+  {
+    "id": "cisticola-juncidis",
+    "scientificName": "Cisticola juncidis",
+    "fullScientificName": "Cisticola juncidis (Rafinesque, 1810)",
+    "frenchName": "Cisticole des joncs",
+    "category": "A",
+    "famille": "Cisticola",
+    "rarete": "Commun"
+  },
+  {
+    "id": "sylvia-atricapilla",
+    "scientificName": "Sylvia atricapilla",
+    "fullScientificName": "Sylvia atricapilla (Linnaeus, 1758)",
+    "frenchName": "Fauvette à tête noire",
+    "category": "A",
+    "famille": "Sylvia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "sylvia-borin",
+    "scientificName": "Sylvia borin",
+    "fullScientificName": "Sylvia borin (Boddaert, 1783)",
+    "frenchName": "Fauvette des jardins",
+    "category": "A",
+    "famille": "Sylvia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "curruca-nisoria",
+    "scientificName": "Curruca nisoria",
+    "fullScientificName": "Curruca nisoria (Bechstein, 1792)",
+    "frenchName": "Fauvette épervière",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Rare"
+  },
+  {
+    "id": "curruca-curruca",
+    "scientificName": "Curruca curruca",
+    "fullScientificName": "Curruca curruca (Linnaeus, 1758)",
+    "frenchName": "Fauvette babillarde",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Commun"
+  },
+  {
+    "id": "curruca-hortensis",
+    "scientificName": "Curruca hortensis",
+    "fullScientificName": "Curruca hortensis (Gmelin, JF, 1789)",
+    "frenchName": "Fauvette orphée",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Rare"
+  },
+  {
+    "id": "curruca-nana",
+    "scientificName": "Curruca nana",
+    "fullScientificName": "Curruca nana Hemprich & Ehrenberg, 1833",
+    "frenchName": "Fauvette naine",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Epique"
+  },
+  {
+    "id": "curruca-deserticola",
+    "scientificName": "Curruca deserticola",
+    "fullScientificName": "Curruca deserticola (Tristram, 1859)",
+    "frenchName": "Fauvette de l'Atlas",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "curruca-ruppeli",
+    "scientificName": "Curruca ruppeli",
+    "fullScientificName": "Curruca ruppeli (Temminck, 1823)",
+    "frenchName": "Fauvette de Rüppell",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "curruca-melanocephala",
+    "scientificName": "Curruca melanocephala",
+    "fullScientificName": "Curruca melanocephala (Gmelin, JF, 1789)",
+    "frenchName": "Fauvette mélanocéphale",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Commun"
+  },
+  {
+    "id": "curruca-iberiae",
+    "scientificName": "Curruca iberiae",
+    "fullScientificName": "Curruca iberiae (Svensson, 2013)",
+    "frenchName": "Fauvette passerinette",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Commun"
+  },
+  {
+    "id": "curruca-subalpina",
+    "scientificName": "Curruca subalpina",
+    "fullScientificName": "Curruca subalpina (Temminck, 1820)",
+    "frenchName": "Fauvette de Moltoni",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Rare"
+  },
+  {
+    "id": "curruca-cantillans",
+    "scientificName": "Curruca cantillans",
+    "fullScientificName": "Curruca cantillans (Pallas, 1764)",
+    "frenchName": "Fauvette des Balkans",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Epique"
+  },
+  {
+    "id": "curruca-communis",
+    "scientificName": "Curruca communis",
+    "fullScientificName": "Curruca communis (Latham, 1787)",
+    "frenchName": "Fauvette grisette",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Commun"
+  },
+  {
+    "id": "curruca-conspicillata",
+    "scientificName": "Curruca conspicillata",
+    "fullScientificName": "Curruca conspicillata (Temminck, 1820)",
+    "frenchName": "Fauvette à lunettes",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Rare"
+  },
+  {
+    "id": "curruca-sarda",
+    "scientificName": "Curruca sarda",
+    "fullScientificName": "Curruca sarda (Temminck, 1820)",
+    "frenchName": "Fauvette sarde",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Rare"
+  },
+  {
+    "id": "curruca-undata",
+    "scientificName": "Curruca undata",
+    "fullScientificName": "Curruca undata (Boddaert, 1783)",
+    "frenchName": "Fauvette pitchou",
+    "category": "A",
+    "famille": "Curruca",
+    "rarete": "Commun"
+  },
+  {
+    "id": "regulus-ignicapilla",
+    "scientificName": "Regulus ignicapilla",
+    "fullScientificName": "Regulus ignicapilla (Temminck, 1820)",
+    "frenchName": "Roitelet à triple bandeau",
+    "category": "A",
+    "famille": "Regulus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "regulus-regulus",
+    "scientificName": "Regulus regulus",
+    "fullScientificName": "Regulus regulus (Linnaeus, 1758)",
+    "frenchName": "Roitelet huppé",
+    "category": "A",
+    "famille": "Regulus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "troglodytes-troglodytes",
+    "scientificName": "Troglodytes troglodytes",
+    "fullScientificName": "Troglodytes troglodytes (Linnaeus, 1758)",
+    "frenchName": "Troglodyte mignon",
+    "category": "A",
+    "famille": "Troglodytes",
+    "rarete": "Commun"
+  },
+  {
+    "id": "sitta-whiteheadi",
+    "scientificName": "Sitta whiteheadi",
+    "fullScientificName": "Sitta whiteheadi Sharpe, 1884",
+    "frenchName": "Sittelle corse",
+    "category": "A",
+    "famille": "Sitta",
+    "rarete": "Rare"
+  },
+  {
+    "id": "sitta-europaea",
+    "scientificName": "Sitta europaea",
+    "fullScientificName": "Sitta europaea Linnaeus, 1758",
+    "frenchName": "Sittelle torchepot",
+    "category": "A",
+    "famille": "Sitta",
+    "rarete": "Commun"
+  },
+  {
+    "id": "tichodroma-muraria",
+    "scientificName": "Tichodroma muraria",
+    "fullScientificName": "Tichodroma muraria (Linnaeus, 1766)",
+    "frenchName": "Tichodrome échelette",
+    "category": "A",
+    "famille": "Tichodroma",
+    "rarete": "Rare"
+  },
+  {
+    "id": "certhia-familiaris",
+    "scientificName": "Certhia familiaris",
+    "fullScientificName": "Certhia familiaris Linnaeus, 1758",
+    "frenchName": "Grimpereau des bois",
+    "category": "A",
+    "famille": "Certhia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "certhia-brachydactyla",
+    "scientificName": "Certhia brachydactyla",
+    "fullScientificName": "Certhia brachydactyla Brehm, CL, 1820",
+    "frenchName": "Grimpereau des jardins",
+    "category": "A",
+    "famille": "Certhia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "pastor-roseus",
+    "scientificName": "Pastor roseus",
+    "fullScientificName": "Pastor roseus (Linnaeus, 1758)",
+    "frenchName": "Étourneau roselin",
+    "category": "A",
+    "famille": "Pastor",
+    "rarete": "Rare"
+  },
+  {
+    "id": "sturnus-vulgaris",
+    "scientificName": "Sturnus vulgaris",
+    "fullScientificName": "Sturnus vulgaris Linnaeus, 1758",
+    "frenchName": "Étourneau sansonnet",
+    "category": "A",
+    "famille": "Sturnus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "sturnus-unicolor",
+    "scientificName": "Sturnus unicolor",
+    "fullScientificName": "Sturnus unicolor Temminck, 1820",
+    "frenchName": "Étourneau unicolore",
+    "category": "A",
+    "famille": "Sturnus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "catharus-ustulatus",
+    "scientificName": "Catharus ustulatus",
+    "fullScientificName": "Catharus ustulatus (Nuttall, 1840)",
+    "frenchName": "Grive à dos olive",
+    "category": "A",
+    "famille": "Catharus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "catharus-minimus",
+    "scientificName": "Catharus minimus",
+    "fullScientificName": "Catharus minimus (Lafresnaye, 1848)",
+    "frenchName": "Grive à joues grises",
+    "category": "A",
+    "famille": "Catharus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "zoothera-aurea",
+    "scientificName": "Zoothera aurea",
+    "fullScientificName": "Zoothera aurea (Holandre, 1825)",
+    "frenchName": "Grive dorée",
+    "category": "A",
+    "famille": "Zoothera",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "geokichla-sibirica",
+    "scientificName": "Geokichla sibirica",
+    "fullScientificName": "Geokichla sibirica (Pallas, 1776)",
+    "frenchName": "Grive de Sibérie",
+    "category": "A",
+    "famille": "Geokichla",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "turdus-philomelos",
+    "scientificName": "Turdus philomelos",
+    "fullScientificName": "Turdus philomelos Brehm, CL, 1831",
+    "frenchName": "Grive musicienne",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "turdus-viscivorus",
+    "scientificName": "Turdus viscivorus",
+    "fullScientificName": "Turdus viscivorus Linnaeus, 1758",
+    "frenchName": "Grive draine",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "turdus-iliacus",
+    "scientificName": "Turdus iliacus",
+    "fullScientificName": "Turdus iliacus Linnaeus, 1758",
+    "frenchName": "Grive mauvis",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "turdus-merula",
+    "scientificName": "Turdus merula",
+    "fullScientificName": "Turdus merula Linnaeus, 1758",
+    "frenchName": "Merle noir",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "turdus-obscurus",
+    "scientificName": "Turdus obscurus",
+    "fullScientificName": "Turdus obscurus Gmelin, JF, 1789",
+    "frenchName": "Grive obscure",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "turdus-pilaris",
+    "scientificName": "Turdus pilaris",
+    "fullScientificName": "Turdus pilaris Linnaeus, 1758",
+    "frenchName": "Grive litorne",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "turdus-torquatus",
+    "scientificName": "Turdus torquatus",
+    "fullScientificName": "Turdus torquatus Linnaeus, 1758",
+    "frenchName": "Merle à plastron",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "turdus-atrogularis",
+    "scientificName": "Turdus atrogularis",
+    "fullScientificName": "Turdus atrogularis Jarocki, 1819",
+    "frenchName": "Grive à gorge noire",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "turdus-ruficollis",
+    "scientificName": "Turdus ruficollis",
+    "fullScientificName": "Turdus ruficollis Pallas, 1776",
+    "frenchName": "Grive à gorge rousse",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "turdus-eunomus",
+    "scientificName": "Turdus eunomus",
+    "fullScientificName": "Turdus eunomus Temminck, 1831",
+    "frenchName": "Grive à ailes rousses",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "turdus-naumanni",
+    "scientificName": "Turdus naumanni",
+    "fullScientificName": "Turdus naumanni Temminck, 1820",
+    "frenchName": "Grive de Naumann",
+    "category": "A",
+    "famille": "Turdus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "cercotrichas-galactotes",
+    "scientificName": "Cercotrichas galactotes",
+    "fullScientificName": "Cercotrichas galactotes (Temminck, 1820)",
+    "frenchName": "Agrobate roux",
+    "category": "A",
+    "famille": "Cercotrichas",
+    "rarete": "Rare"
+  },
+  {
+    "id": "muscicapa-striata",
+    "scientificName": "Muscicapa striata",
+    "fullScientificName": "Muscicapa striata (Pallas, 1764)",
+    "frenchName": "Gobemouche gris",
+    "category": "A",
+    "famille": "Muscicapa",
+    "rarete": "Commun"
+  },
+  {
+    "id": "muscicapa-tyrrhenica",
+    "scientificName": "Muscicapa tyrrhenica",
+    "fullScientificName": "Muscicapa tyrrhenica Schiebel, 1910",
+    "frenchName": "Gobemouche tyrrhénien",
+    "category": "A",
+    "famille": "Muscicapa",
+    "rarete": "Rare"
+  },
+  {
+    "id": "erithacus-rubecula",
+    "scientificName": "Erithacus rubecula",
+    "fullScientificName": "Erithacus rubecula (Linnaeus, 1758)",
+    "frenchName": "Rougegorge familier",
+    "category": "A",
+    "famille": "Erithacus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "luscinia-luscinia",
+    "scientificName": "Luscinia luscinia",
+    "fullScientificName": "Luscinia luscinia (Linnaeus, 1758)",
+    "frenchName": "Rossignol progné",
+    "category": "A",
+    "famille": "Luscinia",
+    "rarete": "Epique"
+  },
+  {
+    "id": "luscinia-megarhynchos",
+    "scientificName": "Luscinia megarhynchos",
+    "fullScientificName": "Luscinia megarhynchos Brehm, CL, 1831",
+    "frenchName": "Rossignol philomèle",
+    "category": "A",
+    "famille": "Luscinia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "luscinia-svecica",
+    "scientificName": "Luscinia svecica",
+    "fullScientificName": "Luscinia svecica (Linnaeus, 1758)",
+    "frenchName": "Gorgebleue à miroir",
+    "category": "A",
+    "famille": "Luscinia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "ficedula-parva",
+    "scientificName": "Ficedula parva",
+    "fullScientificName": "Ficedula parva (Bechstein, 1792)",
+    "frenchName": "Gobemouche nain",
+    "category": "A",
+    "famille": "Ficedula",
+    "rarete": "Rare"
+  },
+  {
+    "id": "ficedula-semitorquata",
+    "scientificName": "Ficedula semitorquata",
+    "fullScientificName": "Ficedula semitorquata (Homeyer, 1885)",
+    "frenchName": "Gobemouche à demi-collier",
+    "category": "A",
+    "famille": "Ficedula",
+    "rarete": "Epique"
+  },
+  {
+    "id": "ficedula-hypoleuca",
+    "scientificName": "Ficedula hypoleuca",
+    "fullScientificName": "Ficedula hypoleuca (Pallas, 1764)",
+    "frenchName": "Gobemouche noir",
+    "category": "A",
+    "famille": "Ficedula",
+    "rarete": "Commun"
+  },
+  {
+    "id": "ficedula-albicollis",
+    "scientificName": "Ficedula albicollis",
+    "fullScientificName": "Ficedula albicollis (Temminck, 1815)",
+    "frenchName": "Gobemouche à collier",
+    "category": "A",
+    "famille": "Ficedula",
+    "rarete": "Rare"
+  },
+  {
+    "id": "tarsiger-cyanurus",
+    "scientificName": "Tarsiger cyanurus",
+    "fullScientificName": "Tarsiger cyanurus (Pallas, 1773)",
+    "frenchName": "Robin à flancs roux",
+    "category": "A",
+    "famille": "Tarsiger",
+    "rarete": "Epique"
+  },
+  {
+    "id": "phoenicurus-ochruros",
+    "scientificName": "Phoenicurus ochruros",
+    "fullScientificName": "Phoenicurus ochruros (Gmelin, SG, 1774)",
+    "frenchName": "Rougequeue noir",
+    "category": "A",
+    "famille": "Phoenicurus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "phoenicurus-phoenicurus",
+    "scientificName": "Phoenicurus phoenicurus",
+    "fullScientificName": "Phoenicurus phoenicurus (Linnaeus, 1758)",
+    "frenchName": "Rougequeue à front blanc",
+    "category": "A",
+    "famille": "Phoenicurus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "phoenicurus-moussieri",
+    "scientificName": "Phoenicurus moussieri",
+    "fullScientificName": "Phoenicurus moussieri (Olphe-Galliard, 1852)",
+    "frenchName": "Rougequeue de Moussier",
+    "category": "A",
+    "famille": "Phoenicurus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "monticola-saxatilis",
+    "scientificName": "Monticola saxatilis",
+    "fullScientificName": "Monticola saxatilis (Linnaeus, 1766)",
+    "frenchName": "Monticole de roche",
+    "category": "A",
+    "famille": "Monticola",
+    "rarete": "Rare"
+  },
+  {
+    "id": "monticola-solitarius",
+    "scientificName": "Monticola solitarius",
+    "fullScientificName": "Monticola solitarius (Linnaeus, 1758)",
+    "frenchName": "Monticole bleu",
+    "category": "A",
+    "famille": "Monticola",
+    "rarete": "Commun"
+  },
+  {
+    "id": "saxicola-rubetra",
+    "scientificName": "Saxicola rubetra",
+    "fullScientificName": "Saxicola rubetra (Linnaeus, 1758)",
+    "frenchName": "Tarier des prés",
+    "category": "A",
+    "famille": "Saxicola",
+    "rarete": "Commun"
+  },
+  {
+    "id": "saxicola-maurus",
+    "scientificName": "Saxicola maurus",
+    "fullScientificName": "Saxicola maurus (Pallas, 1773)",
+    "frenchName": "Tarier de Sibérie",
+    "category": "A",
+    "famille": "Saxicola",
+    "rarete": "Epique"
+  },
+  {
+    "id": "saxicola-rubicola",
+    "scientificName": "Saxicola rubicola",
+    "fullScientificName": "Saxicola rubicola (Linnaeus, 1766)",
+    "frenchName": "Tarier pâtre",
+    "category": "A",
+    "famille": "Saxicola",
+    "rarete": "Commun"
+  },
+  {
+    "id": "oenanthe-oenanthe",
+    "scientificName": "Oenanthe oenanthe",
+    "fullScientificName": "Oenanthe oenanthe (Linnaeus, 1758)",
+    "frenchName": "Traquet motteux",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Commun"
+  },
+  {
+    "id": "oenanthe-seebohmi",
+    "scientificName": "Oenanthe seebohmi",
+    "fullScientificName": "Oenanthe seebohmi (Dixon, 1882)",
+    "frenchName": "Traquet de Seebohm",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "oenanthe-isabellina",
+    "scientificName": "Oenanthe isabellina",
+    "fullScientificName": "Oenanthe isabellina (Temminck, 1829)",
+    "frenchName": "Traquet isabelle",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Epique"
+  },
+  {
+    "id": "oenanthe-deserti",
+    "scientificName": "Oenanthe deserti",
+    "fullScientificName": "Oenanthe deserti (Temminck, 1825)",
+    "frenchName": "Traquet du désert",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "oenanthe-hispanica",
+    "scientificName": "Oenanthe hispanica",
+    "fullScientificName": "Oenanthe hispanica (Linnaeus, 1758)",
+    "frenchName": "Traquet oreillard",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Commun"
+  },
+  {
+    "id": "oenanthe-pleschanka",
+    "scientificName": "Oenanthe pleschanka",
+    "fullScientificName": "Oenanthe pleschanka (Lepechin, 1770)",
+    "frenchName": "Traquet pie",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Epique"
+  },
+  {
+    "id": "oenanthe-melanoleuca",
+    "scientificName": "Oenanthe melanoleuca",
+    "fullScientificName": "Oenanthe melanoleuca (Güldenstädt, 1775)",
+    "frenchName": "Traquet noir et blanc",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "oenanthe-xanthoprymna",
+    "scientificName": "Oenanthe xanthoprymna",
+    "fullScientificName": "Oenanthe xanthoprymna (Hemprich & Ehrenberg, 1833)",
+    "frenchName": "Traquet kurde",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "oenanthe-leucopyga",
+    "scientificName": "Oenanthe leucopyga",
+    "fullScientificName": "Oenanthe leucopyga (Brehm, CL, 1855)",
+    "frenchName": "Traquet à tête blanche",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "oenanthe-leucura",
+    "scientificName": "Oenanthe leucura",
+    "fullScientificName": "Oenanthe leucura (Gmelin, JF, 1789)",
+    "frenchName": "Traquet rieur",
+    "category": "A",
+    "famille": "Oenanthe",
+    "rarete": "Rare"
+  },
+  {
+    "id": "cinclus-cinclus",
+    "scientificName": "Cinclus cinclus",
+    "fullScientificName": "Cinclus cinclus (Linnaeus, 1758)",
+    "frenchName": "Cincle plongeur",
+    "category": "A",
+    "famille": "Cinclus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "petronia-petronia",
+    "scientificName": "Petronia petronia",
+    "fullScientificName": "Petronia petronia (Linnaeus, 1766)",
+    "frenchName": "Moineau soulcie",
+    "category": "A",
+    "famille": "Petronia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "montifringilla-nivalis",
+    "scientificName": "Montifringilla nivalis",
+    "fullScientificName": "Montifringilla nivalis (Linnaeus, 1766)",
+    "frenchName": "Niverolle alpine",
+    "category": "A",
+    "famille": "Montifringilla",
+    "rarete": "Commun"
+  },
+  {
+    "id": "passer-montanus",
+    "scientificName": "Passer montanus",
+    "fullScientificName": "Passer montanus (Linnaeus, 1758)",
+    "frenchName": "Moineau friquet",
+    "category": "A",
+    "famille": "Passer",
+    "rarete": "Commun"
+  },
+  {
+    "id": "passer-hispaniolensis",
+    "scientificName": "Passer hispaniolensis",
+    "fullScientificName": "Passer hispaniolensis (Temminck, 1820)",
+    "frenchName": "Moineau espagnol",
+    "category": "A",
+    "famille": "Passer",
+    "rarete": "Rare"
+  },
+  {
+    "id": "passer-italiae",
+    "scientificName": "Passer italiae",
+    "fullScientificName": "Passer italiae (Vieillot, 1817)",
+    "frenchName": "Moineau cisalpin",
+    "category": "A",
+    "famille": "Passer",
+    "rarete": "Rare"
+  },
+  {
+    "id": "passer-domesticus",
+    "scientificName": "Passer domesticus",
+    "fullScientificName": "Passer domesticus (Linnaeus, 1758)",
+    "frenchName": "Moineau domestique",
+    "category": "A",
+    "famille": "Passer",
+    "rarete": "Commun"
+  },
+  {
+    "id": "prunella-collaris",
+    "scientificName": "Prunella collaris",
+    "fullScientificName": "Prunella collaris (Scopoli, 1769)",
+    "frenchName": "Accenteur alpin",
+    "category": "A",
+    "famille": "Prunella",
+    "rarete": "Commun"
+  },
+  {
+    "id": "prunella-atrogularis",
+    "scientificName": "Prunella atrogularis",
+    "fullScientificName": "Prunella atrogularis (von Brandt, JF, 1843)",
+    "frenchName": "Accenteur à gorge noire",
+    "category": "A",
+    "famille": "Prunella",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "prunella-modularis",
+    "scientificName": "Prunella modularis",
+    "fullScientificName": "Prunella modularis (Linnaeus, 1758)",
+    "frenchName": "Accenteur mouchet",
+    "category": "A",
+    "famille": "Prunella",
+    "rarete": "Commun"
+  },
+  {
+    "id": "motacilla-flava",
+    "scientificName": "Motacilla flava",
+    "fullScientificName": "Motacilla flava Linnaeus, 1758",
+    "frenchName": "Bergeronnette printanière",
+    "category": "A",
+    "famille": "Motacilla",
+    "rarete": "Commun"
+  },
+  {
+    "id": "motacilla-tschutschensis",
+    "scientificName": "Motacilla tschutschensis",
+    "fullScientificName": "Motacilla tschutschensis Gmelin, JF, 1789",
+    "frenchName": "Bergeronnette orientale",
+    "category": "A",
+    "famille": "Motacilla",
+    "rarete": "Epique"
+  },
+  {
+    "id": "motacilla-citreola",
+    "scientificName": "Motacilla citreola",
+    "fullScientificName": "Motacilla citreola Pallas, 1776",
+    "frenchName": "Bergeronnette citrine",
+    "category": "A",
+    "famille": "Motacilla",
+    "rarete": "Rare"
+  },
+  {
+    "id": "motacilla-cinerea",
+    "scientificName": "Motacilla cinerea",
+    "fullScientificName": "Motacilla cinerea Tunstall, 1771",
+    "frenchName": "Bergeronnette des ruisseaux",
+    "category": "A",
+    "famille": "Motacilla",
+    "rarete": "Commun"
+  },
+  {
+    "id": "motacilla-alba",
+    "scientificName": "Motacilla alba",
+    "fullScientificName": "Motacilla alba Linnaeus, 1758",
+    "frenchName": "Bergeronnette grise",
+    "category": "A",
+    "famille": "Motacilla",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anthus-richardi",
+    "scientificName": "Anthus richardi",
+    "fullScientificName": "Anthus richardi Vieillot, 1818",
+    "frenchName": "Pipit de Richard",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "anthus-godlewskii",
+    "scientificName": "Anthus godlewskii",
+    "fullScientificName": "Anthus godlewskii (Taczanowski, 1876)",
+    "frenchName": "Pipit de Godlewski",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "anthus-campestris",
+    "scientificName": "Anthus campestris",
+    "fullScientificName": "Anthus campestris (Linnaeus, 1758)",
+    "frenchName": "Pipit rousseline",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anthus-pratensis",
+    "scientificName": "Anthus pratensis",
+    "fullScientificName": "Anthus pratensis (Linnaeus, 1758)",
+    "frenchName": "Pipit farlouse",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anthus-trivialis",
+    "scientificName": "Anthus trivialis",
+    "fullScientificName": "Anthus trivialis (Linnaeus, 1758)",
+    "frenchName": "Pipit des arbres",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anthus-hodgsoni",
+    "scientificName": "Anthus hodgsoni",
+    "fullScientificName": "Anthus hodgsoni Richmond, 1907",
+    "frenchName": "Pipit à dos olive",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "anthus-gustavi",
+    "scientificName": "Anthus gustavi",
+    "fullScientificName": "Anthus gustavi Swinhoe, 1863",
+    "frenchName": "Pipit de la Petchora",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "anthus-cervinus",
+    "scientificName": "Anthus cervinus",
+    "fullScientificName": "Anthus cervinus (Pallas, 1811)",
+    "frenchName": "Pipit à gorge rousse",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "anthus-japonicus",
+    "scientificName": "Anthus japonicus",
+    "fullScientificName": "Anthus japonicus Temminck & Schlegel, 1847",
+    "frenchName": "Pipit de Sibérie",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "anthus-rubescens",
+    "scientificName": "Anthus rubescens",
+    "fullScientificName": "Anthus rubescens (Tunstall, 1771)",
+    "frenchName": "Pipit farlousane",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "anthus-spinoletta",
+    "scientificName": "Anthus spinoletta",
+    "fullScientificName": "Anthus spinoletta (Linnaeus, 1758)",
+    "frenchName": "Pipit spioncelle",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anthus-petrosus",
+    "scientificName": "Anthus petrosus",
+    "fullScientificName": "Anthus petrosus (Montagu, 1798)",
+    "frenchName": "Pipit maritime",
+    "category": "A",
+    "famille": "Anthus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "fringilla-coelebs",
+    "scientificName": "Fringilla coelebs",
+    "fullScientificName": "Fringilla coelebs Linnaeus, 1758",
+    "frenchName": "Pinson des arbres",
+    "category": "A",
+    "famille": "Fringilla",
+    "rarete": "Commun"
+  },
+  {
+    "id": "fringilla-spodiogenys",
+    "scientificName": "Fringilla spodiogenys",
+    "fullScientificName": "Fringilla spodiogenys (Bonaparte, 1841)",
+    "frenchName": "Pinson africain",
+    "category": "A",
+    "famille": "Fringilla",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "fringilla-montifringilla",
+    "scientificName": "Fringilla montifringilla",
+    "fullScientificName": "Fringilla montifringilla Linnaeus, 1758",
+    "frenchName": "Pinson du Nord",
+    "category": "A",
+    "famille": "Fringilla",
+    "rarete": "Commun"
+  },
+  {
+    "id": "coccothraustes-coccothraustes",
+    "scientificName": "Coccothraustes coccothraustes",
+    "fullScientificName": "Coccothraustes coccothraustes (Linnaeus, 1758)",
+    "frenchName": "Grosbec casse-noyaux",
+    "category": "A",
+    "famille": "Coccothraustes",
+    "rarete": "Commun"
+  },
+  {
+    "id": "pinicola-enucleator",
+    "scientificName": "Pinicola enucleator",
+    "fullScientificName": "Pinicola enucleator (Linnaeus, 1758)",
+    "frenchName": "Durbec des sapins",
+    "category": "A",
+    "famille": "Pinicola",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "pyrrhula-pyrrhula",
+    "scientificName": "Pyrrhula pyrrhula",
+    "fullScientificName": "Pyrrhula pyrrhula (Linnaeus, 1758)",
+    "frenchName": "Bouvreuil pivoine",
+    "category": "A",
+    "famille": "Pyrrhula",
+    "rarete": "Commun"
+  },
+  {
+    "id": "bucanetes-githagineus",
+    "scientificName": "Bucanetes githagineus",
+    "fullScientificName": "Bucanetes githagineus (Lichtenstein, MHK, 1823)",
+    "frenchName": "Roselin githagine",
+    "category": "A",
+    "famille": "Bucanetes",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "carpodacus-erythrinus",
+    "scientificName": "Carpodacus erythrinus",
+    "fullScientificName": "Carpodacus erythrinus (Pallas, 1770)",
+    "frenchName": "Roselin cramoisi",
+    "category": "A",
+    "famille": "Carpodacus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "chloris-chloris",
+    "scientificName": "Chloris chloris",
+    "fullScientificName": "Chloris chloris (Linnaeus, 1758)",
+    "frenchName": "Verdier d'Europe",
+    "category": "A",
+    "famille": "Chloris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "linaria-flavirostris",
+    "scientificName": "Linaria flavirostris",
+    "fullScientificName": "Linaria flavirostris (Linnaeus, 1758)",
+    "frenchName": "Linotte à bec jaune",
+    "category": "A",
+    "famille": "Linaria",
+    "rarete": "Rare"
+  },
+  {
+    "id": "linaria-cannabina",
+    "scientificName": "Linaria cannabina",
+    "fullScientificName": "Linaria cannabina (Linnaeus, 1758)",
+    "frenchName": "Linotte mélodieuse",
+    "category": "A",
+    "famille": "Linaria",
+    "rarete": "Commun"
+  },
+  {
+    "id": "acanthis-flammea",
+    "scientificName": "Acanthis flammea",
+    "fullScientificName": "Acanthis flammea (Linnaeus, 1758)",
+    "frenchName": "Sizerin flammé",
+    "category": "A",
+    "famille": "Acanthis",
+    "rarete": "Rare"
+  },
+  {
+    "id": "loxia-pytyopsittacus",
+    "scientificName": "Loxia pytyopsittacus",
+    "fullScientificName": "Loxia pytyopsittacus Borkhausen, 1793",
+    "frenchName": "Bec-croisé perroquet",
+    "category": "A",
+    "famille": "Loxia",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "loxia-curvirostra",
+    "scientificName": "Loxia curvirostra",
+    "fullScientificName": "Loxia curvirostra Linnaeus, 1758",
+    "frenchName": "Bec-croisé des sapins",
+    "category": "A",
+    "famille": "Loxia",
+    "rarete": "Commun"
+  },
+  {
+    "id": "loxia-leucoptera",
+    "scientificName": "Loxia leucoptera",
+    "fullScientificName": "Loxia leucoptera Gmelin, JF, 1789",
+    "frenchName": "Bec-croisé bifascié",
+    "category": "A",
+    "famille": "Loxia",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "carduelis-carduelis",
+    "scientificName": "Carduelis carduelis",
+    "fullScientificName": "Carduelis carduelis (Linnaeus, 1758)",
+    "frenchName": "Chardonneret élégant",
+    "category": "A",
+    "famille": "Carduelis",
+    "rarete": "Commun"
+  },
+  {
+    "id": "carduelis-citrinella",
+    "scientificName": "Carduelis citrinella",
+    "fullScientificName": "Carduelis citrinella (Pallas, 1764)",
+    "frenchName": "Venturon montagnard",
+    "category": "A",
+    "famille": "Carduelis",
+    "rarete": "Commun"
+  },
+  {
+    "id": "carduelis-corsicana",
+    "scientificName": "Carduelis corsicana",
+    "fullScientificName": "Carduelis corsicana (Koenig, AF, 1899)",
+    "frenchName": "Venturon corse",
+    "category": "A",
+    "famille": "Carduelis",
+    "rarete": "Rare"
+  },
+  {
+    "id": "serinus-serinus",
+    "scientificName": "Serinus serinus",
+    "fullScientificName": "Serinus serinus (Linnaeus, 1766)",
+    "frenchName": "Serin cini",
+    "category": "A",
+    "famille": "Serinus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "spinus-spinus",
+    "scientificName": "Spinus spinus",
+    "fullScientificName": "Spinus spinus (Linnaeus, 1758)",
+    "frenchName": "Tarin des aulnes",
+    "category": "A",
+    "famille": "Spinus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "calcarius-lapponicus",
+    "scientificName": "Calcarius lapponicus",
+    "fullScientificName": "Calcarius lapponicus (Linnaeus, 1758)",
+    "frenchName": "Bruant lapon",
+    "category": "A",
+    "famille": "Calcarius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "plectrophenax-nivalis",
+    "scientificName": "Plectrophenax nivalis",
+    "fullScientificName": "Plectrophenax nivalis (Linnaeus, 1758)",
+    "frenchName": "Bruant des neiges",
+    "category": "A",
+    "famille": "Plectrophenax",
+    "rarete": "Rare"
+  },
+  {
+    "id": "emberiza-calandra",
+    "scientificName": "Emberiza calandra",
+    "fullScientificName": "Emberiza calandra Linnaeus, 1758",
+    "frenchName": "Bruant proyer",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Commun"
+  },
+  {
+    "id": "emberiza-citrinella",
+    "scientificName": "Emberiza citrinella",
+    "fullScientificName": "Emberiza citrinella Linnaeus, 1758",
+    "frenchName": "Bruant jaune",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Commun"
+  },
+  {
+    "id": "emberiza-leucocephalos",
+    "scientificName": "Emberiza leucocephalos",
+    "fullScientificName": "Emberiza leucocephalos Gmelin, SG, 1771",
+    "frenchName": "Bruant à calotte blanche",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "emberiza-cia",
+    "scientificName": "Emberiza cia",
+    "fullScientificName": "Emberiza cia Linnaeus, 1766",
+    "frenchName": "Bruant fou",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Commun"
+  },
+  {
+    "id": "emberiza-hortulana",
+    "scientificName": "Emberiza hortulana",
+    "fullScientificName": "Emberiza hortulana Linnaeus, 1758",
+    "frenchName": "Bruant ortolan",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Rare"
+  },
+  {
+    "id": "emberiza-cirlus",
+    "scientificName": "Emberiza cirlus",
+    "fullScientificName": "Emberiza cirlus Linnaeus, 1766",
+    "frenchName": "Bruant zizi",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Commun"
+  },
+  {
+    "id": "emberiza-pusilla",
+    "scientificName": "Emberiza pusilla",
+    "fullScientificName": "Emberiza pusilla Pallas, 1776",
+    "frenchName": "Bruant nain",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Epique"
+  },
+  {
+    "id": "emberiza-rustica",
+    "scientificName": "Emberiza rustica",
+    "fullScientificName": "Emberiza rustica Pallas, 1776",
+    "frenchName": "Bruant rustique",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Epique"
+  },
+  {
+    "id": "emberiza-aureola",
+    "scientificName": "Emberiza aureola",
+    "fullScientificName": "Emberiza aureola Pallas, 1773",
+    "frenchName": "Bruant auréole",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "emberiza-rutila",
+    "scientificName": "Emberiza rutila",
+    "fullScientificName": "Emberiza rutila Pallas, 1776",
+    "frenchName": "Bruant roux",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "emberiza-melanocephala",
+    "scientificName": "Emberiza melanocephala",
+    "fullScientificName": "Emberiza melanocephala Scopoli, 1769",
+    "frenchName": "Bruant mélanocéphale",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Epique"
+  },
+  {
+    "id": "emberiza-bruniceps",
+    "scientificName": "Emberiza bruniceps",
+    "fullScientificName": "Emberiza bruniceps von Brandt, JF, 1841",
+    "frenchName": "Bruant à tête rousse",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "emberiza-spodocephala",
+    "scientificName": "Emberiza spodocephala",
+    "fullScientificName": "Emberiza spodocephala Pallas, 1776",
+    "frenchName": "Bruant masqué",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "emberiza-schoeniclus",
+    "scientificName": "Emberiza schoeniclus",
+    "fullScientificName": "Emberiza schoeniclus (Linnaeus, 1758)",
+    "frenchName": "Bruant des roseaux",
+    "category": "A",
+    "famille": "Emberiza",
+    "rarete": "Commun"
+  },
+  {
+    "id": "zonotrichia-leucophrys",
+    "scientificName": "Zonotrichia leucophrys",
+    "fullScientificName": "Zonotrichia leucophrys (Forster, JR, 1772)",
+    "frenchName": "Bruant à couronne blanche",
+    "category": "A",
+    "famille": "Zonotrichia",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "zonotrichia-albicollis",
+    "scientificName": "Zonotrichia albicollis",
+    "fullScientificName": "Zonotrichia albicollis (Gmelin, JF, 1789)",
+    "frenchName": "Bruant à gorge blanche",
+    "category": "A",
+    "famille": "Zonotrichia",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "dolichonyx-oryzivorus",
+    "scientificName": "Dolichonyx oryzivorus",
+    "fullScientificName": "Dolichonyx oryzivorus (Linnaeus, 1758)",
+    "frenchName": "Goglu des prés",
+    "category": "A",
+    "famille": "Dolichonyx",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "icterus-galbula-linnaeus",
+    "scientificName": "Icterus galbula(Linnaeus,",
+    "fullScientificName": "Icterus galbula(Linnaeus, 1758)",
+    "frenchName": "Oriole de Baltimore",
+    "category": "A",
+    "famille": "Icterus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "molothrus-ater",
+    "scientificName": "Molothrus ater",
+    "fullScientificName": "Molothrus ater (Boddaert, 1783)",
+    "frenchName": "Vacher à tête brune",
+    "category": "A",
+    "famille": "Molothrus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "seiurus-aurocapilla",
+    "scientificName": "Seiurus aurocapilla",
+    "fullScientificName": "Seiurus aurocapilla (Linnaeus, 1766)",
+    "frenchName": "Paruline couronnée",
+    "category": "A",
+    "famille": "Seiurus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "parkesia-noveboracensis",
+    "scientificName": "Parkesia noveboracensis",
+    "fullScientificName": "Parkesia noveboracensis (Gmelin, JF, 1789)",
+    "frenchName": "Paruline des ruisseaux",
+    "category": "A",
+    "famille": "Parkesia",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "mniotilta-varia",
+    "scientificName": "Mniotilta varia",
+    "fullScientificName": "Mniotilta varia (Linnaeus, 1766)",
+    "frenchName": "Paruline noir et blanc",
+    "category": "A",
+    "famille": "Mniotilta",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "setophaga-ruticilla",
+    "scientificName": "Setophaga ruticilla",
+    "fullScientificName": "Setophaga ruticilla (Linnaeus, 1758)",
+    "frenchName": "Paruline flamboyante",
+    "category": "A",
+    "famille": "Setophaga",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "setophaga-americana",
+    "scientificName": "Setophaga americana",
+    "fullScientificName": "Setophaga americana (Linnaeus, 1758)",
+    "frenchName": "Paruline à collier",
+    "category": "A",
+    "famille": "Setophaga",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "setophaga-fusca",
+    "scientificName": "Setophaga fusca",
+    "fullScientificName": "Setophaga fusca (Müller, PLS, 1776)",
+    "frenchName": "Paruline à gorge orangée",
+    "category": "A",
+    "famille": "Setophaga",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "setophaga-aestiva",
+    "scientificName": "Setophaga aestiva",
+    "fullScientificName": "Setophaga aestiva (Gmelin, JF, 1789)",
+    "frenchName": "Paruline jaune",
+    "category": "A",
+    "famille": "Setophaga",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "setophaga-pensylvanica",
+    "scientificName": "Setophaga pensylvanica",
+    "fullScientificName": "Setophaga pensylvanica (Linnaeus, 1766)",
+    "frenchName": "Paruline à flancs marron",
+    "category": "A",
+    "famille": "Setophaga",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "setophaga-striata",
+    "scientificName": "Setophaga striata",
+    "fullScientificName": "Setophaga striata (Forster, JR, 1772)",
+    "frenchName": "Paruline rayée",
+    "category": "A",
+    "famille": "Setophaga",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "piranga-olivacea",
+    "scientificName": "Piranga olivacea",
+    "fullScientificName": "Piranga olivacea (Gmelin, JF, 1789)",
+    "frenchName": "Tangara écarlate",
+    "category": "A",
+    "famille": "Piranga",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "pheucticus-ludovicianus",
+    "scientificName": "Pheucticus ludovicianus",
+    "fullScientificName": "Pheucticus ludovicianus (Linnaeus, 1766)",
+    "frenchName": "Cardinal à poitrine rose",
+    "category": "A",
+    "famille": "Pheucticus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "macronectes-giganteus",
+    "scientificName": "Macronectes giganteus",
+    "fullScientificName": "Macronectes giganteus (J. F. Gmelin, 1789) / M. halli Mathews, 1912",
+    "frenchName": "Fulmar géant / de Hall",
+    "category": "A*",
+    "famille": "Macronectes",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "pterodroma-feae",
+    "scientificName": "Pterodroma feae",
+    "fullScientificName": "Pterodroma feae (Salvatori, 1899) / P. deserta Mathews, 1934",
+    "frenchName": "Pétrel gongon / P. des Desertas",
+    "category": "A*",
+    "famille": "Pterodroma",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "puffinus-baroli",
+    "scientificName": "Puffinus baroli",
+    "fullScientificName": "Puffinus baroli (Bonaparte, 1857) / P. boydi Mathews, 1912",
+    "frenchName": "Puffin de Macaronésie / de Boyd",
+    "category": "A*",
+    "famille": "Puffinus",
+    "rarete": "Epique"
+  },
+  {
+    "id": "alaudala-rufescens",
+    "scientificName": "Alaudala rufescens",
+    "fullScientificName": "Alaudala rufescens (Vieillot, 1819) / Alaudala heinei (Homeyer, 1873)",
+    "frenchName": "Alouette pispolette / Alouette du Turkestan",
+    "category": "A*",
+    "famille": "Alaudala",
+    "rarete": "Rare"
+  },
+  {
+    "id": "branta-leucopsis",
+    "scientificName": "Branta leucopsis",
+    "fullScientificName": "Branta leucopsis (Bechstein, 1803)",
+    "frenchName": "Bernache nonnette",
+    "category": "AC",
+    "famille": "Branta",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anser-anser",
+    "scientificName": "Anser anser",
+    "fullScientificName": "Anser anser (Linnaeus, 1758)",
+    "frenchName": "Oie cendrée",
+    "category": "AC",
+    "famille": "Anser",
+    "rarete": "Commun"
+  },
+  {
+    "id": "cygnus-olor",
+    "scientificName": "Cygnus olor",
+    "fullScientificName": "Cygnus olor (Gmelin, JF, 1789)",
+    "frenchName": "Cygne tuberculé",
+    "category": "AC",
+    "famille": "Cygnus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "anas-platyrhynchos",
+    "scientificName": "Anas platyrhynchos",
+    "fullScientificName": "Anas platyrhynchos Linnaeus, 1758",
+    "frenchName": "Canard colvert",
+    "category": "AC",
+    "famille": "Anas",
+    "rarete": "Commun"
+  },
+  {
+    "id": "perdix-perdix",
+    "scientificName": "Perdix perdix",
+    "fullScientificName": "Perdix perdix (Linnaeus, 1758)",
+    "frenchName": "Perdrix grise",
+    "category": "AC",
+    "famille": "Perdix",
+    "rarete": "Commun"
+  },
+  {
+    "id": "alectoris-rufa",
+    "scientificName": "Alectoris rufa",
+    "fullScientificName": "Alectoris rufa (Linnaeus, 1758)",
+    "frenchName": "Perdrix rouge",
+    "category": "AC",
+    "famille": "Alectoris",
+    "rarete": "Commun"
+  },
+  {
+    "id": "columba-livia",
+    "scientificName": "Columba livia",
+    "fullScientificName": "Columba livia Gmelin, JF, 1789",
+    "frenchName": "Pigeon biset",
+    "category": "AC",
+    "famille": "Columba",
+    "rarete": "Commun"
+  },
+  {
+    "id": "porphyrio-porphyrio",
+    "scientificName": "Porphyrio porphyrio",
+    "fullScientificName": "Porphyrio porphyrio (Linnaeus, 1758)",
+    "frenchName": "Talève sultane",
+    "category": "AC",
+    "famille": "Porphyrio",
+    "rarete": "Rare"
+  },
+  {
+    "id": "gyps-fulvus",
+    "scientificName": "Gyps fulvus",
+    "fullScientificName": "Gyps fulvus (Hablizl, 1783)",
+    "frenchName": "Vautour fauve",
+    "category": "AC",
+    "famille": "Gyps",
+    "rarete": "Commun"
+  },
+  {
+    "id": "aegypius-monachus",
+    "scientificName": "Aegypius monachus",
+    "fullScientificName": "Aegypius monachus (Linnaeus, 1766)",
+    "frenchName": "Vautour moine",
+    "category": "AC",
+    "famille": "Aegypius",
+    "rarete": "Rare"
+  },
+  {
+    "id": "melanitta-stejnegeri",
+    "scientificName": "Melanitta stejnegeri",
+    "fullScientificName": "Melanitta stejnegeri (Ridgway, 1887)",
+    "frenchName": "Macreuse de Sibérie",
+    "category": "B",
+    "famille": "Melanitta",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "chlamydotis-macqueenii",
+    "scientificName": "Chlamydotis macqueenii",
+    "fullScientificName": "Chlamydotis macqueenii (Gray, JE, 1832)",
+    "frenchName": "Outarde de Macqueen",
+    "category": "B",
+    "famille": "Chlamydotis",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "fulica-cristata",
+    "scientificName": "Fulica cristata",
+    "fullScientificName": "Fulica cristata Gmelin, JF, 1789",
+    "frenchName": "Foulque caronculée",
+    "category": "B",
+    "famille": "Fulica",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "fregata-magnificens",
+    "scientificName": "Fregata magnificens",
+    "fullScientificName": "Fregata magnificens Mathews, 1914",
+    "frenchName": "Frégate superbe",
+    "category": "B",
+    "famille": "Fregata",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "torgos-tracheliotos",
+    "scientificName": "Torgos tracheliotos",
+    "fullScientificName": "Torgos tracheliotos (Forster, JR, 1796)",
+    "frenchName": "Vautour oricou",
+    "category": "B",
+    "famille": "Torgos",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "surnia-ulula",
+    "scientificName": "Surnia ulula",
+    "fullScientificName": "Surnia ulula (Linnaeus, 1758)",
+    "frenchName": "Chouette épervière",
+    "category": "B",
+    "famille": "Surnia",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "cyanistes-cyanus",
+    "scientificName": "Cyanistes cyanus",
+    "fullScientificName": "Cyanistes cyanus (Pallas, 1770)",
+    "frenchName": "Mésange azurée",
+    "category": "B",
+    "famille": "Cyanistes",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "chersophilus-duponti",
+    "scientificName": "Chersophilus duponti",
+    "fullScientificName": "Chersophilus duponti (Vieillot, 1824)",
+    "frenchName": "Sirli de Dupont",
+    "category": "B",
+    "famille": "Chersophilus",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "helopsaltes-fasciolatus",
+    "scientificName": "Helopsaltes fasciolatus",
+    "fullScientificName": "Helopsaltes fasciolatus (Gray, GR, 1861)",
+    "frenchName": "Locustelle fasciée",
+    "category": "B",
+    "famille": "Helopsaltes",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "emberiza-caesia",
+    "scientificName": "Emberiza caesia",
+    "fullScientificName": "Emberiza caesia Cretzschmar, 1827",
+    "frenchName": "Bruant cendrillard",
+    "category": "B",
+    "famille": "Emberiza",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "emberiza-chrysophrys",
+    "scientificName": "Emberiza chrysophrys",
+    "fullScientificName": "Emberiza chrysophrys Pallas, 1776",
+    "frenchName": "Bruant à sourcils jaunes",
+    "category": "B",
+    "famille": "Emberiza",
+    "rarete": "Legendaire"
+  },
+  {
+    "id": "alopochen-aegyptiaca",
+    "scientificName": "Alopochen aegyptiaca",
+    "fullScientificName": "Alopochen aegyptiaca (Linnaeus, 1766)",
+    "frenchName": "Ouette d'Egypte",
+    "category": "BC",
+    "famille": "Alopochen",
+    "rarete": "Commun"
+  },
+  {
+    "id": "tadorna-ferruginea",
+    "scientificName": "Tadorna ferruginea",
+    "fullScientificName": "Tadorna ferruginea (Pallas, 1764)",
+    "frenchName": "Tadorne casarca",
+    "category": "BC",
+    "famille": "Tadorna",
+    "rarete": "Rare"
+  },
+  {
+    "id": "anser-caerulescens",
+    "scientificName": "Anser caerulescens",
+    "fullScientificName": "Anser caerulescens (Linnaeus, 1758)",
+    "frenchName": "Oie des neiges",
+    "category": "BD",
+    "famille": "Anser",
+    "rarete": "Rare"
+  },
+  {
+    "id": "branta-canadensis",
+    "scientificName": "Branta canadensis",
+    "fullScientificName": "Branta canadensis (Linnaeus, 1758)",
+    "frenchName": "Bernache du Canada",
+    "category": "C",
+    "famille": "Branta",
+    "rarete": "Commun"
+  },
+  {
+    "id": "cygnus-atratus",
+    "scientificName": "Cygnus atratus",
+    "fullScientificName": "Cygnus atratus (Latham, 1790)",
+    "frenchName": "Cygne noir",
+    "category": "C",
+    "famille": "Cygnus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "oxyura-jamaicensis",
+    "scientificName": "Oxyura jamaicensis",
+    "fullScientificName": "Oxyura jamaicensis (Gmelin, JF, 1789)",
+    "frenchName": "Erismature rousse",
+    "category": "C",
+    "famille": "Oxyura",
+    "rarete": "Rare"
+  },
+  {
+    "id": "callipepla-californica",
+    "scientificName": "Callipepla californica",
+    "fullScientificName": "Callipepla californica (Shaw, 1798)",
+    "frenchName": "Colin de Californie",
+    "category": "C",
+    "famille": "Callipepla",
+    "rarete": "Rare"
+  },
+  {
+    "id": "syrmaticus-reevesii",
+    "scientificName": "Syrmaticus reevesii",
+    "fullScientificName": "Syrmaticus reevesii (Gray, JE, 1829)",
+    "frenchName": "Faisan vénéré",
+    "category": "C",
+    "famille": "Syrmaticus",
+    "rarete": "Rare"
+  },
+  {
+    "id": "phasianus-colchicus",
+    "scientificName": "Phasianus colchicus",
+    "fullScientificName": "Phasianus colchicus Linnaeus, 1758",
+    "frenchName": "Faisan de Colchide",
+    "category": "C",
+    "famille": "Phasianus",
+    "rarete": "Commun"
+  },
+  {
+    "id": "threskiornis-aethiopicus",
+    "scientificName": "Threskiornis aethiopicus",
+    "fullScientificName": "Threskiornis aethiopicus (Latham, 1790)",
+    "frenchName": "Ibis sacré",
+    "category": "C",
+    "famille": "Threskiornis",
+    "rarete": "Rare"
+  },
+  {
+    "id": "psittacula-krameri",
+    "scientificName": "Psittacula krameri",
+    "fullScientificName": "Psittacula krameri (Scopoli, 1769)",
+    "frenchName": "Perruche à collier",
+    "category": "C",
+    "famille": "Psittacula",
+    "rarete": "Commun"
+  },
+  {
+    "id": "leiothrix-lutea",
+    "scientificName": "Leiothrix lutea",
+    "fullScientificName": "Leiothrix lutea (Scopoli, 1786)",
+    "frenchName": "Léiothrix jaune",
+    "category": "C",
+    "famille": "Leiothrix",
+    "rarete": "Rare"
+  },
+  {
+    "id": "euodice-malabarica",
+    "scientificName": "Euodice malabarica",
+    "fullScientificName": "Euodice malabarica (Linnaeus, 1758)",
+    "frenchName": "Capucin bec-de-plomb",
+    "category": "C",
+    "famille": "Euodice",
+    "rarete": "Rare"
+  },
+  {
+    "id": "aix-galericulata",
+    "scientificName": "Aix galericulata",
+    "fullScientificName": "Aix galericulata (Linnaeus, 1758)",
+    "frenchName": "Canard mandarin",
+    "category": "C",
+    "famille": "Aix",
+    "rarete": "Rare"
+  }
+]
