@@ -1,0 +1,607 @@
+﻿Category;FullScientificName;ScientificName;FrenchName;Rarete
+A;Branta bernicla (Linnaeus, 1758);Branta bernicla;Bernache cravant;Commun
+A;Branta ruficollis (Pallas, 1769);Branta ruficollis;Bernache à cou roux;Epique
+A;Anser fabalis (Latham, 1787);Anser fabalis;Oie de taïga;Rare
+A;Anser brachyrhynchus Baillon, 1834;Anser brachyrhynchus;Oie à bec court;Rare
+A;Anser serrirostris Gould, 1852;Anser serrirostris;Oie de toundra;Rare
+A;Anser albifrons (Scopoli, 1769);Anser albifrons;Oie rieuse;Commun
+A;Anser erythropus (Linnaeus, 1758);Anser erythropus;Oie naine;Epique
+A;Cygnus columbianus (Ord, 1815);Cygnus columbianus;Cygne de Bewick;Rare
+A;Cygnus cygnus (Linnaeus, 1758);Cygnus cygnus;Cygne chanteur;Rare
+A;Tadorna tadorna (Linnaeus, 1758);Tadorna tadorna;Tadorne de Belon;Commun
+A;Sibirionetta formosa (Georgi, 1775);Sibirionetta formosa;Sarcelle élégante;Legendaire
+A;Spatula querquedula (Linnaeus, 1758);Spatula querquedula;Sarcelle d'été;Commun
+A;Spatula discors (Linnaeus, 1766);Spatula discors;Sarcelle à ailes bleues;Epique
+A;Spatula clypeata (Linnaeus, 1758);Spatula clypeata;Canard souchet;Commun
+A;Mareca strepera (Linnaeus, 1758);Mareca strepera;Canard chipeau;Commun
+A;Mareca penelope (Linnaeus, 1758);Mareca penelope;Canard siffleur;Commun
+A;Mareca americana (Gmelin, JF, 1789);Mareca americana;Canard à front blanc;Epique
+A;Anas rubripes Brewster, 1902;Anas rubripes;Canard noir;Epique
+A;Anas acuta Linnaeus, 1758;Anas acuta;Canard pilet;Commun
+A;Anas crecca Linnaeus, 1758;Anas crecca;Sarcelle d'hiver;Commun
+A;Anas carolinensis Gmelin, JF, 1789;Anas carolinensis;Sarcelle à ailes vertes;Epique
+A;Marmaronetta angustirostris (Ménétries, 1832);Marmaronetta angustirostris;Sarcelle marbrée;Legendaire
+A;Netta rufina (Pallas, 1773);Netta rufina;Nette rousse;Commun
+A;Aythya ferina (Linnaeus, 1758);Aythya ferina;Fuligule milouin;Commun
+A;Aythya nyroca (Güldenstädt, 1770);Aythya nyroca;Fuligule nyroca;Rare
+A;Aythya collaris (Donovan, 1809);Aythya collaris;Fuligule à bec cerclé;Epique
+A;Aythya fuligula (Linnaeus, 1758);Aythya fuligula;Fuligule morillon;Commun
+A;Aythya marila (Linnaeus, 1761);Aythya marila;Fuligule milouinan;Rare
+A;Aythya affinis (Eyton, 1838);Aythya affinis;Fuligule à tête noire;Epique
+A;Polysticta stelleri (Pallas, 1769);Polysticta stelleri;Eider de Steller;Legendaire
+A;Somateria spectabilis (Linnaeus, 1758);Somateria spectabilis;Eider à tête grise;Epique
+A;Somateria mollissima (Linnaeus, 1758);Somateria mollissima;Eider à duvet;Commun
+A;Melanitta perspicillata (Linnaeus, 1758);Melanitta perspicillata;Macreuse à front blanc;Epique
+A;Melanitta fusca (Linnaeus, 1758);Melanitta fusca;Macreuse brune;Rare
+A;Melanitta nigra (Linnaeus, 1758);Melanitta nigra;Macreuse noire;Commun
+A;Melanitta americana (Swainson, 1832);Melanitta americana;Macreuse à bec jaune;Epique
+A;Clangula hyemalis (Linnaeus, 1758);Clangula hyemalis;Harelde boréale;Rare
+A;Bucephala albeola (Linnaeus, 1758);Bucephala albeola;Garrot albéole;Epique
+A;Bucephala clangula (Linnaeus, 1758);Bucephala clangula;Garrot à œil d'or;Commun
+A;Mergellus albellus (Linnaeus, 1758);Mergellus albellus;Harle piette;Rare
+A;Mergus merganser Linnaeus, 1758;Mergus merganser;Harle bièvre;Rare
+A;Mergus serrator Linnaeus, 1758;Mergus serrator;Harle huppé;Commun
+A;Oxyura leucocephala (Scopoli, 1769);Oxyura leucocephala;Erismature à tête blanche;Legendaire
+A;Tetrastes bonasia (Linnaeus, 1758);Tetrastes bonasia;Gélinotte des bois;Rare
+A;Lagopus muta (Montin, 1781);Lagopus muta;Lagopède alpin;Rare
+A;Tetrao urogallus Linnaeus, 1758;Tetrao urogallus;Grand Tétras;Rare
+A;Lyrurus tetrix (Linnaeus, 1758);Lyrurus tetrix;Tétras lyre;Rare
+A;Coturnix coturnix (Linnaeus, 1758);Coturnix coturnix;Caille des blés;Commun
+A;Alectoris graeca (Meisner, 1804);Alectoris graeca;Perdrix bartavelle;Rare
+A;Chordeiles minor (Forster, JR, 1771);Chordeiles minor;Engoulevent d’Amérique;Legendaire
+A;Caprimulgus ruficollis Temminck, 1820;Caprimulgus ruficollis;Engoulevent à collier roux ;Rare
+A;Caprimulgus europaeus Linnaeus, 1758;Caprimulgus europaeus;Engoulevent d'Europe;Commun
+A;Chaetura pelagica (Linnaeus, 1758);Chaetura pelagica;Martinet ramoneur;Epique
+A;Tachymarptis melba (Linnaeus, 1758);Tachymarptis melba;Martinet à ventre blanc;Rare
+A;Apus apus (Linnaeus, 1758);Apus apus;Martinet noir;Commun
+A;Apus pallidus (Shelley, 1870);Apus pallidus;Martinet pâle;Rare
+A;Apus affinis (Gray, JE, 1830);Apus affinis;Martinet des maisons;Epique
+A;Apus caffer (Lichtenstein, MHK, 1823);Apus caffer;Martinet cafre;Epique
+A;Otis tarda Linnaeus, 1758;Otis tarda;Outarde barbue;Rare
+A;Tetrax tetrax (Linnaeus, 1758);Tetrax tetrax;Outarde canepetière;Rare
+A;Clamator glandarius (Linnaeus, 1758);Clamator glandarius;Coucou geai;Rare
+A;Coccyzus americanus (Linnaeus, 1758);Coccyzus americanus;Coulicou à bec jaune;Epique
+A;Coccyzus erythropthalmus (Wilson, A, 1811);Coccyzus erythropthalmus;Coulicou à bec noir;Legendaire
+A;Cuculus canorus Linnaeus, 1758;Cuculus canorus;Coucou gris;Commun
+A;Syrrhaptes paradoxus (Pallas, 1773);Syrrhaptes paradoxus;Syrrhapte paradoxal;Legendaire
+A;Pterocles alchata (Linnaeus, 1766);Pterocles alchata;Ganga cata;Legendaire
+A;Columba oenas Linnaeus, 1758;Columba oenas;Pigeon colombin;Commun
+A;Columba palumbus Linnaeus, 1758;Columba palumbus;Pigeon ramier;Commun
+A;Streptopelia turtur (Linnaeus, 1758);Streptopelia turtur;Tourterelle des bois;Commun
+A;Streptopelia orientalis (Latham, 1790);Streptopelia orientalis;Tourterelle orientale;Epique
+A;Streptopelia decaocto (Frivaldszky, 1838);Streptopelia decaocto;Tourterelle turque;Commun
+A;Rallus aquaticus Linnaeus, 1758;Rallus aquaticus;Râle d'eau;Commun
+A;Crex crex (Linnaeus, 1758);Crex crex;Râle des genêts;Rare
+A;Porzana carolina (Linnaeus, 1758);Porzana carolina;Marouette de Caroline;Legendaire
+A;Porzana porzana (Linnaeus, 1766);Porzana porzana;Marouette ponctuée;Rare
+A;Gallinula chloropus (Linnaeus, 1758);Gallinula chloropus;Gallinule poule-d'eau ;Commun
+A;Fulica atra Linnaeus, 1758;Fulica atra;Foulque macroule;Commun
+A;Porphyrio alleni Thomson, 1842;Porphyrio alleni;Talève d'Allen;Legendaire
+A;Zapornia pusilla (Pallas, 1776);Zapornia pusilla;Marouette de Baillon;Rare
+A;Zapornia parva (Scopoli, 1769);Zapornia parva;Marouette poussin;Rare
+A;Antigone canadensis (Linnaeus, 1758);Antigone canadensis;Grue du Canada;Legendaire
+A;Grus virgo (Linnaeus, 1758);Grus virgo;Grue demoiselle;Epique
+A;Grus grus (Linnaeus, 1758);Grus grus;Grue cendrée;Commun
+A;Tachybaptus ruficollis (Pallas, 1764);Tachybaptus ruficollis;Grèbe castagneux;Commun
+A;Podilymbus podiceps (Linnaeus, 1758);Podilymbus podiceps;Grèbe à bec bigarré;Legendaire
+A;Podiceps grisegena (Boddaert, 1783);Podiceps grisegena;Grèbe jougris;Rare
+A;Podiceps cristatus (Linnaeus, 1758);Podiceps cristatus;Grèbe huppé;Commun
+A;Podiceps auritus (Linnaeus, 1758);Podiceps auritus;Grèbe esclavon;Rare
+A;Podiceps nigricollis Brehm, CL, 1831;Podiceps nigricollis;Grèbe à cou noir;Commun
+A;Phoenicopterus roseus Pallas, 1811;Phoenicopterus roseus;Flamant rose;Commun
+A;Phoeniconaias minor (Geoffroy Saint-Hilaire, É, 1798);Phoeniconaias minor;Flamant nain;Epique
+A;Burhinus oedicnemus (Linnaeus, 1758);Burhinus oedicnemus;Œdicnème criard ;Rare
+A;Haematopus ostralegus Linnaeus, 1758;Haematopus ostralegus;Huîtrier pie;Commun
+A;Himantopus himantopus (Linnaeus, 1758);Himantopus himantopus;Echasse blanche;Commun
+A;Recurvirostra avosetta Linnaeus, 1758;Recurvirostra avosetta;Avocette élégante;Commun
+A;Pluvialis squatarola (Linnaeus, 1758);Pluvialis squatarola;Pluvier argenté;Commun
+A;Pluvialis apricaria (Linnaeus, 1758);Pluvialis apricaria;Pluvier doré;Commun
+A;Pluvialis fulva (Gmelin, JF, 1789);Pluvialis fulva;Pluvier fauve ;Epique
+A;Pluvialis dominica (Müller, PLS, 1776);Pluvialis dominica;Pluvier bronzé;Epique
+A;Eudromias morinellus (Linnaeus, 1758);Eudromias morinellus;Guignard d'Eurasie;Rare
+A;Charadrius vociferus Linnaeus, 1758;Charadrius vociferus;Gravelot kildir;Epique
+A;Charadrius hiaticula Linnaeus, 1758;Charadrius hiaticula;Grand Gravelot;Commun
+A;Charadrius dubius Scopoli, 1786;Charadrius dubius;Petit Gravelot;Commun
+A;Vanellus vanellus (Linnaeus, 1758);Vanellus vanellus;Vanneau huppé;Commun
+A;Vanellus gregarius (Pallas, 1771);Vanellus gregarius;Vanneau sociable;Epique
+A;Vanellus leucurus (Lichtenstein, MHK, 1823);Vanellus leucurus;Vanneau à queue blanche;Legendaire
+A;Anarhynchus asiaticus (Pallas, 1773);Anarhynchus asiaticus;Gravelot asiatique;Legendaire
+A;Anarhynchus atrifrons (Wagler, 1829);Anarhynchus atrifrons;Gravelot tibétain;Legendaire
+A;Anarhynchus leschenaultii (Lesson, 1826);Anarhynchus leschenaultii;Gravelot de Leschenault;Legendaire
+A;Anarhynchus pecuarius (Temminck, 1823);Anarhynchus pecuarius;Gravelot pâtre;Legendaire
+A;Anarhynchus alexandrinus (Linnaeus, 1758);Anarhynchus alexandrinus;Gravelot à collier interrompu;Commun
+A;Bartramia longicauda (Bechstein, 1812);Bartramia longicauda;Bartramie des champs;Legendaire
+A;Numenius phaeopus (Linnaeus, 1758);Numenius phaeopus;Courlis corlieu;Commun
+A;Numenius hudsonicus (Latham, 1790);Numenius hudsonicus;Courlis hudsonien;Epique
+A;Numenius tenuirostris Vieillot, 1817;Numenius tenuirostris;Courlis à bec grêle;Legendaire
+A;Numenius arquata (Linnaeus, 1758);Numenius arquata;Courlis cendré;Commun
+A;Limosa lapponica (Linnaeus, 1758);Limosa lapponica;Barge rousse;Commun
+A;Limosa limosa (Linnaeus, 1758);Limosa limosa;Barge à queue noire;Commun
+A;Limnodromus scolopaceus (Say, 1822);Limnodromus scolopaceus;Bécassin à long bec;Epique
+A;Limnodromus griseus (Gmelin, JF, 1789);Limnodromus griseus;Bécassin à bec court;Epique
+A;Lymnocryptes minimus (Brünnich, 1764);Lymnocryptes minimus;Bécassine sourde;Rare
+A;Scolopax minor Gmelin, JF, 1789;Scolopax minor;Bécasse d'Amérique;Legendaire
+A;Scolopax rusticola Linnaeus, 1758;Scolopax rusticola;Bécasse des bois;Commun
+A;Gallinago media (Latham, 1787);Gallinago media;Bécassine double;Rare
+A;Gallinago gallinago (Linnaeus, 1758);Gallinago gallinago;Bécassine des marais;Commun
+A;Gallinago delicata (Ord, 1825);Gallinago delicata;Bécassine de Wilson;Epique
+A;Phalaropus tricolor (Vieillot, 1819);Phalaropus tricolor;Phalarope de Wilson;Epique
+A;Phalaropus fulicarius (Linnaeus, 1758);Phalaropus fulicarius;Phalarope à bec large;Rare
+A;Phalaropus lobatus (Linnaeus, 1758);Phalaropus lobatus;Phalarope à bec étroit;Rare
+A;Xenus cinereus (Güldenstädt, 1775);Xenus cinereus;Chevalier bargette;Rare
+A;Actitis hypoleucos (Linnaeus, 1758);Actitis hypoleucos;Chevalier guignette;Commun
+A;Actitis macularius (Linnaeus, 1766);Actitis macularius;Chevalier grivelé;Epique
+A;Tringa ochropus Linnaeus, 1758;Tringa ochropus;Chevalier culblanc;Commun
+A;Tringa solitaria Wilson, A, 1813;Tringa solitaria;Chevalier solitaire;Legendaire
+A;Tringa brevipes (Vieillot, 1816);Tringa brevipes;Chevalier de Sibérie;Legendaire
+A;Tringa stagnatilis (Bechstein, 1803);Tringa stagnatilis;Chevalier stagnatile;Rare
+A;Tringa glareola Linnaeus, 1758;Tringa glareola;Chevalier sylvain;Commun
+A;Tringa totanus (Linnaeus, 1758);Tringa totanus;Chevalier gambette;Commun
+A;Tringa flavipes (Gmelin, JF, 1789);Tringa flavipes;Chevalier à pattes jaunes;Epique
+A;Tringa semipalmata (Gmelin, JF, 1789);Tringa semipalmata;Chevalier semipalmé;Legendaire
+A;Tringa erythropus (Pallas, 1764);Tringa erythropus;Chevalier arlequin;Commun
+A;Tringa nebularia (Gunnerus, 1767);Tringa nebularia;Chevalier aboyeur;Commun
+A;Tringa melanoleuca (Gmelin, JF, 1789);Tringa melanoleuca;Chevalier criard;Epique
+A;Arenaria interpres (Linnaeus, 1758);Arenaria interpres;Tournepierre à collier;Commun
+A;Calidris canutus (Linnaeus, 1758);Calidris canutus;Bécasseau maubèche;Commun
+A;Calidris pugnax (Linnaeus, 1758);Calidris pugnax;Combattant varié;Commun
+A;Calidris falcinellus (Pontoppidan, 1763);Calidris falcinellus;Bécasseau falcinelle;Rare
+A;Calidris acuminata (Horsfield, 1821);Calidris acuminata;Bécasseau à queue pointue;Epique
+A;Calidris himantopus (Bonaparte, 1826);Calidris himantopus;Bécasseau à échasses;Epique
+A;Calidris ferruginea (Pontoppidan, 1763);Calidris ferruginea;Bécasseau cocorli;Commun
+A;Calidris temminckii (Leisler, 1812);Calidris temminckii;Bécasseau de Temminck;Commun
+A;Calidris subminuta (Middendorff, 1853);Calidris subminuta;Bécasseau à longs doigts;Legendaire
+A;Calidris ruficollis (Pallas, 1776);Calidris ruficollis;Bécasseau à cou roux;Epique
+A;Calidris subruficollis (Vieillot, 1819);Calidris subruficollis;Bécasseau rousset;Epique
+A;Calidris alba (Pallas, 1764);Calidris alba;Bécasseau sanderling;Commun
+A;Calidris alpina (Linnaeus, 1758);Calidris alpina;Bécasseau variable;Commun
+A;Calidris maritima (Brünnich, 1764);Calidris maritima;Bécasseau violet;Rare
+A;Calidris bairdii (Coues, 1861);Calidris bairdii;Bécasseau de Baird;Epique
+A;Calidris minuta (Leisler, 1812);Calidris minuta;Bécasseau minute;Commun
+A;Calidris minutilla (Vieillot, 1819);Calidris minutilla;Bécasseau minuscule;Epique
+A;Calidris fuscicollis (Vieillot, 1819);Calidris fuscicollis;Bécasseau de Bonaparte;Epique
+A;Calidris melanotos (Vieillot, 1819);Calidris melanotos;Bécasseau tacheté;Epique
+A;Calidris mauri (Cabanis, 1857);Calidris mauri;Bécasseau d'Alaska;Legendaire
+A;Calidris pusilla (Linnaeus, 1766);Calidris pusilla;Bécasseau semipalmé;Legendaire
+A;Cursorius cursor (Latham, 1787);Cursorius cursor;Courvite isabelle;Epique
+A;Glareola maldivarum Forster, JR, 1795;Glareola maldivarum;Glaréole orientale;Legendaire
+A;Glareola nordmanni Fischer von Waldheim, 1842;Glareola nordmanni;Glaréole à ailes noires;Epique
+A;Glareola pratincola (Linnaeus, 1766);Glareola pratincola;Glaréole à collier;Rare
+A;Onychoprion fuscatus (Linnaeus, 1766);Onychoprion fuscatus;Sterne fuligineuse;Legendaire
+A;Onychoprion anaethetus (Scopoli, 1786);Onychoprion anaethetus;Sterne bridée;Epique
+A;Sternula albifrons (Pallas, 1764);Sternula albifrons;Sterne naine;Commun
+A;Gelochelidon nilotica (Gmelin, JF, 1789);Gelochelidon nilotica;Sterne hansel;Rare
+A;Hydroprogne caspia (Pallas, 1770);Hydroprogne caspia;Sterne caspienne;Rare
+A;Chlidonias hybrida (Pallas, 1811);Chlidonias hybrida;Guifette moustac;Commun
+A;Chlidonias niger (Linnaeus, 1758);Chlidonias niger;Guifette noire;Commun
+A;Chlidonias leucopterus (Temminck, 1815);Chlidonias leucopterus;Guifette leucoptère;Rare
+A;Sterna forsteri Nuttall, 1834;Sterna forsteri;Sterne de Forster;Legendaire
+A;Sterna paradisaea Pontoppidan, 1763;Sterna paradisaea;Sterne arctique;Rare
+A;Sterna hirundo Linnaeus, 1758;Sterna hirundo;Sterne pierregarin;Commun
+A;Sterna dougallii Montagu, 1813;Sterna dougallii;Sterne de Dougall;Rare
+A;Thalasseus sandvicensis (Latham, 1787);Thalasseus sandvicensis;Sterne caugek;Commun
+A;Thalasseus elegans (Gambel, 1849);Thalasseus elegans;Sterne élégante;Legendaire
+A;Thalasseus bengalensis (Lesson, R, 1831);Thalasseus bengalensis;Sterne voyageuse;Legendaire
+A;Thalasseus maximus (Boddaert, 1783);Thalasseus maximus;Sterne royale;Epique
+A;Hydrocoloeus minutus (Pallas, 1776);Hydrocoloeus minutus;Mouette pygmée;Rare
+A;Rhodostethia rosea (MacGillivray, W, 1824);Rhodostethia rosea;Mouette de Ross;Legendaire
+A;Rissa tridactyla (Linnaeus, 1758);Rissa tridactyla;Mouette tridactyle;Commun
+A;Pagophila eburnea (Phipps, 1774);Pagophila eburnea;Mouette blanche;Legendaire
+A;Xema sabini (Sabine, 1819);Xema sabini;Mouette de Sabine;Rare
+A;Chroicocephalus genei (Brème, 1839);Chroicocephalus genei;Goéland railleur;Rare
+A;Chroicocephalus philadelphia (Ord, 1815);Chroicocephalus philadelphia;Mouette de Bonaparte;Epique
+A;Chroicocephalus ridibundus (Linnaeus, 1766);Chroicocephalus ridibundus;Mouette rieuse;Commun
+A;Leucophaeus atricilla (Linnaeus, 1758);Leucophaeus atricilla;Mouette atricille;Epique
+A;Leucophaeus pipixcan (Wagler, 1831);Leucophaeus pipixcan;Mouette de Franklin;Epique
+A;Ichthyaetus ichthyaetus (Pallas, 1773);Ichthyaetus ichthyaetus;Goéland ichthyaète;Legendaire
+A;Ichthyaetus audouinii (Payraudeau, 1826);Ichthyaetus audouinii;Goéland d'Audouin;Rare
+A;Ichthyaetus melanocephalus (Temminck, 1820);Ichthyaetus melanocephalus;Mouette mélanocéphale;Commun
+A;Larus canus Linnaeus, 1758;Larus canus;Goéland cendré;Commun
+A;Larus delawarensis Ord, 1815;Larus delawarensis;Goéland à bec cerclé;Epique
+A;Larus cachinnans Pallas, 1811;Larus cachinnans;Goéland pontique;Rare
+A;Larus dominicanus Lichtenstein, MHK, 1823;Larus dominicanus;Goéland dominicain;Legendaire
+A;Larus argentatus Pontoppidan, 1763;Larus argentatus;Goéland argenté;Commun
+A;Larus vegae (Palmén, 1887);Larus vegae;Goéland de la Véga;Legendaire
+A;Larus michahellis Naumann, JF, 1840;Larus michahellis;Goéland leucophée;Commun
+A;Larus marinus Linnaeus, 1758;Larus marinus;Goéland marin;Commun
+A;Larus hyperboreus Gunnerus, 1767;Larus hyperboreus;Goéland bourgmestre;Rare
+A;Larus fuscus Linnaeus, 1758;Larus fuscus;Goéland brun;Commun
+A;Larus smithsonianus Coues, 1862;Larus smithsonianus;Goéland d'Amérique;Epique
+A;Larus glaucoides Meyer, B, 1822;Larus glaucoides;Goéland à ailes blanches;Rare
+A;Stercorarius longicaudus Vieillot, 1819;Stercorarius longicaudus;Labbe à longue queue;Rare
+A;Stercorarius parasiticus (Linnaeus, 1758);Stercorarius parasiticus;Labbe parasite;Rare
+A;Stercorarius pomarinus (Temminck, 1815);Stercorarius pomarinus;Labbe pomarin;Rare
+A;Stercorarius skua (Brünnich, 1764);Stercorarius skua;Grand Labbe;Rare
+A;Stercorarius maccormicki Saunders, 1893;Stercorarius maccormicki;Labbe de McCormick;Legendaire
+A;Fratercula arctica (Linnaeus, 1758);Fratercula arctica;Macareux moine;Rare
+A;Cepphus grylle (Linnaeus, 1758);Cepphus grylle;Guillemot à miroir;Legendaire
+A;Alca torda Linnaeus, 1758;Alca torda;Pingouin torda;Rare
+A;Alle alle (Linnaeus, 1758);Alle alle;Mergule nain;Epique
+A;Uria lomvia (Linnaeus, 1758);Uria lomvia;Guillemot de Brünnich;Legendaire
+A;Uria aalge (Pontoppidan, 1763);Uria aalge;Guillemot de Troïl;Rare
+A;Gavia stellata (Pontoppidan, 1763);Gavia stellata;Plongeon catmarin;Commun
+A;Gavia arctica (Linnaeus, 1758);Gavia arctica;Plongeon arctique;Commun
+A;Gavia immer (Brünnich, 1764);Gavia immer;Plongeon imbrin;Rare
+A;Gavia adamsii (Gray, GR, 1859);Gavia adamsii;Plongeon à bec blanc;Rare
+A;Oceanites oceanicus (Kühl, 1820);Oceanites oceanicus;Océanite de Wilson;Rare
+A;Thalassarche melanophris (Temminck, 1828);Thalassarche melanophris;Albatros à sourcils noirs;Legendaire
+A;Thalassarche chlororhynchos (Gmelin, JF, 1789);Thalassarche chlororhynchos;Albatros à bec jaune;Legendaire
+A;Hydrobates pelagicus (Linnaeus, 1758);Hydrobates pelagicus;Océanite tempête;Rare
+A;Hydrobates monorhis (Swinhoe, 1867);Hydrobates monorhis;Océanite de Swinhoe;Legendaire
+A;Hydrobates leucorhous (Vieillot, 1818);Hydrobates leucorhous;Océanite culblanc;Rare
+A;Hydrobates castro (Harcourt, 1851);Hydrobates castro;Océanite de Castro;Legendaire
+A;Fulmarus glacialis (Linnaeus, 1761);Fulmarus glacialis;Fulmar boréal;Commun
+A;Calonectris borealis (Cory, 1881);Calonectris borealis;Puffin cendré;Commun
+A;Calonectris diomedea (Scopoli, 1769);Calonectris diomedea;Puffin de Scopoli;Commun
+A;Ardenna grisea (Gmelin, JF, 1789);Ardenna grisea;Puffin fuligineux;Rare
+A;Ardenna tenuirostris (Temminck, 1836);Ardenna tenuirostris;Puffin à bec grêle;Epique
+A;Ardenna gravis (O'Reilly, 1818);Ardenna gravis;Puffin majeur ;Rare
+A;Puffinus puffinus (Brünnich, 1764);Puffinus puffinus;Puffin des Anglais;Commun
+A;Puffinus yelkouan (Acerbi, 1827);Puffinus yelkouan;Puffin yelkouan;Commun
+A;Puffinus mauretanicus Lowe, 1921;Puffinus mauretanicus;Puffin des Baléares;Rare
+A;Ciconia nigra (Linnaeus, 1758);Ciconia nigra;Cigogne noire;Rare
+A;Ciconia ciconia (Linnaeus, 1758);Ciconia ciconia;Cigogne blanche;Commun
+A;Morus bassanus (Linnaeus, 1758);Morus bassanus;Fou de Bassan;Commun
+A;Sula sula (Linnaeus, 1766);Sula sula;Fou à pieds rouges;Legendaire
+A;Sula leucogaster (Boddaert, 1783);Sula leucogaster;Fou brun;Legendaire
+A;Sula dactylatra Lesson, R, 1831;Sula dactylatra;Fou masqué;Legendaire
+A;Microcarbo pygmaeus (Pallas, 1773);Microcarbo pygmaeus;Cormoran pygmée;Rare
+A;Phalacrocorax carbo (Linnaeus, 1758);Phalacrocorax carbo;Grand Cormoran;Commun
+A;Gulosus aristotelis (Linnaeus, 1761);Gulosus aristotelis;Cormoran huppé;Commun
+A;Nannopterum auritum (Lesson, R, 1831);Nannopterum auritum;Cormoran à aigrettes;Legendaire
+A;Plegadis falcinellus (Linnaeus, 1766);Plegadis falcinellus;Ibis falcinelle;Rare
+A;– P. l. leucorodia Linnaeus, 1758;– P. l.;;Commun
+A;Botaurus stellaris (Linnaeus, 1758);Botaurus stellaris;Butor étoilé;Rare
+A;Botaurus sturmii(Wagler, 1827);Botaurus sturmii(Wagler,;Blongios de Sturm;Legendaire
+A;Botaurus minutus (Linnaeus, 1766);Botaurus minutus;Blongios nain;Rare
+A;Nycticorax nycticorax (Linnaeus, 1758);Nycticorax nycticorax;Bihoreau gris;Commun
+A;Egretta garzetta (Linnaeus, 1766);Egretta garzetta;Aigrette garzette;Commun
+A;Egretta gularis (Bosc, 1792);Egretta gularis;Aigrette des récifs;Legendaire
+A;Butorides virescens (Linnaeus, 1758);Butorides virescens;Héron vert;Legendaire
+A;Ardeola ralloides (Scopoli, 1769);Ardeola ralloides;Crabier chevelu;Rare
+A;Ardea alba Linnaeus, 1758;Ardea alba;Grande Aigrette;Commun
+A;Ardea ibis Linnaeus, 1758;Ardea ibis;Héron garde-bœufs;Commun
+A;Ardea cinerea Linnaeus, 1758;Ardea cinerea;Héron cendré;Commun
+A;Ardea herodias Linnaeus, 1758;Ardea herodias;Grand Héron;Legendaire
+A;Ardea purpurea Linnaeus, 1766;Ardea purpurea;Héron pourpré;Commun
+A;Ardea melanocephala Children & Vigors, 1826;Ardea melanocephala;Héron mélanocéphale;Legendaire
+A;Pelecanus onocrotalus Linnaeus, 1758;Pelecanus onocrotalus;Pélican blanc;Legendaire
+A;Pelecanus crispus Bruch, 1832;Pelecanus crispus;Pélican frisé;Legendaire
+A;Pandion haliaetus (Linnaeus, 1758);Pandion haliaetus;Balbuzard pêcheur;Rare
+A;Elanus caeruleus (Desfontaines, 1789);Elanus caeruleus;Elanion blanc;Rare
+A;Gypaetus barbatus (Linnaeus, 1758);Gypaetus barbatus;Gypaète barbu;Rare
+A;Neophron percnopterus (Linnaeus, 1758);Neophron percnopterus;Vautour percnoptère;Rare
+A;Pernis apivorus (Linnaeus, 1758);Pernis apivorus;Bondrée apivore;Commun
+A;Gyps rueppelli (Brehm, AE, 1852);Gyps rueppelli;Vautour de Rüppell;Legendaire
+A;Circaetus gallicus (Gmelin, JF, 1788);Circaetus gallicus;Circaète Jean-le-blanc;Commun
+A;Clanga pomarina (Brehm, CL, 1831);Clanga pomarina;Aigle pomarin;Rare
+A;Clanga clanga (Pallas, 1811);Clanga clanga;Aigle criard;Epique
+A;Hieraaetus pennatus (Gmelin, JF, 1788);Hieraaetus pennatus;Aigle botté;Rare
+A;Aquila nipalensis Hodgson, 1833;Aquila nipalensis;Aigle des steppes;Epique
+A;Aquila adalberti Brehm, CL, 1861;Aquila adalberti;Aigle ibérique;Legendaire
+A;Aquila heliaca Savigny, 1809;Aquila heliaca;Aigle impérial;Legendaire
+A;Aquila chrysaetos (Linnaeus, 1758);Aquila chrysaetos;Aigle royal;Rare
+A;Aquila fasciata Vieillot, 1822;Aquila fasciata;Aigle de Bonelli;Rare
+A;Accipiter nisus (Linnaeus, 1758);Accipiter nisus;Epervier d'Europe;Commun
+A;Astur gentilis (Linnaeus, 1758);Astur gentilis;Autour des palombes;Commun
+A;Circus aeruginosus (Linnaeus, 1758);Circus aeruginosus;Busard des roseaux ;Commun
+A;Circus cyaneus (Linnaeus, 1766);Circus cyaneus;Busard Saint-Martin;Commun
+A;Circus hudsonius (Linnaeus, 1766);Circus hudsonius;Busard d'Amérique;Epique
+A;Circus macrourus (Gmelin, SG, 1770);Circus macrourus;Busard pâle;Rare
+A;Circus pygargus (Linnaeus, 1758);Circus pygargus;Busard cendré;Commun
+A;Milvus milvus (Linnaeus, 1758);Milvus milvus;Milan royal;Commun
+A;Milvus migrans (Boddaert, 1783);Milvus migrans;Milan noir ;Commun
+A;Haliaeetus albicilla (Linnaeus, 1758);Haliaeetus albicilla;Pygargue à queue blanche;Rare
+A;Buteo lagopus (Pontoppidan, 1763);Buteo lagopus;Buse pattue;Rare
+A;Buteo rufinus (Cretzschmar, 1829);Buteo rufinus;Buse féroce;Epique
+A;Buteo buteo (Linnaeus, 1758);Buteo buteo;Buse variable;Commun
+A;Tyto alba (Scopoli, 1769);Tyto alba;Effraie des clochers;Commun
+A;Aegolius funereus (Linnaeus, 1758);Aegolius funereus;Chouette de Tengmalm;Rare
+A;Athene noctua (Scopoli, 1769);Athene noctua;Chevêche d'Athéna;Commun
+A;Glaucidium passerinum (Linnaeus, 1758);Glaucidium passerinum;Chevêchette d'Europe;Rare
+A;Otus scops (Linnaeus, 1758);Otus scops;Petit-duc scops;Commun
+A;Asio otus (Linnaeus, 1758);Asio otus;Hibou moyen-duc;Commun
+A;Asio flammeus (Pontoppidan, 1763);Asio flammeus;Hibou des marais;Rare
+A;Bubo scandiacus (Linnaeus, 1758);Bubo scandiacus;Harfang des neiges;Legendaire
+A;Bubo bubo (Linnaeus, 1758);Bubo bubo;Grand-duc d'Europe;Rare
+A;Strix aluco Linnaeus, 1758;Strix aluco;Chouette hulotte;Commun
+A;Upupa epops Linnaeus, 1758;Upupa epops;Huppe fasciée;Commun
+A;Coracias garrulus Linnaeus, 1758;Coracias garrulus;Rollier d'Europe;Rare
+A;Alcedo atthis (Linnaeus, 1758);Alcedo atthis;Martin-pêcheur d'Europe;Commun
+A;Merops persicus Pallas, 1773;Merops persicus;Guêpier de Perse;Legendaire
+A;Merops apiaster Linnaeus, 1758;Merops apiaster;Guêpier d'Europe;Commun
+A;Jynx torquilla Linnaeus, 1758;Jynx torquilla;Torcol fourmilier;Commun
+A;Picoides tridactylus (Linnaeus, 1758);Picoides tridactylus;Pic tridactyle;Rare
+A;Dendrocoptes medius (Linnaeus, 1758);Dendrocoptes medius;Pic mar;Commun
+A;Dryobates minor (Linnaeus, 1758);Dryobates minor;Pic épeichette;Commun
+A;Dendrocopos major (Linnaeus, 1758);Dendrocopos major;Pic épeiche;Commun
+A;Dendrocopos leucotos (Bechstein, 1802);Dendrocopos leucotos;Pic à dos blanc;Rare
+A;Dryocopus martius (Linnaeus, 1758);Dryocopus martius;Pic noir;Commun
+A;Picus viridis Linnaeus, 1758;Picus viridis;Pic vert;Commun
+A;Picus sharpei (Saunders, H, 1872);Picus sharpei;Pic de Sharpe;Commun
+A;Picus canus Gmelin, JF, 1788;Picus canus;Pic cendré;Rare
+A;Falco naumanni Fleischer, JG, 1818;Falco naumanni;Faucon crécerellette;Rare
+A;Falco tinnunculus Linnaeus, 1758;Falco tinnunculus;Faucon crécerelle;Commun
+A;Falco vespertinus Linnaeus, 1766;Falco vespertinus;Faucon kobez;Rare
+A;Falco eleonorae Géné, 1839;Falco eleonorae;Faucon d'Éléonore;Rare
+A;Falco concolor Temminck, 1825;Falco concolor;Faucon concolore;Legendaire
+A;Falco columbarius Linnaeus, 1758;Falco columbarius;Faucon émerillon;Rare
+A;Falco subbuteo Linnaeus, 1758;Falco subbuteo;Faucon hobereau;Commun
+A;Falco biarmicus Temminck, 1825;Falco biarmicus;Faucon lanier;Legendaire
+A;Falco cherrug Gray, JE, 1834;Falco cherrug;Faucon sacre;Legendaire
+A;Falco rusticolus Linnaeus, 1758;Falco rusticolus;Faucon gerfaut;Epique
+A;Falco peregrinus Tunstall, 1771;Falco peregrinus;Faucon pèlerin;Commun
+A;Vireo olivaceus (Linnaeus, 1766);Vireo olivaceus;Viréo à œil rouge;Epique
+A;Oriolus oriolus (Linnaeus, 1758);Oriolus oriolus;Loriot d'Europe;Commun
+A;Lanius excubitor Linnaeus, 1758;Lanius excubitor;Pie-grièche grise;Rare
+A;Lanius meridionalis Temminck, 1820;Lanius meridionalis;Pie-grièche méridionale;Rare
+A;Lanius nubicus Lichtenstein, MHK, 1823;Lanius nubicus;Pie-grièche masquée;Legendaire
+A;Lanius minor Gmelin, JF, 1788;Lanius minor;Pie-grièche à poitrine rose;Rare
+A;Lanius senator Linnaeus, 1758;Lanius senator;Pie-grièche à tête rousse;Rare
+A;Lanius isabellinus Hemprich & Ehrenberg, 1833;Lanius isabellinus;Pie-grièche isabelle;Epique
+A;Lanius collurio Linnaeus, 1758;Lanius collurio;Pie-grièche écorcheur;Commun
+A;Lanius phoenicuroides (Schalow, 1875);Lanius phoenicuroides;Pie-grièche du Turkestan;Legendaire
+A;Lanius cristatus Linnaeus, 1758;Lanius cristatus;Pie-grièche brune;Epique
+A;Garrulus glandarius (Linnaeus, 1758);Garrulus glandarius;Geai des chênes;Commun
+A;Pica pica (Linnaeus, 1758);Pica pica;Pie bavarde;Commun
+A;Nucifraga caryocatactes (Linnaeus, 1758);Nucifraga caryocatactes;Cassenoix moucheté;Rare
+A;Pyrrhocorax pyrrhocorax (Linnaeus, 1758);Pyrrhocorax pyrrhocorax;Crave à bec rouge;Rare
+A;Pyrrhocorax graculus (Linnaeus, 1766);Pyrrhocorax graculus;Chocard à bec jaune;Commun
+A;Coloeus monedula (Linnaeus, 1758);Coloeus monedula;Choucas des tours;Commun
+A;Coloeus dauuricus (Pallas, 1776);Coloeus dauuricus;Choucas de Daourie;Legendaire
+A;Corvus frugilegus Linnaeus, 1758;Corvus frugilegus;Corbeau freux;Commun
+A;Corvus corone Linnaeus, 1758;Corvus corone;Corneille noire;Commun
+A;Corvus cornix Linnaeus, 1758;Corvus cornix;Corneille mantelée;Epique
+A;Corvus corax Linnaeus, 1758;Corvus corax;Grand Corbeau;Commun
+A;Bombycilla garrulus (Linnaeus, 1758);Bombycilla garrulus;Jaseur boréal ;Rare
+A;Periparus ater (Linnaeus, 1758);Periparus ater;Mésange noire;Commun
+A;Lophophanes cristatus (Linnaeus, 1758);Lophophanes cristatus;Mésange huppée;Commun
+A;Poecile palustris (Linnaeus, 1758);Poecile palustris;Mésange nonnette;Commun
+A;Poecile montanus (Conrad von Baldenstein, 1827);Poecile montanus;Mésange boréale;Commun
+A;Cyanistes caeruleus (Linnaeus, 1758);Cyanistes caeruleus;Mésange bleue;Commun
+A;Parus major Linnaeus, 1758;Parus major;Mésange charbonnière;Commun
+A;Remiz pendulinus (Linnaeus, 1758);Remiz pendulinus;Rémiz penduline;Rare
+A;Panurus biarmicus (Linnaeus, 1758);Panurus biarmicus;Panure à moustaches;Rare
+A;Ammomanes cinctura (Gould, 1839);Ammomanes cinctura;Ammomane élégante;Legendaire
+A;Lullula arborea (Linnaeus, 1758);Lullula arborea;Alouette lulu;Commun
+A;Alauda arvensis Linnaeus, 1758;Alauda arvensis;Alouette des champs;Commun
+A;Galerida theklae Brehm, AE, 1857;Galerida theklae;Cochevis de Thékla;Rare
+A;Galerida cristata (Linnaeus, 1758);Galerida cristata;Cochevis huppé;Commun
+A;Eremophila alpestris (Linnaeus, 1758);Eremophila alpestris;Alouette haussecol;Rare
+A;Calandrella brachydactyla (Leisler, 1814);Calandrella brachydactyla;Alouette calandrelle;Commun
+A;Melanocorypha bimaculata (Ménétries, 1832);Melanocorypha bimaculata;Alouette monticole;Legendaire
+A;Melanocorypha calandra (Linnaeus, 1766);Melanocorypha calandra;Alouette calandre;Rare
+A;Riparia paludicola (Vieillot, 1817);Riparia paludicola;Hirondelle paludicole;Legendaire
+A;Riparia riparia (Linnaeus, 1758);Riparia riparia;Hirondelle de rivage;Commun
+A;Ptyonoprogne rupestris (Scopoli, 1769);Ptyonoprogne rupestris;Hirondelle de rochers;Commun
+A;Hirundo rustica Linnaeus, 1758;Hirundo rustica;Hirondelle rustique;Commun
+A;Delichon urbicum (Linnaeus, 1758);Delichon urbicum;Hirondelle de fenêtre;Commun
+A;Cecropis rufula (Temminck, 1835);Cecropis rufula;Hirondelle rousseline;Rare
+A;Petrochelidon pyrrhonota (Vieillot, 1817);Petrochelidon pyrrhonota;Hirondelle à front blanc;Epique
+A;Cettia cetti (Temminck, 1820);Cettia cetti;Bouscarle de Cetti;Commun
+A;Aegithalos caudatus (Linnaeus, 1758);Aegithalos caudatus;Orite à longue queue;Commun
+A;Phylloscopus sibilatrix (Bechstein, 1793);Phylloscopus sibilatrix;Pouillot siffleur;Commun
+A;Phylloscopus bonelli (Vieillot, 1819);Phylloscopus bonelli;Pouillot de Bonelli;Commun
+A;Phylloscopus orientalis (Brehm, CL, 1855) ;Phylloscopus orientalis;Pouillot oriental;Legendaire
+A;Phylloscopus humei (Brooks, WE, 1878);Phylloscopus humei;Pouillot de Hume;Epique
+A;Phylloscopus inornatus (Blyth, 1842);Phylloscopus inornatus;Pouillot à grands sourcils;Epique
+A;Phylloscopus proregulus (Pallas, 1811);Phylloscopus proregulus;Pouillot de Pallas;Epique
+A;Phylloscopus schwarzi (Radde, 1863);Phylloscopus schwarzi;Pouillot de Schwarz;Legendaire
+A;Phylloscopus fuscatus (Blyth, 1842);Phylloscopus fuscatus;Pouillot brun;Epique
+A;Phylloscopus trochilus (Linnaeus, 1758);Phylloscopus trochilus;Pouillot fitis ;Commun
+A;Phylloscopus collybita (Vieillot, 1817);Phylloscopus collybita;Pouillot véloce;Commun
+A;Phylloscopus ibericus Ticehurst, 1937;Phylloscopus ibericus;Pouillot ibérique;Rare
+A;Phylloscopus coronatus (Temminck & Schlegel, 1847);Phylloscopus coronatus;Pouillot de Temminck;Legendaire
+A;Phylloscopus plumbeitarsus Swinhoe, 1861;Phylloscopus plumbeitarsus;Pouillot à pattes sombres;Legendaire
+A;Phylloscopus trochiloides (Sundevall, 1837);Phylloscopus trochiloides;Pouillot verdâtre;Epique
+A;Phylloscopus borealis (Blasius, JH, 1858);Phylloscopus borealis;Pouillot boréal;Epique
+A;Acrocephalus arundinaceus (Linnaeus, 1758);Acrocephalus arundinaceus;Rousserolle turdoïde;Commun
+A;Acrocephalus melanopogon (Temminck, 1823);Acrocephalus melanopogon;Lusciniole à moustaches;Rare
+A;Acrocephalus paludicola (Vieillot, 1817);Acrocephalus paludicola;Phragmite aquatique;Rare
+A;Acrocephalus schoenobaenus (Linnaeus, 1758);Acrocephalus schoenobaenus;Phragmite des joncs;Commun
+A;Acrocephalus agricola (Jerdon, 1845);Acrocephalus agricola;Rousserolle isabelle;Legendaire
+A;Acrocephalus dumetorum Blyth, 1849;Acrocephalus dumetorum;Rousserolle des buissons;Epique
+A;Acrocephalus scirpaceus (Hermann, 1804);Acrocephalus scirpaceus;Rousserolle effarvatte;Commun
+A;Acrocephalus palustris (Bechstein, 1798);Acrocephalus palustris;Rousserolle verderolle;Commun
+A;Iduna caligata (Lichtenstein, MHK, 1823);Iduna caligata;Hypolaïs bottée;Epique
+A;Iduna rama (Sykes, 1832);Iduna rama;Hypolaïs rama;Legendaire
+A;Iduna pallida (Hemprich & Ehrenberg, 1833);Iduna pallida;Hypolaïs pâle;Epique
+A;Iduna opaca (Cabanis, 1850);Iduna opaca;Hypolaïs obscure;Rare
+A;Hippolais polyglotta (Vieillot, 1817);Hippolais polyglotta;Hypolaïs polyglotte;Commun
+A;Hippolais icterina (Vieillot, 1817);Hippolais icterina;Hypolaïs ictérine;Commun
+A;Helopsaltes certhiola (Pallas, 1811);Helopsaltes certhiola;Locustelle de Pallas;Legendaire
+A;Locustella lanceolata (Temminck, 1840);Locustella lanceolata;Locustelle lancéolée;Legendaire
+A;Locustella fluviatilis (Wolf, 1810);Locustella fluviatilis;Locustelle fluviatile;Rare
+A;Locustella luscinioides (Savi, 1824);Locustella luscinioides;Locustelle luscinioïde;Commun
+A;Locustella naevia (Boddaert, 1783);Locustella naevia;Locustelle tachetée;Commun
+A;Cisticola juncidis (Rafinesque, 1810);Cisticola juncidis;Cisticole des joncs;Commun
+A;Sylvia atricapilla (Linnaeus, 1758);Sylvia atricapilla;Fauvette à tête noire;Commun
+A;Sylvia borin (Boddaert, 1783);Sylvia borin;Fauvette des jardins;Commun
+A;Curruca nisoria (Bechstein, 1792);Curruca nisoria;Fauvette épervière;Rare
+A;Curruca curruca (Linnaeus, 1758);Curruca curruca;Fauvette babillarde;Commun
+A;Curruca hortensis (Gmelin, JF, 1789);Curruca hortensis;Fauvette orphée;Rare
+A;Curruca nana Hemprich & Ehrenberg, 1833;Curruca nana;Fauvette naine;Epique
+A;Curruca deserticola (Tristram, 1859);Curruca deserticola;Fauvette de l'Atlas;Legendaire
+A;Curruca ruppeli (Temminck, 1823);Curruca ruppeli;Fauvette de Rüppell;Legendaire
+A;Curruca melanocephala (Gmelin, JF, 1789);Curruca melanocephala;Fauvette mélanocéphale;Commun
+A;Curruca iberiae (Svensson, 2013);Curruca iberiae;Fauvette passerinette ;Commun
+A;Curruca subalpina (Temminck, 1820);Curruca subalpina;Fauvette de Moltoni;Rare
+A;Curruca cantillans (Pallas, 1764) ;Curruca cantillans;Fauvette des Balkans;Epique
+A;Curruca communis (Latham, 1787);Curruca communis;Fauvette grisette;Commun
+A;Curruca conspicillata (Temminck, 1820);Curruca conspicillata;Fauvette à lunettes;Rare
+A;Curruca sarda (Temminck, 1820);Curruca sarda;Fauvette sarde;Rare
+A;Curruca undata (Boddaert, 1783);Curruca undata;Fauvette pitchou;Commun
+A;Regulus ignicapilla (Temminck, 1820);Regulus ignicapilla;Roitelet à triple bandeau;Commun
+A;Regulus regulus (Linnaeus, 1758);Regulus regulus;Roitelet huppé;Commun
+A;Troglodytes troglodytes (Linnaeus, 1758);Troglodytes troglodytes;Troglodyte mignon;Commun
+A;Sitta whiteheadi Sharpe, 1884;Sitta whiteheadi;Sittelle corse;Rare
+A;Sitta europaea Linnaeus, 1758;Sitta europaea;Sittelle torchepot;Commun
+A;Tichodroma muraria (Linnaeus, 1766);Tichodroma muraria;Tichodrome échelette;Rare
+A;Certhia familiaris Linnaeus, 1758;Certhia familiaris;Grimpereau des bois;Commun
+A;Certhia brachydactyla Brehm, CL, 1820;Certhia brachydactyla;Grimpereau des jardins;Commun
+A;Pastor roseus (Linnaeus, 1758);Pastor roseus;Étourneau roselin;Rare
+A;Sturnus vulgaris Linnaeus, 1758;Sturnus vulgaris;Étourneau sansonnet;Commun
+A;Sturnus unicolor Temminck, 1820;Sturnus unicolor;Étourneau unicolore;Rare
+A;Catharus ustulatus (Nuttall, 1840);Catharus ustulatus;Grive à dos olive;Legendaire
+A;Catharus minimus (Lafresnaye, 1848);Catharus minimus;Grive à joues grises;Epique
+A;Zoothera aurea (Holandre, 1825);Zoothera aurea;Grive dorée;Legendaire
+A;Geokichla sibirica (Pallas, 1776);Geokichla sibirica;Grive de Sibérie;Legendaire
+A;Turdus philomelos Brehm, CL, 1831;Turdus philomelos;Grive musicienne;Commun
+A;Turdus viscivorus Linnaeus, 1758;Turdus viscivorus;Grive draine;Commun
+A;Turdus iliacus Linnaeus, 1758;Turdus iliacus;Grive mauvis;Commun
+A;Turdus merula Linnaeus, 1758;Turdus merula;Merle noir;Commun
+A;Turdus obscurus Gmelin, JF, 1789;Turdus obscurus;Grive obscure;Epique
+A;Turdus pilaris Linnaeus, 1758;Turdus pilaris;Grive litorne;Commun
+A;Turdus torquatus Linnaeus, 1758;Turdus torquatus;Merle à plastron;Rare
+A;Turdus atrogularis Jarocki, 1819;Turdus atrogularis;Grive à gorge noire;Epique
+A;Turdus ruficollis Pallas, 1776;Turdus ruficollis;Grive à gorge rousse;Epique
+A;Turdus eunomus Temminck, 1831;Turdus eunomus;Grive à ailes rousses;Epique
+A;Turdus naumanni Temminck, 1820;Turdus naumanni;Grive de Naumann;Legendaire
+A;Cercotrichas galactotes (Temminck, 1820);Cercotrichas galactotes;Agrobate roux;Rare
+A;Muscicapa striata (Pallas, 1764);Muscicapa striata;Gobemouche gris;Commun
+A;Muscicapa tyrrhenica Schiebel, 1910;Muscicapa tyrrhenica;Gobemouche tyrrhénien;Rare
+A;Erithacus rubecula (Linnaeus, 1758);Erithacus rubecula;Rougegorge familier;Commun
+A;Luscinia luscinia (Linnaeus, 1758);Luscinia luscinia;Rossignol progné;Epique
+A;Luscinia megarhynchos Brehm, CL, 1831;Luscinia megarhynchos;Rossignol philomèle;Commun
+A;Luscinia svecica (Linnaeus, 1758);Luscinia svecica;Gorgebleue à miroir;Commun
+A;Ficedula parva (Bechstein, 1792);Ficedula parva;Gobemouche nain;Rare
+A;Ficedula semitorquata (Homeyer, 1885);Ficedula semitorquata;Gobemouche à demi-collier;Epique
+A;Ficedula hypoleuca (Pallas, 1764);Ficedula hypoleuca;Gobemouche noir;Commun
+A;Ficedula albicollis (Temminck, 1815);Ficedula albicollis;Gobemouche à collier;Rare
+A;Tarsiger cyanurus (Pallas, 1773);Tarsiger cyanurus;Robin à flancs roux;Epique
+A;Phoenicurus ochruros (Gmelin, SG, 1774);Phoenicurus ochruros;Rougequeue noir;Commun
+A;Phoenicurus phoenicurus (Linnaeus, 1758);Phoenicurus phoenicurus;Rougequeue à front blanc;Commun
+A;Phoenicurus moussieri (Olphe-Galliard, 1852);Phoenicurus moussieri;Rougequeue de Moussier;Legendaire
+A;Monticola saxatilis (Linnaeus, 1766);Monticola saxatilis;Monticole de roche;Rare
+A;Monticola solitarius (Linnaeus, 1758);Monticola solitarius;Monticole bleu;Commun
+A;Saxicola rubetra (Linnaeus, 1758);Saxicola rubetra;Tarier des prés;Commun
+A;Saxicola maurus (Pallas, 1773);Saxicola maurus;Tarier de Sibérie;Epique
+A;Saxicola rubicola (Linnaeus, 1766);Saxicola rubicola;Tarier pâtre;Commun
+A;Oenanthe oenanthe (Linnaeus, 1758);Oenanthe oenanthe;Traquet motteux;Commun
+A;Oenanthe seebohmi (Dixon, 1882);Oenanthe seebohmi;Traquet de Seebohm;Legendaire
+A;Oenanthe isabellina (Temminck, 1829);Oenanthe isabellina;Traquet isabelle;Epique
+A;Oenanthe deserti (Temminck, 1825);Oenanthe deserti;Traquet du désert;Legendaire
+A;Oenanthe hispanica (Linnaeus, 1758);Oenanthe hispanica;Traquet oreillard;Commun
+A;Oenanthe pleschanka (Lepechin, 1770);Oenanthe pleschanka;Traquet pie;Epique
+A;Oenanthe melanoleuca (Güldenstädt, 1775);Oenanthe melanoleuca;Traquet noir et blanc;Legendaire
+A;Oenanthe xanthoprymna (Hemprich & Ehrenberg, 1833);Oenanthe xanthoprymna;Traquet kurde;Legendaire
+A;Oenanthe leucopyga (Brehm, CL, 1855);Oenanthe leucopyga;Traquet à tête blanche;Legendaire
+A;Oenanthe leucura (Gmelin, JF, 1789);Oenanthe leucura;Traquet rieur;Rare
+A;Cinclus cinclus (Linnaeus, 1758);Cinclus cinclus;Cincle plongeur;Commun
+A;Petronia petronia (Linnaeus, 1766);Petronia petronia;Moineau soulcie;Commun
+A;Montifringilla nivalis (Linnaeus, 1766);Montifringilla nivalis;Niverolle alpine;Commun
+A;Passer montanus (Linnaeus, 1758);Passer montanus;Moineau friquet;Commun
+A;Passer hispaniolensis (Temminck, 1820);Passer hispaniolensis;Moineau espagnol;Rare
+A;Passer italiae (Vieillot, 1817);Passer italiae;Moineau cisalpin;Rare
+A;Passer domesticus (Linnaeus, 1758);Passer domesticus;Moineau domestique;Commun
+A;Prunella collaris (Scopoli, 1769);Prunella collaris;Accenteur alpin;Commun
+A;Prunella atrogularis (von Brandt, JF, 1843);Prunella atrogularis;Accenteur à gorge noire;Legendaire
+A;Prunella modularis (Linnaeus, 1758);Prunella modularis;Accenteur mouchet;Commun
+A;Motacilla flava Linnaeus, 1758;Motacilla flava;Bergeronnette printanière;Commun
+A;Motacilla tschutschensis Gmelin, JF, 1789;Motacilla tschutschensis;Bergeronnette orientale;Epique
+A;Motacilla citreola Pallas, 1776;Motacilla citreola;Bergeronnette citrine;Rare
+A;Motacilla cinerea Tunstall, 1771;Motacilla cinerea;Bergeronnette des ruisseaux;Commun
+A;Motacilla alba Linnaeus, 1758;Motacilla alba;Bergeronnette grise;Commun
+A;Anthus richardi Vieillot, 1818;Anthus richardi;Pipit de Richard;Rare
+A;Anthus godlewskii (Taczanowski, 1876);Anthus godlewskii;Pipit de Godlewski;Legendaire
+A;Anthus campestris (Linnaeus, 1758);Anthus campestris;Pipit rousseline;Commun
+A;Anthus pratensis (Linnaeus, 1758);Anthus pratensis;Pipit farlouse;Commun
+A;Anthus trivialis (Linnaeus, 1758);Anthus trivialis;Pipit des arbres;Commun
+A;Anthus hodgsoni Richmond, 1907;Anthus hodgsoni;Pipit à dos olive;Epique
+A;Anthus gustavi Swinhoe, 1863;Anthus gustavi;Pipit de la Petchora;Legendaire
+A;Anthus cervinus (Pallas, 1811);Anthus cervinus;Pipit à gorge rousse;Rare
+A;Anthus japonicus Temminck & Schlegel, 1847;Anthus japonicus;Pipit de Sibérie;Legendaire
+A;Anthus rubescens (Tunstall, 1771);Anthus rubescens;Pipit farlousane;Epique
+A;Anthus spinoletta (Linnaeus, 1758);Anthus spinoletta;Pipit spioncelle;Commun
+A;Anthus petrosus (Montagu, 1798);Anthus petrosus;Pipit maritime;Commun
+A;Fringilla coelebs Linnaeus, 1758;Fringilla coelebs;Pinson des arbres;Commun
+A;Fringilla spodiogenys (Bonaparte, 1841);Fringilla spodiogenys;Pinson africain;Legendaire
+A;Fringilla montifringilla Linnaeus, 1758;Fringilla montifringilla;Pinson du Nord;Commun
+A;Coccothraustes coccothraustes (Linnaeus, 1758);Coccothraustes coccothraustes;Grosbec casse-noyaux;Commun
+A;Pinicola enucleator (Linnaeus, 1758);Pinicola enucleator;Durbec des sapins;Legendaire
+A;Pyrrhula pyrrhula (Linnaeus, 1758);Pyrrhula pyrrhula;Bouvreuil pivoine;Commun
+A;Bucanetes githagineus (Lichtenstein, MHK, 1823);Bucanetes githagineus;Roselin githagine;Legendaire
+A;Carpodacus erythrinus (Pallas, 1770);Carpodacus erythrinus;Roselin cramoisi;Epique
+A;Chloris chloris (Linnaeus, 1758);Chloris chloris;Verdier d'Europe;Commun
+A;Linaria flavirostris (Linnaeus, 1758);Linaria flavirostris;Linotte à bec jaune ;Rare
+A;Linaria cannabina (Linnaeus, 1758);Linaria cannabina;Linotte mélodieuse;Commun
+A;Acanthis flammea (Linnaeus, 1758);Acanthis flammea;Sizerin flammé;Rare
+A;Loxia pytyopsittacus Borkhausen, 1793;Loxia pytyopsittacus;Bec-croisé perroquet;Legendaire
+A;Loxia curvirostra Linnaeus, 1758;Loxia curvirostra;Bec-croisé des sapins;Commun
+A;Loxia leucoptera Gmelin, JF, 1789;Loxia leucoptera;Bec-croisé bifascié;Legendaire
+A;Carduelis carduelis (Linnaeus, 1758);Carduelis carduelis;Chardonneret élégant;Commun
+A;Carduelis citrinella (Pallas, 1764);Carduelis citrinella;Venturon montagnard;Commun
+A;Carduelis corsicana (Koenig, AF, 1899);Carduelis corsicana;Venturon corse;Rare
+A;Serinus serinus (Linnaeus, 1766);Serinus serinus;Serin cini;Commun
+A;Spinus spinus (Linnaeus, 1758);Spinus spinus;Tarin des aulnes;Commun
+A;Calcarius lapponicus (Linnaeus, 1758);Calcarius lapponicus;Bruant lapon;Rare
+A;Plectrophenax nivalis (Linnaeus, 1758);Plectrophenax nivalis;Bruant des neiges;Rare
+A;Emberiza calandra Linnaeus, 1758;Emberiza calandra;Bruant proyer;Commun
+A;Emberiza citrinella Linnaeus, 1758;Emberiza citrinella;Bruant jaune;Commun
+A;Emberiza leucocephalos Gmelin, SG, 1771;Emberiza leucocephalos;Bruant à calotte blanche;Legendaire
+A;Emberiza cia Linnaeus, 1766;Emberiza cia;Bruant fou;Commun
+A;Emberiza hortulana Linnaeus, 1758;Emberiza hortulana;Bruant ortolan;Rare
+A;Emberiza cirlus Linnaeus, 1766;Emberiza cirlus;Bruant zizi;Commun
+A;Emberiza pusilla Pallas, 1776;Emberiza pusilla;Bruant nain;Epique
+A;Emberiza rustica Pallas, 1776;Emberiza rustica;Bruant rustique;Epique
+A;Emberiza aureola Pallas, 1773;Emberiza aureola;Bruant auréole;Legendaire
+A;Emberiza rutila Pallas, 1776;Emberiza rutila;Bruant roux;Legendaire
+A;Emberiza melanocephala Scopoli, 1769;Emberiza melanocephala;Bruant mélanocéphale;Epique
+A;Emberiza bruniceps von Brandt, JF, 1841;Emberiza bruniceps;Bruant à tête rousse;Legendaire
+A;Emberiza spodocephala Pallas, 1776;Emberiza spodocephala;Bruant masqué;Legendaire
+A;Emberiza schoeniclus (Linnaeus, 1758);Emberiza schoeniclus;Bruant des roseaux;Commun
+A;Zonotrichia leucophrys (Forster, JR, 1772);Zonotrichia leucophrys;Bruant à couronne blanche;Legendaire
+A;Zonotrichia albicollis (Gmelin, JF, 1789);Zonotrichia albicollis;Bruant à gorge blanche ;Legendaire
+A;Dolichonyx oryzivorus (Linnaeus, 1758);Dolichonyx oryzivorus;Goglu des prés;Legendaire
+A;Icterus galbula(Linnaeus, 1758);Icterus galbula(Linnaeus,;Oriole de Baltimore;Legendaire
+A;Molothrus ater (Boddaert, 1783);Molothrus ater;Vacher à tête brune;Legendaire
+A;Seiurus aurocapilla (Linnaeus, 1766);Seiurus aurocapilla;Paruline couronnée;Legendaire
+A;Parkesia noveboracensis (Gmelin, JF, 1789);Parkesia noveboracensis;Paruline des ruisseaux;Legendaire
+A;Mniotilta varia (Linnaeus, 1766);Mniotilta varia;Paruline noir et blanc;Legendaire
+A;Setophaga ruticilla (Linnaeus, 1758);Setophaga ruticilla;Paruline flamboyante;Legendaire
+A;Setophaga americana (Linnaeus, 1758);Setophaga americana;Paruline à collier;Legendaire
+A;Setophaga fusca (Müller, PLS, 1776);Setophaga fusca;Paruline à gorge orangée;Legendaire
+A;Setophaga aestiva (Gmelin, JF, 1789);Setophaga aestiva;Paruline jaune;Legendaire
+A;Setophaga pensylvanica (Linnaeus, 1766);Setophaga pensylvanica;Paruline à flancs marron;Legendaire
+A;Setophaga striata (Forster, JR, 1772);Setophaga striata;Paruline rayée;Legendaire
+A;Piranga olivacea (Gmelin, JF, 1789);Piranga olivacea;Tangara écarlate;Legendaire
+A;Pheucticus ludovicianus (Linnaeus, 1766);Pheucticus ludovicianus;Cardinal à poitrine rose;Legendaire
+A*;Macronectes giganteus (J. F. Gmelin, 1789) / M. halli Mathews, 1912  ;Macronectes giganteus;Fulmar géant / de Hall;Legendaire
+A*;Pterodroma feae (Salvatori, 1899) / P. deserta Mathews, 1934  ;Pterodroma feae;Pétrel gongon / P. des Desertas;Legendaire
+A*;Puffinus baroli (Bonaparte, 1857) / P. boydi Mathews, 1912;Puffinus baroli;Puffin de Macaronésie / de Boyd;Epique
+A*;Alaudala rufescens (Vieillot, 1819) / Alaudala heinei (Homeyer, 1873);Alaudala rufescens;Alouette pispolette / Alouette du Turkestan;Rare
+AC;Branta leucopsis (Bechstein, 1803);Branta leucopsis;Bernache nonnette;Commun
+AC;Anser anser (Linnaeus, 1758);Anser anser;Oie cendrée;Commun
+AC;Cygnus olor (Gmelin, JF, 1789);Cygnus olor;Cygne tuberculé;Commun
+AC;Anas platyrhynchos Linnaeus, 1758;Anas platyrhynchos;Canard colvert;Commun
+AC;Perdix perdix (Linnaeus, 1758);Perdix perdix;Perdrix grise;Commun
+AC;Alectoris rufa (Linnaeus, 1758);Alectoris rufa;Perdrix rouge;Commun
+AC;Columba livia Gmelin, JF, 1789;Columba livia;Pigeon biset;Commun
+AC;Porphyrio porphyrio (Linnaeus, 1758);Porphyrio porphyrio;Talève sultane;Rare
+AC;Gyps fulvus (Hablizl, 1783);Gyps fulvus;Vautour fauve;Commun
+AC;Aegypius monachus (Linnaeus, 1766);Aegypius monachus;Vautour moine ;Rare
+B;Melanitta stejnegeri (Ridgway, 1887);Melanitta stejnegeri;Macreuse de Sibérie;Legendaire
+B;Chlamydotis macqueenii (Gray, JE, 1832);Chlamydotis macqueenii;Outarde de Macqueen;Legendaire
+B;Fulica cristata Gmelin, JF, 1789;Fulica cristata;Foulque caronculée;Legendaire
+B;Fregata magnificens Mathews, 1914;Fregata magnificens;Frégate superbe;Legendaire
+B;Torgos tracheliotos (Forster, JR, 1796);Torgos tracheliotos;Vautour oricou;Legendaire
+B;Surnia ulula (Linnaeus, 1758);Surnia ulula;Chouette épervière;Legendaire
+B;Cyanistes cyanus (Pallas, 1770);Cyanistes cyanus;Mésange azurée;Legendaire
+B;Chersophilus duponti (Vieillot, 1824);Chersophilus duponti;Sirli de Dupont;Legendaire
+B;Helopsaltes fasciolatus (Gray, GR, 1861);Helopsaltes fasciolatus;Locustelle fasciée;Legendaire
+B;Emberiza caesia Cretzschmar, 1827;Emberiza caesia;Bruant cendrillard;Legendaire
+B;Emberiza chrysophrys Pallas, 1776;Emberiza chrysophrys;Bruant à sourcils jaunes;Legendaire
+BC;Alopochen aegyptiaca (Linnaeus, 1766);Alopochen aegyptiaca;Ouette d'Egypte;Commun
+BC;Tadorna ferruginea (Pallas, 1764);Tadorna ferruginea;Tadorne casarca;Rare
+BD ;Anser caerulescens (Linnaeus, 1758);Anser caerulescens;Oie des neiges;Rare
+C;Branta canadensis (Linnaeus, 1758);Branta canadensis;Bernache du Canada ;Commun
+C;Cygnus atratus (Latham, 1790);Cygnus atratus;Cygne noir;Rare
+C;Oxyura jamaicensis (Gmelin, JF, 1789);Oxyura jamaicensis;Erismature rousse;Rare
+C;Callipepla californica (Shaw, 1798);Callipepla californica;Colin de Californie;Rare
+C;Syrmaticus reevesii (Gray, JE, 1829);Syrmaticus reevesii;Faisan vénéré;Rare
+C;Phasianus colchicus Linnaeus, 1758;Phasianus colchicus;Faisan de Colchide ;Commun
+C;Threskiornis aethiopicus (Latham, 1790);Threskiornis aethiopicus;Ibis sacré;Rare
+C;Psittacula krameri (Scopoli, 1769);Psittacula krameri;Perruche à collier;Commun
+C;Leiothrix lutea (Scopoli, 1786);Leiothrix lutea;Léiothrix jaune;Rare
+C;Euodice malabarica (Linnaeus, 1758);Euodice malabarica;Capucin bec-de-plomb;Rare
+C ;Aix galericulata (Linnaeus, 1758);Aix galericulata;Canard mandarin;Rare
