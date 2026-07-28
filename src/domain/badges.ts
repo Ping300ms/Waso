@@ -4,23 +4,33 @@ import { emojiForFamily } from './emoji'
 
 export type BadgeKind = 'family' | 'total'
 
+export interface BadgeTier {
+  tierPct: number
+  /** Number of birds required to reach this tier (derived from group size). */
+  threshold: number
+}
+
 export interface BadgeDef {
   id: string
   kind: BadgeKind
   famille?: string
-  tierPct: number
-  /** Number of birds required to reach this tier (derived from group size). */
-  threshold: number
   groupSize: number
+  /** Achievable tiers for this group, ascending, deduplicated by threshold. */
+  tiers: BadgeTier[]
   label: string
   emoji: string
 }
 
 export interface BadgeState extends BadgeDef {
-  obtained: boolean
-  /** Current % of the relevant group caught (for un-obtained badges: progress toward this tier). */
-  progressPct: number
   caught: number
+  /** True as soon as the first tier is reached. */
+  obtained: boolean
+  /** Highest tier reached so far, or null if none. */
+  currentTier: BadgeTier | null
+  /** First tier not yet reached, or null if the group is fully complete. */
+  nextTier: BadgeTier | null
+  /** Real completion % of the group (drives the progress bar toward nextTier). */
+  progressPct: number
 }
 
 const TIER_STEPS = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
@@ -29,9 +39,9 @@ const TIER_STEPS = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
  * same bird-count threshold (e.g. a 3-bird family only has meaningful thresholds at 1, 2, 3
  * birds, so several of the 10 nominal percentages collapse onto the same threshold and only
  * the first (lowest) percentage reaching each threshold is kept). */
-function buildTiersForGroupSize(groupSize: number): Array<{ tierPct: number; threshold: number }> {
+function buildTiersForGroupSize(groupSize: number): BadgeTier[] {
   const seenThresholds = new Set<number>()
-  const tiers: Array<{ tierPct: number; threshold: number }> = []
+  const tiers: BadgeTier[] = []
   for (const tierPct of TIER_STEPS) {
     const threshold = Math.ceil((tierPct / 100) * groupSize)
     if (threshold < 1 || seenThresholds.has(threshold)) continue
@@ -41,37 +51,34 @@ function buildTiersForGroupSize(groupSize: number): Array<{ tierPct: number; thr
   return tiers
 }
 
-function buildFamilyBadgeDefs(famille: string, birds: Bird[]): BadgeDef[] {
-  const emoji = emojiForFamily(famille)
-  return buildTiersForGroupSize(birds.length).map(({ tierPct, threshold }) => ({
-    id: `family-${famille.toLowerCase()}-${tierPct}`,
-    kind: 'family' as const,
+function buildFamilyBadgeDef(famille: string, birds: Bird[]): BadgeDef {
+  return {
+    id: `family-${famille.toLowerCase()}`,
+    kind: 'family',
     famille,
-    tierPct,
-    threshold,
     groupSize: birds.length,
-    label: `Découvreur de ${famille} ${tierPct}%`,
-    emoji,
-  }))
+    tiers: buildTiersForGroupSize(birds.length),
+    label: `Découvreur de ${famille}`,
+    emoji: emojiForFamily(famille),
+  }
 }
 
-function buildTotalBadgeDefs(allBirds: Bird[]): BadgeDef[] {
-  return buildTiersForGroupSize(allBirds.length).map(({ tierPct, threshold }) => ({
-    id: `total-${tierPct}`,
-    kind: 'total' as const,
-    tierPct,
-    threshold,
+function buildTotalBadgeDef(allBirds: Bird[]): BadgeDef {
+  return {
+    id: 'total',
+    kind: 'total',
     groupSize: allBirds.length,
-    label: `Ornithologue ${tierPct}%`,
+    tiers: buildTiersForGroupSize(allBirds.length),
+    label: 'Ornithologue',
     emoji: '🏆',
-  }))
+  }
 }
 
 export function buildBadgeDefs(allBirds: Bird[] = ALL_BIRDS): BadgeDef[] {
-  const familyDefs = FAMILIES.flatMap((famille) =>
-    buildFamilyBadgeDefs(famille, BIRDS_BY_FAMILY.get(famille) ?? [])
+  const familyDefs = FAMILIES.map((famille) =>
+    buildFamilyBadgeDef(famille, BIRDS_BY_FAMILY.get(famille) ?? [])
   )
-  return [...buildTotalBadgeDefs(allBirds), ...familyDefs]
+  return [buildTotalBadgeDef(allBirds), ...familyDefs]
 }
 
 export function computeBadgeStates(
@@ -90,11 +97,24 @@ export function computeBadgeStates(
   return defs.map((def) => {
     const caught = def.kind === 'total' ? totalCaught : caughtByFamily.get(def.famille!) ?? 0
     const progressPct = def.groupSize === 0 ? 0 : (caught / def.groupSize) * 100
+
+    let currentTier: BadgeTier | null = null
+    let nextTier: BadgeTier | null = null
+    for (const tier of def.tiers) {
+      if (tier.threshold <= caught) currentTier = tier
+      else {
+        nextTier = tier
+        break
+      }
+    }
+
     return {
       ...def,
       caught,
       progressPct,
-      obtained: caught >= def.threshold,
+      currentTier,
+      nextTier,
+      obtained: currentTier !== null,
     }
   })
 }

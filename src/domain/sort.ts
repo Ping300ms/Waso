@@ -1,12 +1,14 @@
 import type { Bird } from '../data/birds'
 import type { SightingRecord } from '../db/schema'
+import { RARETE_ORDER } from './rarete'
 
-export type SortKey = 'famille' | 'alphabetique' | 'dateObtention'
+export type SortKey = 'famille' | 'alphabetique' | 'dateObtention' | 'rarete'
 
 export const SORT_LABELS: Record<SortKey, string> = {
   famille: 'Famille',
   alphabetique: 'Alphabétique',
   dateObtention: "Date d'obtention",
+  rarete: 'Rareté',
 }
 
 export const DEFAULT_SORT_KEY: SortKey = 'famille'
@@ -25,6 +27,10 @@ export function getBirdComparator(
         a.famille.localeCompare(b.famille, 'fr') || a.frenchName.localeCompare(b.frenchName, 'fr')
     case 'alphabetique':
       return (a, b) => a.frenchName.localeCompare(b.frenchName, 'fr')
+    case 'rarete':
+      return (a, b) =>
+        RARETE_ORDER.indexOf(a.rarete) - RARETE_ORDER.indexOf(b.rarete) ||
+        a.frenchName.localeCompare(b.frenchName, 'fr')
     case 'dateObtention':
       return (a, b) => {
         const dateA = sightingsByBirdId.get(a.id)?.firstSeenDate

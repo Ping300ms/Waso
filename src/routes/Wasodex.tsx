@@ -5,6 +5,7 @@ import { BirdGrid } from '../components/wasodex/BirdGrid'
 import { SortFilterBar, type CaughtFilter } from '../components/wasodex/SortFilterBar'
 import { AddSightingModal } from '../components/wasodex/AddSightingModal'
 import { CatchAnimation } from '../components/wasodex/CatchAnimation'
+import { BirdDetailModal } from '../components/wasodex/BirdDetailModal'
 import { DEFAULT_SORT_KEY, getBirdComparator, type SortKey } from '../domain/sort'
 
 export function Wasodex() {
@@ -13,6 +14,7 @@ export function Wasodex() {
   const [filter, setFilter] = useState<CaughtFilter>('tous')
   const [modalOpen, setModalOpen] = useState(false)
   const [celebrating, setCelebrating] = useState<Bird | null>(null)
+  const [selectedBird, setSelectedBird] = useState<Bird | null>(null)
 
   const sightingsByBirdId = useMemo(() => new Map(sightings.map((s) => [s.birdId, s])), [sightings])
   const caughtIds = useMemo(() => new Set(sightings.map((s) => s.birdId)), [sightings])
@@ -50,7 +52,12 @@ export function Wasodex() {
         onFilterChange={setFilter}
       />
 
-      <BirdGrid birds={visibleBirds} caughtIds={caughtIds} datesByBirdId={datesByBirdId} />
+      <BirdGrid
+        birds={visibleBirds}
+        caughtIds={caughtIds}
+        datesByBirdId={datesByBirdId}
+        onSelectBird={setSelectedBird}
+      />
 
       {modalOpen && (
         <AddSightingModal
@@ -64,6 +71,14 @@ export function Wasodex() {
 
       {celebrating && (
         <CatchAnimation bird={celebrating} onDone={() => setCelebrating(null)} />
+      )}
+
+      {selectedBird && (
+        <BirdDetailModal
+          bird={selectedBird}
+          firstSeenDate={datesByBirdId.get(selectedBird.id)}
+          onClose={() => setSelectedBird(null)}
+        />
       )}
     </div>
   )

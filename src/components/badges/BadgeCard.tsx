@@ -1,8 +1,10 @@
 import type { BadgeState } from '../../domain/badges'
 
-export function BadgeCard({ badge }: { badge: BadgeState }) {
+export function BadgeCard({ badge, onClick }: { badge: BadgeState; onClick?: () => void }) {
   return (
-    <div
+    <button
+      type="button"
+      onClick={onClick}
       className={`rounded-xl border-2 p-3 flex flex-col items-center gap-1 text-center ${
         badge.obtained
           ? 'bg-emerald-50 dark:bg-emerald-950 border-emerald-400'
@@ -13,7 +15,11 @@ export function BadgeCard({ badge }: { badge: BadgeState }) {
         {badge.emoji}
       </span>
       <p className="text-xs font-medium leading-tight">{badge.label}</p>
-      {!badge.obtained && (
+      <p className="text-xs text-slate-500">
+        {badge.currentTier ? `${badge.currentTier.tierPct}%` : 'Non obtenu'}
+        {badge.nextTier ? ` (prochain : ${badge.nextTier.tierPct}%)` : ''}
+      </p>
+      {badge.nextTier && (
         <div className="w-full mt-1">
           <div className="h-1.5 w-full rounded-full bg-slate-300 dark:bg-slate-700 overflow-hidden">
             <div
@@ -22,10 +28,10 @@ export function BadgeCard({ badge }: { badge: BadgeState }) {
             />
           </div>
           <p className="text-[10px] text-slate-500 mt-0.5">
-            {badge.caught}/{badge.threshold} ({Math.round(badge.progressPct)}%)
+            {badge.caught}/{badge.nextTier.threshold} pour {badge.nextTier.tierPct}%
           </p>
         </div>
       )}
-    </div>
+    </button>
   )
 }

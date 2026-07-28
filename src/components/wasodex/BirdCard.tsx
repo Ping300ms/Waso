@@ -18,7 +18,7 @@ export function BirdCard({ bird, caught, firstSeenDate, onClick }: BirdCardProps
       onClick={onClick}
       className={`aspect-square rounded-xl border-2 flex flex-col items-center justify-center gap-1 p-2 text-center transition
         ${style.cardBg} ${style.cardBorder}
-        ${caught ? '' : 'grayscale opacity-45'}`}
+        ${caught ? '' : 'saturate-[0.35] opacity-80'}`}
     >
       <span className="text-3xl" aria-hidden>
         {emojiForFamily(bird.famille)}
