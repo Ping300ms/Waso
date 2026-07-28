@@ -21,7 +21,13 @@
       "Bash(npm run *)",
       "Bash(curl -s http://localhost:5173/Waso/)",
       "Bash(cat /tmp/vite-dev.log)",
-      "Bash(pkill -f \"vite\")"
+      "Bash(pkill -f \"vite\")",
+      "Bash(gh run *)",
+      "Bash(curl -s \"https://api.github.com/repos/Ping300ms/Waso/actions/runs?per_page=3\")",
+      "Bash(curl -s \"https://api.github.com/repos/Ping300ms/Waso/actions/runs/30395809730/jobs\")",
+      "Bash(cat /tmp/job.log)",
+      "Bash(rm -rf node_modules)",
+      "Bash(npm ci *)"
     ],
     "additionalDirectories": [
       "C:\\Users\\pamau\\AppData\\Local\\Temp\\claude"
