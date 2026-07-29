@@ -46,5 +46,34 @@ export async function markClean(birdIds: string[]): Promise<void> {
 }
 
 export async function isCaught(birdId: string): Promise<boolean> {
-  return (await db.sightings.get(birdId)) !== undefined
+  const record = await db.sightings.get(birdId)
+  return record !== undefined && !record.deletedAt
+}
+
+/** True for a real (non-tombstoned) sighting. */
+export function isActiveSighting(record: SightingRecord): boolean {
+  return !record.deletedAt
+}
+
+export async function getActiveSightings(): Promise<SightingRecord[]> {
+  return (await db.sightings.toArray()).filter(isActiveSighting)
+}
+
+/**
+ * Marks a sighting as deleted (tombstone) instead of removing it outright, so the deletion
+ * can be propagated to Supabase on the next sync even if we're currently offline.
+ */
+export async function markSightingDeleted(birdId: string): Promise<void> {
+  const existing = await db.sightings.get(birdId)
+  if (!existing) return
+  await db.sightings.put({
+    ...existing,
+    deletedAt: nowIso(),
+    dirty: 1,
+  })
+}
+
+/** Removes a tombstoned record entirely once the remote delete has been confirmed by sync. */
+export async function purgeSighting(birdId: string): Promise<void> {
+  await db.sightings.delete(birdId)
 }

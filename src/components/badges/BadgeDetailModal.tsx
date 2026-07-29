@@ -28,8 +28,8 @@ export function BadgeDetailModal({ badge, onClose }: BadgeDetailModalProps) {
               {badge.label}
             </h2>
             <p className="text-sm text-slate-500">
-              {badge.currentTier ? `${badge.currentTier.tierPct}% atteint` : 'Aucun palier atteint'}
-              {badge.nextTier ? ` — prochain palier : ${badge.nextTier.tierPct}%` : ' — famille complète !'}
+              {Math.round(badge.progressPct)}% atteint
+              {badge.nextTier ? '' : ' — famille complète !'}
             </p>
           </div>
           <button type="button" onClick={onClose} className="text-slate-400 text-xl leading-none">

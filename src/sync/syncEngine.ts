@@ -1,6 +1,6 @@
 import { supabase } from './supabaseClient'
 import { db, type SightingRecord } from '../db/schema'
-import { bulkPutClean } from '../db/sightingsRepo'
+import { bulkPutClean, purgeSighting } from '../db/sightingsRepo'
 import { setLastSynced } from '../db/syncMeta'
 
 interface RemoteSighting {
@@ -48,7 +48,26 @@ export async function runSync(userId: string): Promise<void> {
 
   syncInFlight = true
   try {
-    const local = await db.sightings.toArray()
+    const allLocal = await db.sightings.toArray()
+    const tombstoned = allLocal.filter((r) => r.deletedAt)
+    const local = allLocal.filter((r) => !r.deletedAt)
+
+    // Propagate local deletions first, so a bird pending deletion is never resurrected by
+    // the additive merge below (whether the remote delete succeeds now or is retried later).
+    for (const record of tombstoned) {
+      const { error: deleteError } = await supabase
+        .from('sightings')
+        .delete()
+        .eq('user_id', userId)
+        .eq('bird_id', record.birdId)
+      if (deleteError) {
+        // eslint-disable-next-line no-console
+        console.warn('Sync: remote delete failed, will retry next trigger', deleteError.message)
+        continue
+      }
+      await purgeSighting(record.birdId)
+    }
+
     const { data: remoteRows, error } = await supabase
       .from('sightings')
       .select('user_id, bird_id, first_seen_date, updated_at')
@@ -59,7 +78,10 @@ export async function runSync(userId: string): Promise<void> {
       console.warn('Sync: failed to fetch remote sightings', error.message)
       return
     }
-    const remote = (remoteRows ?? []) as RemoteSighting[]
+    const tombstonedIds = new Set(tombstoned.map((r) => r.birdId))
+    const remote = ((remoteRows ?? []) as RemoteSighting[]).filter(
+      (r) => !tombstonedIds.has(r.bird_id)
+    )
 
     const merged = additiveMerge(local, remote)
 

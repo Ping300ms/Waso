@@ -1,6 +1,9 @@
 import { useMemo, useState } from 'react'
 import { ALL_BIRDS, type Bird } from '../data/birds'
 import { useSightings } from '../hooks/useSightings'
+import { markSightingDeleted } from '../db/sightingsRepo'
+import { runSync } from '../sync/syncEngine'
+import { useAuth } from '../auth/AuthProvider'
 import { BirdGrid } from '../components/wasodex/BirdGrid'
 import { SortFilterBar, type CaughtFilter } from '../components/wasodex/SortFilterBar'
 import { AddSightingModal } from '../components/wasodex/AddSightingModal'
@@ -9,6 +12,7 @@ import { BirdDetailModal } from '../components/wasodex/BirdDetailModal'
 import { DEFAULT_SORT_KEY, getBirdComparator, type SortKey } from '../domain/sort'
 
 export function Wasodex() {
+  const { session } = useAuth()
   const sightings = useSightings()
   const [sortKey, setSortKey] = useState<SortKey>(DEFAULT_SORT_KEY)
   const [filter, setFilter] = useState<CaughtFilter>('tous')
@@ -78,6 +82,11 @@ export function Wasodex() {
           bird={selectedBird}
           firstSeenDate={datesByBirdId.get(selectedBird.id)}
           onClose={() => setSelectedBird(null)}
+          onDelete={async () => {
+            await markSightingDeleted(selectedBird.id)
+            setSelectedBird(null)
+            if (session?.user.id) void runSync(session.user.id)
+          }}
         />
       )}
     </div>

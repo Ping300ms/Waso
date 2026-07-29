@@ -38,7 +38,11 @@ export function PlayerDetail({ playerId, pseudo, onBack }: PlayerDetailProps) {
           <h3 className="px-4 pt-3 font-medium text-sm">Badges obtenus</h3>
           <BadgeGrid badges={badges.filter((b) => b.obtained)} />
           <h3 className="px-4 pt-1 font-medium text-sm">Wasodex</h3>
-          <BirdGrid birds={ALL_BIRDS} caughtIds={caughtIds} datesByBirdId={datesByBirdId} />
+          <BirdGrid
+            birds={ALL_BIRDS.filter((b) => caughtIds.has(b.id))}
+            caughtIds={caughtIds}
+            datesByBirdId={datesByBirdId}
+          />
         </>
       )}
     </div>

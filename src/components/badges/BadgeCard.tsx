@@ -15,10 +15,7 @@ export function BadgeCard({ badge, onClick }: { badge: BadgeState; onClick?: () 
         {badge.emoji}
       </span>
       <p className="text-xs font-medium leading-tight">{badge.label}</p>
-      <p className="text-xs text-slate-500">
-        {badge.currentTier ? `${badge.currentTier.tierPct}%` : 'Non obtenu'}
-        {badge.nextTier ? ` (prochain : ${badge.nextTier.tierPct}%)` : ''}
-      </p>
+      <p className="text-xs text-slate-500">{Math.round(badge.progressPct)}%</p>
       {badge.nextTier && (
         <div className="w-full mt-1">
           <div className="h-1.5 w-full rounded-full bg-slate-300 dark:bg-slate-700 overflow-hidden">

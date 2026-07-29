@@ -9,6 +9,12 @@ export interface SightingRecord {
   updatedAt: string
   /** True if created/modified locally since the last successful push to Supabase. */
   dirty: number // stored as 0/1 (IndexedDB-friendly boolean for indexing)
+  /**
+   * Tombstone: set when the user deletes this sighting locally. The record stays until
+   * the next sync confirms the remote delete, then it's purged — this lets deletion work
+   * offline without a purely-additive sync resurrecting it.
+   */
+  deletedAt?: string | null
 }
 
 export interface SyncStateRecord {
