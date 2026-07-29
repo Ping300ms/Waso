@@ -1,14 +1,21 @@
-import type { BadgeState } from '../../domain/badges'
-import { BadgeCard } from './BadgeCard'
+import type { BadgeState } from "../../domain/badges";
+import { BadgeCard } from "./BadgeCard";
 
 interface BadgeGridProps {
-  badges: BadgeState[]
-  onSelectBadge?: (badge: BadgeState) => void
+  badges: BadgeState[];
+  onSelectBadge?: (badge: BadgeState) => void;
+  oneColumn?: boolean;
 }
 
-export function BadgeGrid({ badges, onSelectBadge }: BadgeGridProps) {
+export function BadgeGrid({
+  badges,
+  onSelectBadge,
+  oneColumn = false,
+}: BadgeGridProps) {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 p-4">
+    <div
+      className={`grid ${oneColumn ? "grid-cols-1" : "grid-cols-2"} sm:grid-cols-3 md:grid-cols-4 gap-3 p-4`}
+    >
       {badges.map((badge) => (
         <BadgeCard
           key={badge.id}
@@ -17,5 +24,5 @@ export function BadgeGrid({ badges, onSelectBadge }: BadgeGridProps) {
         />
       ))}
     </div>
-  )
+  );
 }

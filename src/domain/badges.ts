@@ -169,7 +169,9 @@ export function computeBadgeStates(
       progressPct,
       currentTier,
       nextTier,
-      obtained: currentTier !== null,
+      // A badge is only "obtained" at full completion (100%), not merely at the first tier —
+      // `currentTier`/`nextTier` still reflect intermediate progress for the progress bar/label.
+      obtained: def.groupSize > 0 && caught >= def.groupSize,
     }
   })
 }
