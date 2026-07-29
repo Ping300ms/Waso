@@ -1,5 +1,5 @@
 import type { BadgeState } from '../../domain/badges'
-import { BIRDS_BY_FAMILY } from '../../data/birds'
+import { ALL_BIRDS, BIRDS_BY_FAMILY, BIRDS_BY_ID } from '../../data/birds'
 import { useSightings } from '../../hooks/useSightings'
 
 interface BadgeDetailModalProps {
@@ -10,8 +10,15 @@ interface BadgeDetailModalProps {
 export function BadgeDetailModal({ badge, onClose }: BadgeDetailModalProps) {
   const sightings = useSightings()
   const caughtIds = new Set(sightings.map((s) => s.birdId))
-  const birds = badge.famille ? (BIRDS_BY_FAMILY.get(badge.famille) ?? []) : []
-  const sortedBirds = [...birds].sort((a, b) => {
+
+  const memberBirds =
+    badge.kind === 'family'
+      ? (badge.famille ? (BIRDS_BY_FAMILY.get(badge.famille) ?? []) : [])
+      : badge.kind === 'checklist'
+        ? (badge.memberBirdIds ?? []).map((id) => BIRDS_BY_ID.get(id)).filter((b) => b !== undefined)
+        : []
+
+  const sortedBirds = [...memberBirds].sort((a, b) => {
     const aCaught = caughtIds.has(a.id)
     const bCaught = caughtIds.has(b.id)
     if (aCaught !== bCaught) return aCaught ? 1 : -1
@@ -29,7 +36,7 @@ export function BadgeDetailModal({ badge, onClose }: BadgeDetailModalProps) {
             </h2>
             <p className="text-sm text-slate-500">
               {Math.round(badge.progressPct)}% atteint
-              {badge.nextTier ? '' : ' — famille complète !'}
+              {badge.nextTier ? '' : ' — complet !'}
             </p>
           </div>
           <button type="button" onClick={onClose} className="text-slate-400 text-xl leading-none">
@@ -42,20 +49,29 @@ export function BadgeDetailModal({ badge, onClose }: BadgeDetailModalProps) {
             {badge.caught} / {badge.groupSize} oiseaux découverts au total — n'importe quel oiseau
             compte pour ce badge.
           </p>
+        ) : badge.kind === 'custom' ? (
+          <p className="text-sm text-slate-500">{badge.description}</p>
         ) : (
-          <ul className="divide-y divide-slate-200 dark:divide-slate-800">
-            {sortedBirds.map((bird) => {
-              const caught = caughtIds.has(bird.id)
-              return (
-                <li key={bird.id} className="flex items-center justify-between py-2 text-sm">
-                  <span className={caught ? '' : 'text-slate-400'}>{bird.frenchName}</span>
-                  <span className={caught ? 'text-emerald-600' : 'text-slate-400'}>
-                    {caught ? '✓ Capturé' : 'Manquant'}
-                  </span>
-                </li>
-              )
-            })}
-          </ul>
+          <>
+            {badge.kind === 'checklist' && (
+              <p className="text-sm text-slate-500">
+                {badge.caught} / {badge.groupSize} requis (parmi {ALL_BIRDS.filter((b) => (badge.memberBirdIds ?? []).includes(b.id)).length} espèces éligibles).
+              </p>
+            )}
+            <ul className="divide-y divide-slate-200 dark:divide-slate-800">
+              {sortedBirds.map((bird) => {
+                const caught = caughtIds.has(bird.id)
+                return (
+                  <li key={bird.id} className="flex items-center justify-between py-2 text-sm">
+                    <span className={caught ? '' : 'text-slate-400'}>{bird.frenchName}</span>
+                    <span className={caught ? 'text-emerald-600' : 'text-slate-400'}>
+                      {caught ? '✓ Capturé' : 'Manquant'}
+                    </span>
+                  </li>
+                )
+              })}
+            </ul>
+          </>
         )}
       </div>
     </div>

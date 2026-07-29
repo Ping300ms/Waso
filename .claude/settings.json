@@ -27,7 +27,8 @@
       "Bash(curl -s \"https://api.github.com/repos/Ping300ms/Waso/actions/runs/30395809730/jobs\")",
       "Bash(cat /tmp/job.log)",
       "Bash(rm -rf node_modules)",
-      "Bash(npm ci *)"
+      "Bash(npm ci *)",
+      "Bash(node -e ' *)"
     ],
     "additionalDirectories": [
       "C:\\Users\\pamau\\AppData\\Local\\Temp\\claude"

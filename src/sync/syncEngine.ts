@@ -7,34 +7,50 @@ interface RemoteSighting {
   user_id: string
   bird_id: string
   first_seen_date: string
+  first_seen_time: string | null
   updated_at: string
 }
 
 interface MergedRow {
   birdId: string
   firstSeenDate: string
+  firstSeenTime: string | null
 }
 
 /**
  * Additive merge: a bird counts as caught if it's caught on EITHER side; when both sides
- * have it, the earliest date wins. Pure function, no I/O — safe to unit test and to rerun.
+ * have it, the earliest date wins (and its time comes along with it — if both sides share
+ * the same date, whichever side actually has a time set wins, local breaking ties).
+ * Pure function, no I/O — safe to unit test and to rerun.
  */
 export function additiveMerge(
   local: SightingRecord[],
   remote: RemoteSighting[]
 ): MergedRow[] {
-  const localMap = new Map(local.map((r) => [r.birdId, r.firstSeenDate]))
-  const remoteMap = new Map(remote.map((r) => [r.bird_id, r.first_seen_date]))
+  const localMap = new Map(local.map((r) => [r.birdId, r]))
+  const remoteMap = new Map(remote.map((r) => [r.bird_id, r]))
   const allIds = new Set([...localMap.keys(), ...remoteMap.keys()])
 
   const merged: MergedRow[] = []
   for (const birdId of allIds) {
-    const localDate = localMap.get(birdId)
-    const remoteDate = remoteMap.get(birdId)
-    if (localDate && remoteDate) {
-      merged.push({ birdId, firstSeenDate: localDate < remoteDate ? localDate : remoteDate })
-    } else {
-      merged.push({ birdId, firstSeenDate: (localDate ?? remoteDate)! })
+    const l = localMap.get(birdId)
+    const r = remoteMap.get(birdId)
+    if (l && r) {
+      if (l.firstSeenDate < r.first_seen_date) {
+        merged.push({ birdId, firstSeenDate: l.firstSeenDate, firstSeenTime: l.firstSeenTime ?? null })
+      } else if (r.first_seen_date < l.firstSeenDate) {
+        merged.push({ birdId, firstSeenDate: r.first_seen_date, firstSeenTime: r.first_seen_time })
+      } else {
+        merged.push({
+          birdId,
+          firstSeenDate: l.firstSeenDate,
+          firstSeenTime: l.firstSeenTime ?? r.first_seen_time ?? null,
+        })
+      }
+    } else if (l) {
+      merged.push({ birdId, firstSeenDate: l.firstSeenDate, firstSeenTime: l.firstSeenTime ?? null })
+    } else if (r) {
+      merged.push({ birdId, firstSeenDate: r.first_seen_date, firstSeenTime: r.first_seen_time })
     }
   }
   return merged
@@ -70,7 +86,7 @@ export async function runSync(userId: string): Promise<void> {
 
     const { data: remoteRows, error } = await supabase
       .from('sightings')
-      .select('user_id, bird_id, first_seen_date, updated_at')
+      .select('user_id, bird_id, first_seen_date, first_seen_time, updated_at')
       .eq('user_id', userId)
 
     if (error) {
@@ -85,16 +101,21 @@ export async function runSync(userId: string): Promise<void> {
 
     const merged = additiveMerge(local, remote)
 
-    const localMap = new Map(local.map((r) => [r.birdId, r.firstSeenDate]))
-    const remoteMap = new Map(remote.map((r) => [r.bird_id, r.first_seen_date]))
+    const localMap = new Map(local.map((r) => [r.birdId, r]))
+    const remoteMap = new Map(remote.map((r) => [r.bird_id, r]))
     const now = new Date().toISOString()
 
     const toUpsert = merged
-      .filter((row) => remoteMap.get(row.birdId) !== row.firstSeenDate)
+      .filter(
+        (row) =>
+          remoteMap.get(row.birdId)?.first_seen_date !== row.firstSeenDate ||
+          (remoteMap.get(row.birdId)?.first_seen_time ?? null) !== row.firstSeenTime
+      )
       .map((row) => ({
         user_id: userId,
         bird_id: row.birdId,
         first_seen_date: row.firstSeenDate,
+        first_seen_time: row.firstSeenTime,
         updated_at: now,
       }))
 
@@ -111,10 +132,15 @@ export async function runSync(userId: string): Promise<void> {
     }
 
     const toWriteLocal = merged
-      .filter((row) => localMap.get(row.birdId) !== row.firstSeenDate)
+      .filter(
+        (row) =>
+          localMap.get(row.birdId)?.firstSeenDate !== row.firstSeenDate ||
+          (localMap.get(row.birdId)?.firstSeenTime ?? null) !== row.firstSeenTime
+      )
       .map((row) => ({
         birdId: row.birdId,
         firstSeenDate: row.firstSeenDate,
+        firstSeenTime: row.firstSeenTime,
         updatedAt: now,
         dirty: 0,
       }))

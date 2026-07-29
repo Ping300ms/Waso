@@ -5,6 +5,9 @@ export interface SightingRecord {
   birdId: string
   /** ISO date string (YYYY-MM-DD), earliest known sighting date. */
   firstSeenDate: string
+  /** Time of day (HH:MM, 24h) of the earliest sighting, if known. Optional — used by
+   * time-of-day badges (e.g. "Lève-tôt", "Oiseau de nuit"). */
+  firstSeenTime?: string | null
   /** ISO timestamp of the last local modification. */
   updatedAt: string
   /** True if created/modified locally since the last successful push to Supabase. */

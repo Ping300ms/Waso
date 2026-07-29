@@ -12,9 +12,15 @@ function todayIsoDate(): string {
   return new Date().toISOString().slice(0, 10)
 }
 
+function currentTimeHHMM(): string {
+  const now = new Date()
+  return `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`
+}
+
 export function AddSightingModal({ onClose, onSaved }: AddSightingModalProps) {
   const [bird, setBird] = useState<Bird | null>(null)
   const [date, setDate] = useState(todayIsoDate())
+  const [time, setTime] = useState(currentTimeHHMM())
   const [saving, setSaving] = useState(false)
 
   const canSave = bird !== null && date !== '' && date <= todayIsoDate()
@@ -22,7 +28,7 @@ export function AddSightingModal({ onClose, onSaved }: AddSightingModalProps) {
   async function handleSave() {
     if (!bird) return
     setSaving(true)
-    await upsertSighting(bird.id, new Date(date))
+    await upsertSighting(bird.id, new Date(date), time || null)
     setSaving(false)
     onSaved(bird)
   }
@@ -37,15 +43,26 @@ export function AddSightingModal({ onClose, onSaved }: AddSightingModalProps) {
           <BirdPicker value={bird} onChange={setBird} />
         </div>
 
-        <div className="space-y-1">
-          <label className="text-sm font-medium">Date d'observation</label>
-          <input
-            type="date"
-            value={date}
-            max={todayIsoDate()}
-            onChange={(e) => setDate(e.target.value)}
-            className="w-full border rounded px-3 py-2 dark:bg-slate-900 dark:border-slate-700"
-          />
+        <div className="flex gap-2">
+          <div className="flex-1 space-y-1">
+            <label className="text-sm font-medium">Date d'observation</label>
+            <input
+              type="date"
+              value={date}
+              max={todayIsoDate()}
+              onChange={(e) => setDate(e.target.value)}
+              className="w-full border rounded px-3 py-2 dark:bg-slate-900 dark:border-slate-700"
+            />
+          </div>
+          <div className="space-y-1">
+            <label className="text-sm font-medium">Heure (optionnel)</label>
+            <input
+              type="time"
+              value={time}
+              onChange={(e) => setTime(e.target.value)}
+              className="border rounded px-3 py-2 dark:bg-slate-900 dark:border-slate-700"
+            />
+          </div>
         </div>
 
         <div className="flex justify-end gap-2 pt-2">

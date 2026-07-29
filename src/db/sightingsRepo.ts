@@ -16,16 +16,32 @@ export async function getSighting(birdId: string): Promise<SightingRecord | unde
  * Logs (or updates) a sighting for a bird. If a record already exists, the earliest
  * date between the existing and the new one is kept (a bird's "first seen" date only
  * ever moves earlier, never later) — this matches the additive-merge sync rule.
+ *
+ * `time` (HH:MM, optional) describes the earliest occurrence: if the new date is earlier
+ * than (or equal-with-no-existing-time) the current one, it replaces the stored time; if
+ * the new date is later, the existing date+time are left untouched.
  */
-export async function upsertSighting(birdId: string, date: Date): Promise<void> {
+export async function upsertSighting(birdId: string, date: Date, time?: string | null): Promise<void> {
   const isoDate = date.toISOString().slice(0, 10)
   const existing = await db.sightings.get(birdId)
-  const firstSeenDate =
-    existing && existing.firstSeenDate < isoDate ? existing.firstSeenDate : isoDate
+
+  let firstSeenDate = isoDate
+  let firstSeenTime: string | null | undefined = time ?? null
+  if (existing) {
+    if (existing.firstSeenDate < isoDate) {
+      firstSeenDate = existing.firstSeenDate
+      firstSeenTime = existing.firstSeenTime
+    } else if (existing.firstSeenDate === isoDate && !existing.firstSeenTime) {
+      firstSeenTime = time ?? existing.firstSeenTime
+    } else if (existing.firstSeenDate === isoDate) {
+      firstSeenTime = existing.firstSeenTime
+    }
+  }
 
   await db.sightings.put({
     birdId,
     firstSeenDate,
+    firstSeenTime,
     updatedAt: nowIso(),
     dirty: 1,
   })

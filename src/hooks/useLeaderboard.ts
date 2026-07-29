@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { supabase } from '../sync/supabaseClient'
 import { db, type LeaderboardCacheEntry, type LeaderboardCacheRecord } from '../db/schema'
 import { FAMILIES, BIRDS_BY_FAMILY } from '../data/birds'
-import { buildBadgeDefs, computeBadgeStates } from '../domain/badges'
+import { buildBadgeDefs, computeBadgeStates, type CaughtBird } from '../domain/badges'
 
 export type LeaderboardEntry = LeaderboardCacheEntry
 
@@ -15,11 +15,8 @@ interface LeaderboardResult {
 
 const BADGE_DEFS = buildBadgeDefs()
 
-function countBadges(birdIds: string[]): number {
-  return computeBadgeStates(
-    birdIds.map((birdId) => ({ birdId })),
-    BADGE_DEFS
-  ).filter((b) => b.obtained).length
+function countBadges(caughtBirds: CaughtBird[]): number {
+  return computeBadgeStates(caughtBirds, BADGE_DEFS).filter((b) => b.obtained).length
 }
 
 function countFamilies(birdIds: string[]): number {
@@ -60,7 +57,7 @@ export function useLeaderboard(): LeaderboardResult {
       const [{ data: profiles, error: profilesError }, { data: sightings, error: sightingsError }] =
         await Promise.all([
           supabase.from('profiles').select('id, pseudo'),
-          supabase.from('sightings').select('user_id, bird_id'),
+          supabase.from('sightings').select('user_id, bird_id, first_seen_date, first_seen_time'),
         ])
 
       if (profilesError || sightingsError || !profiles || !sightings) {
@@ -70,22 +67,32 @@ export function useLeaderboard(): LeaderboardResult {
         return
       }
 
-      const birdIdsByUser = new Map<string, string[]>()
-      for (const row of sightings as { user_id: string; bird_id: string }[]) {
-        const list = birdIdsByUser.get(row.user_id) ?? []
-        list.push(row.bird_id)
-        birdIdsByUser.set(row.user_id, list)
+      const caughtByUser = new Map<string, CaughtBird[]>()
+      for (const row of sightings as {
+        user_id: string
+        bird_id: string
+        first_seen_date: string
+        first_seen_time: string | null
+      }[]) {
+        const list = caughtByUser.get(row.user_id) ?? []
+        list.push({
+          birdId: row.bird_id,
+          firstSeenDate: row.first_seen_date,
+          firstSeenTime: row.first_seen_time,
+        })
+        caughtByUser.set(row.user_id, list)
       }
 
       const computed: LeaderboardEntry[] = (profiles as { id: string; pseudo: string }[]).map(
         (p) => {
-          const birdIds = birdIdsByUser.get(p.id) ?? []
+          const caughtBirds = caughtByUser.get(p.id) ?? []
+          const birdIds = caughtBirds.map((c) => c.birdId)
           return {
             userId: p.id,
             pseudo: p.pseudo,
             birdCount: birdIds.length,
             familyCount: countFamilies(birdIds),
-            badgeCount: countBadges(birdIds),
+            badgeCount: countBadges(caughtBirds),
           }
         }
       )

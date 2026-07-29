@@ -50,18 +50,25 @@ export function usePlayerSightings(userId: string | null): {
     setLoading(true)
     supabase
       .from('sightings')
-      .select('bird_id, first_seen_date, updated_at')
+      .select('bird_id, first_seen_date, first_seen_time, updated_at')
       .eq('user_id', userId)
       .then(({ data, error: fetchError }) => {
         if (cancelled) return
         if (fetchError) {
           setError(fetchError.message)
         } else {
-          const rows = (data as { bird_id: string; first_seen_date: string; updated_at: string }[]) ?? []
+          const rows =
+            (data as {
+              bird_id: string
+              first_seen_date: string
+              first_seen_time: string | null
+              updated_at: string
+            }[]) ?? []
           setSightings(
             rows.map((r) => ({
               birdId: r.bird_id,
               firstSeenDate: r.first_seen_date,
+              firstSeenTime: r.first_seen_time,
               updatedAt: r.updated_at,
               dirty: 0,
             }))
