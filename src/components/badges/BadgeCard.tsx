@@ -24,9 +24,6 @@ export function BadgeCard({ badge, onClick }: { badge: BadgeState; onClick?: () 
               style={{ width: `${Math.min(100, badge.progressPct)}%` }}
             />
           </div>
-          <p className="text-[10px] text-slate-500 mt-0.5">
-            {badge.caught}/{badge.nextTier.threshold} pour {badge.nextTier.tierPct}%
-          </p>
         </div>
       )}
     </button>

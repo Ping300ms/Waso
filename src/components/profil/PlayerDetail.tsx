@@ -13,6 +13,7 @@ interface PlayerDetailProps {
 export function PlayerDetail({ playerId, pseudo, onBack }: PlayerDetailProps) {
   const { sightings, loading } = usePlayerSightings(playerId)
   const badges = useBadgesForSightings(sightings)
+  const obtainedBadges = badges.filter((b) => b.obtained)
   const caughtIds = new Set(sightings.map((s) => s.birdId))
   const datesByBirdId = new Map(sightings.map((s) => [s.birdId, s.firstSeenDate]))
   const familyCount = FAMILIES.filter((f) =>
@@ -34,15 +35,16 @@ export function PlayerDetail({ playerId, pseudo, onBack }: PlayerDetailProps) {
         <>
           <p className="px-4 text-sm text-slate-500">
             {caughtIds.size} / {ALL_BIRDS.length} oiseaux · {familyCount} / {FAMILIES.length} familles
+            · {obtainedBadges.length} / {badges.length} badges
           </p>
-          <h3 className="px-4 pt-3 font-medium text-sm">Badges obtenus</h3>
-          <BadgeGrid badges={badges.filter((b) => b.obtained)} />
-          <h3 className="px-4 pt-1 font-medium text-sm">Wasodex</h3>
+          <h3 className="px-4 pt-3 font-medium text-sm">Wasodex</h3>
           <BirdGrid
             birds={ALL_BIRDS.filter((b) => caughtIds.has(b.id))}
             caughtIds={caughtIds}
             datesByBirdId={datesByBirdId}
           />
+          <h3 className="px-4 pt-1 font-medium text-sm">Badges obtenus</h3>
+          <BadgeGrid badges={obtainedBadges} />
         </>
       )}
     </div>

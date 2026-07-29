@@ -19,6 +19,7 @@ export function Wasodex() {
   const [modalOpen, setModalOpen] = useState(false)
   const [celebrating, setCelebrating] = useState<Bird | null>(null)
   const [selectedBird, setSelectedBird] = useState<Bird | null>(null)
+  const [searchQuery, setSearchQuery] = useState('')
 
   const sightingsByBirdId = useMemo(() => new Map(sightings.map((s) => [s.birdId, s])), [sightings])
   const caughtIds = useMemo(() => new Set(sightings.map((s) => s.birdId)), [sightings])
@@ -31,8 +32,16 @@ export function Wasodex() {
     let birds = ALL_BIRDS
     if (filter === 'vus') birds = birds.filter((b) => caughtIds.has(b.id))
     if (filter === 'non-vus') birds = birds.filter((b) => !caughtIds.has(b.id))
+    const query = searchQuery.trim().toLowerCase()
+    if (query) {
+      birds = birds.filter(
+        (b) =>
+          b.frenchName.toLowerCase().includes(query) ||
+          b.scientificName.toLowerCase().includes(query)
+      )
+    }
     return [...birds].sort(getBirdComparator(sortKey, sightingsByBirdId))
-  }, [filter, sortKey, caughtIds, sightingsByBirdId])
+  }, [filter, sortKey, searchQuery, caughtIds, sightingsByBirdId])
 
   return (
     <div>
@@ -54,6 +63,8 @@ export function Wasodex() {
         onSortKeyChange={setSortKey}
         filter={filter}
         onFilterChange={setFilter}
+        searchQuery={searchQuery}
+        onSearchQueryChange={setSearchQuery}
       />
 
       <BirdGrid

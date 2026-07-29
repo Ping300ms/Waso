@@ -1,4 +1,6 @@
 import { SORT_LABELS, type SortKey } from '../../domain/sort'
+import { SearchBar } from '../common/SearchBar'
+import { SortMenu } from '../common/SortMenu'
 
 export type CaughtFilter = 'tous' | 'vus' | 'non-vus'
 
@@ -7,6 +9,8 @@ interface SortFilterBarProps {
   onSortKeyChange: (key: SortKey) => void
   filter: CaughtFilter
   onFilterChange: (filter: CaughtFilter) => void
+  searchQuery: string
+  onSearchQueryChange: (query: string) => void
 }
 
 const FILTER_LABELS: Record<CaughtFilter, string> = {
@@ -20,23 +24,19 @@ export function SortFilterBar({
   onSortKeyChange,
   filter,
   onFilterChange,
+  searchQuery,
+  onSearchQueryChange,
 }: SortFilterBarProps) {
   return (
-    <div className="flex flex-wrap gap-3 items-center px-4 py-2">
-      <label className="text-sm flex items-center gap-2">
-        Trier par
-        <select
-          value={sortKey}
-          onChange={(e) => onSortKeyChange(e.target.value as SortKey)}
-          className="border rounded px-2 py-1 text-sm bg-white dark:bg-slate-900 dark:border-slate-700"
-        >
-          {(Object.keys(SORT_LABELS) as SortKey[]).map((key) => (
-            <option key={key} value={key}>
-              {SORT_LABELS[key]}
-            </option>
-          ))}
-        </select>
-      </label>
+    <div className="space-y-2 px-4 py-2">
+      <div className="flex items-center gap-2">
+        <SearchBar
+          value={searchQuery}
+          onChange={onSearchQueryChange}
+          placeholder="Rechercher un oiseau..."
+        />
+        <SortMenu value={sortKey} options={SORT_LABELS} onChange={onSortKeyChange} />
+      </div>
 
       <div className="flex gap-1">
         {(Object.keys(FILTER_LABELS) as CaughtFilter[]).map((key) => (

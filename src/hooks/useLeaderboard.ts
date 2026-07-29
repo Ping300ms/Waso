@@ -1,20 +1,25 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../sync/supabaseClient'
-import { db, type LeaderboardCacheRecord } from '../db/schema'
+import { db, type LeaderboardCacheEntry, type LeaderboardCacheRecord } from '../db/schema'
 import { FAMILIES, BIRDS_BY_FAMILY } from '../data/birds'
+import { buildBadgeDefs, computeBadgeStates } from '../domain/badges'
 
-export interface LeaderboardEntry {
-  userId: string
-  pseudo: string
-  birdCount: number
-  familyCount: number
-}
+export type LeaderboardEntry = LeaderboardCacheEntry
 
 interface LeaderboardResult {
   entries: LeaderboardEntry[]
   fetchedAt: string | null
   loading: boolean
   offline: boolean
+}
+
+const BADGE_DEFS = buildBadgeDefs()
+
+function countBadges(birdIds: string[]): number {
+  return computeBadgeStates(
+    birdIds.map((birdId) => ({ birdId })),
+    BADGE_DEFS
+  ).filter((b) => b.obtained).length
 }
 
 function countFamilies(birdIds: string[]): number {
@@ -80,6 +85,7 @@ export function useLeaderboard(): LeaderboardResult {
             pseudo: p.pseudo,
             birdCount: birdIds.length,
             familyCount: countFamilies(birdIds),
+            badgeCount: countBadges(birdIds),
           }
         }
       )

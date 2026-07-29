@@ -1,10 +1,22 @@
 import { useState } from 'react'
-import { useLeaderboard } from '../hooks/useLeaderboard'
-import { LeaderboardTable } from '../components/classement/LeaderboardTable'
+import { useLeaderboard, type LeaderboardEntry } from '../hooks/useLeaderboard'
+import { LeaderboardTable, type LeaderboardSortBy } from '../components/classement/LeaderboardTable'
+import { PlayerDetail } from '../components/profil/PlayerDetail'
 
 export function Classement() {
   const { entries, fetchedAt, loading, offline } = useLeaderboard()
-  const [sortBy, setSortBy] = useState<'birdCount' | 'familyCount'>('birdCount')
+  const [sortBy, setSortBy] = useState<LeaderboardSortBy>('birdCount')
+  const [selectedPlayer, setSelectedPlayer] = useState<LeaderboardEntry | null>(null)
+
+  if (selectedPlayer) {
+    return (
+      <PlayerDetail
+        playerId={selectedPlayer.userId}
+        pseudo={selectedPlayer.pseudo}
+        onBack={() => setSelectedPlayer(null)}
+      />
+    )
+  }
 
   return (
     <div className="p-4 space-y-3">
@@ -12,11 +24,12 @@ export function Classement() {
         <h2 className="text-lg font-bold">Classement</h2>
         <select
           value={sortBy}
-          onChange={(e) => setSortBy(e.target.value as 'birdCount' | 'familyCount')}
+          onChange={(e) => setSortBy(e.target.value as LeaderboardSortBy)}
           className="border rounded px-2 py-1 text-sm dark:bg-slate-900 dark:border-slate-700"
         >
           <option value="birdCount">Nb d'oiseaux</option>
           <option value="familyCount">Nb de familles</option>
+          <option value="badgeCount">Nb de badges</option>
         </select>
       </div>
 
@@ -33,7 +46,7 @@ export function Classement() {
           {offline ? 'Classement indisponible hors-ligne (aucune donnée en cache).' : 'Aucun joueur pour le moment.'}
         </p>
       ) : (
-        <LeaderboardTable entries={entries} sortBy={sortBy} />
+        <LeaderboardTable entries={entries} sortBy={sortBy} onSelectPlayer={setSelectedPlayer} />
       )}
     </div>
   )

@@ -1,6 +1,11 @@
 import { ALL_BIRDS, BIRDS_BY_FAMILY, FAMILIES, type Bird } from '../data/birds'
-import type { SightingRecord } from '../db/schema'
 import { emojiForFamily } from './emoji'
+
+/** Only `birdId` is needed to compute badge progress — accepting this narrower shape lets
+ * callers pass plain `{ birdId }[]` (e.g. the leaderboard, which has no sighting dates). */
+export interface CaughtBird {
+  birdId: string
+}
 
 export type BadgeKind = 'family' | 'total'
 
@@ -82,7 +87,7 @@ export function buildBadgeDefs(allBirds: Bird[] = ALL_BIRDS): BadgeDef[] {
 }
 
 export function computeBadgeStates(
-  sightings: SightingRecord[],
+  sightings: CaughtBird[],
   defs: BadgeDef[] = buildBadgeDefs()
 ): BadgeState[] {
   const caughtIds = new Set(sightings.map((s) => s.birdId))

@@ -23,15 +23,18 @@ export interface SyncStateRecord {
   lastPushedAt: string | null
 }
 
+export interface LeaderboardCacheEntry {
+  userId: string
+  pseudo: string
+  birdCount: number
+  familyCount: number
+  badgeCount: number
+}
+
 export interface LeaderboardCacheRecord {
   key: 'singleton'
   fetchedAt: string
-  entries: Array<{
-    userId: string
-    pseudo: string
-    birdCount: number
-    familyCount: number
-  }>
+  entries: LeaderboardCacheEntry[]
 }
 
 class WasoDB extends Dexie {

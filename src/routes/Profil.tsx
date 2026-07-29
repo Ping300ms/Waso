@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useAuth } from '../auth/AuthProvider'
 import { fetchOwnProfile, updatePseudo } from '../auth/authRepo'
 import { useSightings } from '../hooks/useSightings'
+import { useBadges } from '../hooks/useBadges'
 import { usePlayers, type PlayerSummary } from '../hooks/usePlayers'
 import { ALL_BIRDS, FAMILIES } from '../data/birds'
 import { ProfilSummary } from '../components/profil/ProfilSummary'
@@ -32,11 +33,13 @@ export function Profil() {
   }, [userId])
 
   const { players } = usePlayers()
+  const badges = useBadges()
 
   const caughtIds = new Set(sightings.map((s) => s.birdId))
   const familyCount = FAMILIES.filter((f) =>
     ALL_BIRDS.some((b) => b.famille === f && caughtIds.has(b.id))
   ).length
+  const badgeCount = badges.filter((b) => b.obtained).length
 
   if (selectedPlayer) {
     return (
@@ -61,8 +64,10 @@ export function Profil() {
         pseudo={pseudo ?? session?.user.email ?? '...'}
         birdCount={caughtIds.size}
         familyCount={familyCount}
+        badgeCount={badgeCount}
         totalBirds={ALL_BIRDS.length}
         totalFamilies={FAMILIES.length}
+        totalBadges={badges.length}
       />
 
       {online ? (
