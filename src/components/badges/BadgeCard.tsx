@@ -5,7 +5,7 @@ export function BadgeCard({ badge, onClick }: { badge: BadgeState; onClick?: () 
     <button
       type="button"
       onClick={onClick}
-      className={`rounded-xl border-2 p-3 flex flex-col items-center gap-1 text-center ${
+      className={`rounded-xl border-2 p-3 min-h-28 flex flex-col items-center justify-center gap-1 text-center ${
         badge.obtained
           ? 'bg-emerald-50 dark:bg-emerald-950 border-emerald-400'
           : 'bg-slate-100 dark:bg-slate-800 border-slate-300 dark:border-slate-700 opacity-70'

@@ -30,6 +30,14 @@ jobs:
 
       - run: npm ci
 
+      - uses: actions/cache@v4
+        with:
+          path: public/birdnet
+          key: birdnet-model-v1
+
+      - name: Fetch BirdNET model (skips if already cached)
+        run: test -f public/birdnet/models/birdnet/model.json || npm run fetch:birdnet-model
+
       - run: npm run build
         env:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}

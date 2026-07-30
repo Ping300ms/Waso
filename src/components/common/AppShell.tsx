@@ -1,10 +1,17 @@
 import { useState } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import { IoBookOutline, IoRibbonOutline, IoTrophyOutline, IoPersonOutline } from 'react-icons/io5'
+import {
+  IoBookOutline,
+  IoRibbonOutline,
+  IoTrophyOutline,
+  IoPersonOutline,
+  IoMicOutline,
+} from 'react-icons/io5'
 import { OfflineBanner } from './OfflineBanner'
 
 const NAV_ITEMS = [
   { to: '/wasodex', label: 'Wasodex', Icon: IoBookOutline },
+  { to: '/ecoute', label: 'Écoute', Icon: IoMicOutline },
   { to: '/badges', label: 'Badges', Icon: IoRibbonOutline },
   { to: '/classement', label: 'Classement', Icon: IoTrophyOutline },
   { to: '/profil', label: 'Profil', Icon: IoPersonOutline },

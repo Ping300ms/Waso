@@ -16,6 +16,10 @@ export const ALL_BIRDS: Bird[] = birdsJson as Bird[]
 
 export const BIRDS_BY_ID: Map<string, Bird> = new Map(ALL_BIRDS.map((b) => [b.id, b]))
 
+export const BIRDS_BY_SCIENTIFIC_NAME: Map<string, Bird> = new Map(
+  ALL_BIRDS.map((b) => [b.scientificName, b])
+)
+
 export const FAMILIES: string[] = Array.from(new Set(ALL_BIRDS.map((b) => b.famille))).sort(
   (a, b) => a.localeCompare(b, 'fr')
 )

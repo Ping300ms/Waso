@@ -12,6 +12,9 @@ dist
 dist-ssr
 dev-dist
 *.local
+
+# BirdNET model, fetched via `npm run fetch:birdnet-model` (not committed, ~50 MB)
+/public/birdnet/
 .env
 .env.*
 !.env.example

@@ -7,6 +7,7 @@ import { Wasodex } from './routes/Wasodex'
 import { Badges } from './routes/Badges'
 import { Classement } from './routes/Classement'
 import { Profil } from './routes/Profil'
+import { Reconnaissance } from './routes/Reconnaissance'
 import { useSyncTrigger } from './sync/useSyncTrigger'
 
 function SyncBootstrap() {
@@ -25,6 +26,7 @@ export default function App() {
             <Route element={<AppShell />}>
               <Route index element={<Navigate to="/wasodex" replace />} />
               <Route path="/wasodex" element={<Wasodex />} />
+              <Route path="/ecoute" element={<Reconnaissance />} />
               <Route path="/badges" element={<Badges />} />
               <Route path="/classement" element={<Classement />} />
               <Route path="/profil" element={<Profil />} />

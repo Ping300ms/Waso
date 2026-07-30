@@ -29,9 +29,19 @@ Ce fichier n'est jamais commité (`.gitignore`).
 
 ```bash
 npm install
-npm run build:birds   # à relancer seulement si BIRDS.csv change
+npm run build:birds          # à relancer seulement si BIRDS.csv change
+npm run fetch:birdnet-model  # télécharge le modèle de reconnaissance au chant (~50 Mo, requis pour l'écran "Écoute")
 npm run dev
 ```
+
+## 6. Écran "Écoute" (reconnaissance au chant)
+
+Basé sur [georg95/birdnet-web](https://github.com/georg95/birdnet-web) (modèle BirdNET converti en TensorFlow.js). Le repo source n'a pas de licence explicite et le modèle BirdNET lui-même (Cornell Lab / K. Lisa Yang Center) est publié en **usage non-commercial** (CC BY-NC-SA 4.0) — cohérent avec l'usage personnel/entre proches de Waso, mais à garder en tête si l'app devait un jour changer de cadre.
+
+Le modèle (~50 Mo) n'est **pas commité** dans le repo (`public/birdnet/` est gitignoré) :
+- En local : `npm run fetch:birdnet-model` (une fois, ou à chaque fois que `public/birdnet/` a été supprimé).
+- En CI : `.github/workflows/deploy.yml` le télécharge automatiquement (avec cache GitHub Actions entre les runs).
+- Côté utilisateur final : le modèle est téléchargé au premier lancement de l'écran "Écoute", puis mis en cache par le service worker (règle `CacheFirst` dans `vite.config.ts`) — fonctionne hors-ligne ensuite.
 
 ## 4. Déploiement GitHub Pages
 

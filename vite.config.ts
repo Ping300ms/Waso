@@ -38,7 +38,20 @@ export default defineConfig({
         ],
       },
       workbox: {
+        // Note: this intentionally does NOT match public/birdnet/** (model files, ~50MB) —
+        // precaching them would bloat the initial app install. Instead they're cached on
+        // first use via the CacheFirst runtime rule below (fetched once, then offline).
         globPatterns: ['**/*.{js,css,html,ico,svg,json,webmanifest}'],
+        runtimeCaching: [
+          {
+            urlPattern: /\/birdnet\/.*/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'birdnet-model-v1',
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
       },
     }),
   ],
