@@ -32,7 +32,8 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/Waso/)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/Waso/src/routes/Reconnaissance.tsx)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/Waso/src/birdnet/useBirdRecognizer.ts)",
-      "Bash(rm -rf dist dev-dist)"
+      "Bash(rm -rf dist dev-dist)",
+      "Bash(rm -rf node_modules package-lock.json)"
     ],
     "additionalDirectories": [
       "C:\\Users\\pamau\\AppData\\Local\\Temp\\claude"
