@@ -1,3 +1,4 @@
+import { IoAddCircle, IoCheckmarkCircle } from 'react-icons/io5'
 import type { Detection } from '../../birdnet/useBirdRecognizer'
 import { emojiForFamily } from '../../domain/emoji'
 import { RARETE_STYLE } from '../../domain/rarete'
@@ -27,9 +28,10 @@ export function DetectedBirdRow({ detection, onQuickAdd, added }: DetectedBirdRo
         type="button"
         disabled={added}
         onClick={() => onQuickAdd(detection)}
-        className="shrink-0 px-3 py-1.5 text-sm rounded bg-violet-600 text-white disabled:opacity-50"
+        aria-label={added ? 'Ajouté au Wasodex' : 'Ajouter au Wasodex'}
+        className="shrink-0 text-violet-600 dark:text-violet-400 disabled:text-emerald-600 dark:disabled:text-emerald-500"
       >
-        {added ? '✓ Ajouté' : '+ Ajouter'}
+        {added ? <IoCheckmarkCircle size={32} /> : <IoAddCircle size={32} />}
       </button>
     </div>
   )
