@@ -2259,15 +2259,6 @@
     "rarete": "Rare"
   },
   {
-    "id": "p-l",
-    "scientificName": "– P. l.",
-    "fullScientificName": "– P. l. leucorodia Linnaeus, 1758",
-    "frenchName": "",
-    "category": "A",
-    "famille": "–",
-    "rarete": "Commun"
-  },
-  {
     "id": "botaurus-stellaris",
     "scientificName": "Botaurus stellaris",
     "fullScientificName": "Botaurus stellaris (Linnaeus, 1758)",
