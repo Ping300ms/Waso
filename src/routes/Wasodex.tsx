@@ -45,12 +45,6 @@ export function Wasodex() {
 
   return (
     <div>
-      <div className="px-4 pt-3">
-        <p className="text-sm text-slate-500">
-          {caughtIds.size} / {ALL_BIRDS.length} oiseaux découverts
-        </p>
-      </div>
-
       <SortFilterBar
         sortKey={sortKey}
         onSortKeyChange={setSortKey}
@@ -58,6 +52,7 @@ export function Wasodex() {
         onFilterChange={setFilter}
         searchQuery={searchQuery}
         onSearchQueryChange={setSearchQuery}
+        countLabel={`${caughtIds.size} / ${ALL_BIRDS.length} oiseaux découverts`}
       />
 
       <BirdGrid

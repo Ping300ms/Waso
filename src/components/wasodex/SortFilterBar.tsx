@@ -11,6 +11,7 @@ interface SortFilterBarProps {
   onFilterChange: (filter: CaughtFilter) => void
   searchQuery: string
   onSearchQueryChange: (query: string) => void
+  countLabel?: string
 }
 
 const FILTER_LABELS: Record<CaughtFilter, string> = {
@@ -26,6 +27,7 @@ export function SortFilterBar({
   onFilterChange,
   searchQuery,
   onSearchQueryChange,
+  countLabel,
 }: SortFilterBarProps) {
   return (
     <div className="space-y-2 px-4 py-2">
@@ -38,21 +40,24 @@ export function SortFilterBar({
         <SortMenu value={sortKey} options={SORT_LABELS} onChange={onSortKeyChange} />
       </div>
 
-      <div className="flex gap-1">
-        {(Object.keys(FILTER_LABELS) as CaughtFilter[]).map((key) => (
-          <button
-            key={key}
-            type="button"
-            onClick={() => onFilterChange(key)}
-            className={`text-sm px-3 py-1 rounded-full border ${
-              filter === key
-                ? 'bg-violet-600 text-white border-violet-600'
-                : 'border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-300'
-            }`}
-          >
-            {FILTER_LABELS[key]}
-          </button>
-        ))}
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex gap-1">
+          {(Object.keys(FILTER_LABELS) as CaughtFilter[]).map((key) => (
+            <button
+              key={key}
+              type="button"
+              onClick={() => onFilterChange(key)}
+              className={`text-sm px-3 py-1 rounded-full border ${
+                filter === key
+                  ? 'bg-violet-600 text-white border-violet-600'
+                  : 'border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-300'
+              }`}
+            >
+              {FILTER_LABELS[key]}
+            </button>
+          ))}
+        </div>
+        {countLabel && <p className="text-sm text-slate-500 whitespace-nowrap">{countLabel}</p>}
       </div>
     </div>
   )
