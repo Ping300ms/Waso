@@ -29,7 +29,10 @@ export function AppShell() {
     <div className="min-h-svh flex flex-col bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100">
       <OfflineBanner />
       <header className="px-4 py-3 border-b border-slate-200 dark:border-slate-800">
-        <h1 className="text-xl font-bold">🐦 Waso</h1>
+        <h1 className="text-xl font-bold flex items-center gap-2">
+          <img src={`${import.meta.env.BASE_URL}icons/waso.svg`} alt="" className="h-6 w-auto" />
+          Waso
+        </h1>
       </header>
       <main className="flex-1 overflow-y-auto pb-20">
         <Outlet key={`${location.pathname}-${resetTick}`} />

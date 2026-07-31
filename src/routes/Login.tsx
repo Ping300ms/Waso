@@ -22,7 +22,10 @@ export function Login() {
   return (
     <div className="min-h-svh flex items-center justify-center p-4 bg-white dark:bg-slate-950">
       <form onSubmit={handleSubmit} className="w-full max-w-sm space-y-4">
-        <h1 className="text-2xl font-bold text-center">🐦 Waso</h1>
+        <h1 className="text-2xl font-bold text-center flex items-center justify-center gap-2">
+          <img src={`${import.meta.env.BASE_URL}icons/waso.svg`} alt="" className="h-8 w-auto" />
+          Waso
+        </h1>
         <p className="text-sm text-slate-500 text-center">
           Les comptes sont créés manuellement — pas d'inscription.
         </p>

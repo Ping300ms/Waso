@@ -21,7 +21,7 @@ export default defineConfig({
         display: 'standalone',
         background_color: '#0f172a',
         theme_color: '#0f172a',
-        // Placeholder icons (emoji-based SVG) — swap for real artwork later, same file names.
+        // Waso logo icons.
         icons: [
           {
             src: 'icons/icon.svg',
