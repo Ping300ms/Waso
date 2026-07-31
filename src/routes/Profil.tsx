@@ -68,7 +68,8 @@ export function Profil() {
 
   return (
     <div className="p-4 space-y-6">
-      <div className="flex items-center justify-end">
+      <div className="flex items-center justify-between">
+        <h2 className="text-lg font-bold">{pseudo ?? session?.user.email ?? '...'}</h2>
         <button
           type="button"
           onClick={() => navigate('/reglages')}
@@ -80,7 +81,6 @@ export function Profil() {
       </div>
 
       <ProfilSummary
-        pseudo={pseudo ?? session?.user.email ?? '...'}
         birdCount={caughtIds.size}
         familyCount={familyCount}
         badgeCount={badgeCount}
