@@ -2,6 +2,12 @@ import type { LeaderboardEntry } from "../../hooks/useLeaderboard";
 
 export type LeaderboardSortBy = "birdCount" | "familyCount" | "badgeCount";
 
+export const LEADERBOARD_SORT_LABELS: Record<LeaderboardSortBy, string> = {
+  birdCount: "Nb d'oiseaux",
+  familyCount: "Nb de familles",
+  badgeCount: "Nb de badges",
+};
+
 interface LeaderboardTableProps {
   entries: LeaderboardEntry[];
   sortBy: LeaderboardSortBy;

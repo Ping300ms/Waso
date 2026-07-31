@@ -1,7 +1,12 @@
 import { useState } from 'react'
 import { useLeaderboard, type LeaderboardEntry } from '../hooks/useLeaderboard'
-import { LeaderboardTable, type LeaderboardSortBy } from '../components/classement/LeaderboardTable'
+import {
+  LeaderboardTable,
+  LEADERBOARD_SORT_LABELS,
+  type LeaderboardSortBy,
+} from '../components/classement/LeaderboardTable'
 import { PlayerDetail } from '../components/profil/PlayerDetail'
+import { SortMenu } from '../components/common/SortMenu'
 
 export function Classement() {
   const { entries, fetchedAt, loading, offline } = useLeaderboard()
@@ -22,15 +27,7 @@ export function Classement() {
     <div className="p-4 space-y-3">
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-bold">Classement</h2>
-        <select
-          value={sortBy}
-          onChange={(e) => setSortBy(e.target.value as LeaderboardSortBy)}
-          className="border rounded px-2 py-1 text-sm dark:bg-slate-900 dark:border-slate-700"
-        >
-          <option value="birdCount">Nb d'oiseaux</option>
-          <option value="familyCount">Nb de familles</option>
-          <option value="badgeCount">Nb de badges</option>
-        </select>
+        <SortMenu value={sortBy} options={LEADERBOARD_SORT_LABELS} onChange={setSortBy} />
       </div>
 
       {offline && (
