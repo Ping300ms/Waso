@@ -45,17 +45,10 @@ export function Wasodex() {
 
   return (
     <div>
-      <div className="flex items-center justify-between px-4 pt-3">
+      <div className="px-4 pt-3">
         <p className="text-sm text-slate-500">
           {caughtIds.size} / {ALL_BIRDS.length} oiseaux découverts
         </p>
-        <button
-          type="button"
-          onClick={() => setModalOpen(true)}
-          className="px-3 py-1.5 text-sm rounded bg-violet-600 text-white"
-        >
-          + Ajouter
-        </button>
       </div>
 
       <SortFilterBar
@@ -72,6 +65,7 @@ export function Wasodex() {
         caughtIds={caughtIds}
         datesByBirdId={datesByBirdId}
         onSelectBird={setSelectedBird}
+        onAdd={() => setModalOpen(true)}
       />
 
       {modalOpen && (

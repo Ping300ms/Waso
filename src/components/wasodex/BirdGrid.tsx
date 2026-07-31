@@ -1,16 +1,19 @@
 import type { Bird } from '../../data/birds'
 import { BirdCard } from './BirdCard'
+import { AddSightingCard } from './AddSightingCard'
 
 interface BirdGridProps {
   birds: Bird[]
   caughtIds: Set<string>
   datesByBirdId?: Map<string, string>
   onSelectBird?: (bird: Bird) => void
+  onAdd?: () => void
 }
 
-export function BirdGrid({ birds, caughtIds, datesByBirdId, onSelectBird }: BirdGridProps) {
+export function BirdGrid({ birds, caughtIds, datesByBirdId, onSelectBird, onAdd }: BirdGridProps) {
   return (
     <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3 p-4">
+      {onAdd && <AddSightingCard onClick={onAdd} />}
       {birds.map((bird) => (
         <BirdCard
           key={bird.id}
