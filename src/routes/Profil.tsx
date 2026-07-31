@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { IoSettingsOutline, IoChevronBackOutline, IoPeopleOutline } from 'react-icons/io5'
+import { IoSettingsOutline, IoPeopleOutline } from 'react-icons/io5'
 import { useAuth } from '../auth/AuthProvider'
 import { fetchOwnProfile } from '../auth/authRepo'
 import { useSightings } from '../hooks/useSightings'
@@ -11,6 +11,7 @@ import { ProfilSummary } from '../components/profil/ProfilSummary'
 import { PlayerList } from '../components/profil/PlayerList'
 import { PlayerDetail } from '../components/profil/PlayerDetail'
 import { useOnlineStatus } from '../components/common/OfflineBanner'
+import { BackButton } from '../components/common/BackButton'
 
 export function Profil() {
   const { session } = useAuth()
@@ -53,14 +54,7 @@ export function Profil() {
     return (
       <div className="p-4 space-y-4">
         <div className="flex items-center gap-3">
-          <button
-            type="button"
-            onClick={() => setShowPlayers(false)}
-            className="flex items-center gap-1 text-sm text-violet-600"
-          >
-            <IoChevronBackOutline size={18} aria-hidden />
-            Retour
-          </button>
+          <BackButton onClick={() => setShowPlayers(false)} />
           <h2 className="text-lg font-bold">Joueurs</h2>
         </div>
         {online ? (
