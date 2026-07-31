@@ -1,23 +1,24 @@
 import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { IoSettingsOutline, IoChevronBackOutline, IoPeopleOutline } from 'react-icons/io5'
 import { useAuth } from '../auth/AuthProvider'
-import { fetchOwnProfile, updatePseudo } from '../auth/authRepo'
+import { fetchOwnProfile } from '../auth/authRepo'
 import { useSightings } from '../hooks/useSightings'
 import { useBadges } from '../hooks/useBadges'
 import { usePlayers, type PlayerSummary } from '../hooks/usePlayers'
 import { ALL_BIRDS, FAMILIES } from '../data/birds'
 import { ProfilSummary } from '../components/profil/ProfilSummary'
-import { ChangePasswordForm } from '../components/profil/ChangePasswordForm'
 import { PlayerList } from '../components/profil/PlayerList'
 import { PlayerDetail } from '../components/profil/PlayerDetail'
 import { useOnlineStatus } from '../components/common/OfflineBanner'
 
 export function Profil() {
-  const { session, signOut } = useAuth()
+  const { session } = useAuth()
+  const navigate = useNavigate()
   const online = useOnlineStatus()
   const sightings = useSightings()
   const [pseudo, setPseudo] = useState<string | null>(null)
-  const [pseudoInput, setPseudoInput] = useState('')
-  const [pseudoStatus, setPseudoStatus] = useState<string | null>(null)
+  const [showPlayers, setShowPlayers] = useState(false)
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerSummary | null>(null)
 
   const userId = session?.user.id ?? null
@@ -25,10 +26,7 @@ export function Profil() {
   useEffect(() => {
     if (!userId) return
     fetchOwnProfile(userId).then((profile) => {
-      if (profile) {
-        setPseudo(profile.pseudo)
-        setPseudoInput(profile.pseudo)
-      }
+      if (profile) setPseudo(profile.pseudo)
     })
   }, [userId])
 
@@ -51,15 +49,42 @@ export function Profil() {
     )
   }
 
-  async function handlePseudoSave() {
-    if (!userId || !pseudoInput.trim()) return
-    const { error } = await updatePseudo(userId, pseudoInput.trim())
-    setPseudoStatus(error ?? 'Pseudo mis à jour.')
-    if (!error) setPseudo(pseudoInput.trim())
+  if (showPlayers) {
+    return (
+      <div className="p-4 space-y-4">
+        <div className="flex items-center gap-3">
+          <button
+            type="button"
+            onClick={() => setShowPlayers(false)}
+            className="flex items-center gap-1 text-sm text-violet-600"
+          >
+            <IoChevronBackOutline size={18} aria-hidden />
+            Retour
+          </button>
+          <h2 className="text-lg font-bold">Joueurs</h2>
+        </div>
+        {online ? (
+          <PlayerList players={players} onSelect={setSelectedPlayer} />
+        ) : (
+          <p className="text-sm text-amber-600">Liste des joueurs indisponible hors-ligne.</p>
+        )}
+      </div>
+    )
   }
 
   return (
     <div className="p-4 space-y-6">
+      <div className="flex items-center justify-end">
+        <button
+          type="button"
+          onClick={() => navigate('/reglages')}
+          aria-label="Réglages"
+          className="p-2 text-slate-500 dark:text-slate-400"
+        >
+          <IoSettingsOutline size={24} aria-hidden />
+        </button>
+      </div>
+
       <ProfilSummary
         pseudo={pseudo ?? session?.user.email ?? '...'}
         birdCount={caughtIds.size}
@@ -70,41 +95,13 @@ export function Profil() {
         totalBadges={badges.length}
       />
 
-      {online ? (
-        <div className="space-y-4">
-          <div className="space-y-2">
-            <h3 className="font-medium text-sm">Changer de pseudo</h3>
-            <input
-              type="text"
-              value={pseudoInput}
-              onChange={(e) => setPseudoInput(e.target.value)}
-              className="w-full border rounded px-3 py-2 text-sm dark:bg-slate-900 dark:border-slate-700"
-            />
-            <button
-              type="button"
-              onClick={handlePseudoSave}
-              className="px-4 py-2 text-sm rounded bg-violet-600 text-white"
-            >
-              Enregistrer
-            </button>
-            {pseudoStatus && <p className="text-sm text-slate-500">{pseudoStatus}</p>}
-          </div>
-
-          <ChangePasswordForm />
-
-          <div className="space-y-2">
-            <h3 className="font-medium text-sm">Joueurs</h3>
-            <PlayerList players={players} onSelect={setSelectedPlayer} />
-          </div>
-        </div>
-      ) : (
-        <p className="text-sm text-amber-600">
-          Changement de pseudo/mot de passe et liste des joueurs indisponibles hors-ligne.
-        </p>
-      )}
-
-      <button type="button" onClick={() => void signOut()} className="text-sm text-red-600">
-        Se déconnecter
+      <button
+        type="button"
+        onClick={() => setShowPlayers(true)}
+        className="w-full flex items-center justify-center gap-2 px-4 py-3 text-sm rounded-xl border border-slate-200 dark:border-slate-800"
+      >
+        <IoPeopleOutline size={18} aria-hidden />
+        Voir les joueurs
       </button>
     </div>
   )

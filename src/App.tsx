@@ -1,18 +1,19 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
-import { AuthProvider } from './auth/AuthProvider'
-import { AppShell } from './components/common/AppShell'
-import { ProtectedRoute } from './components/common/ProtectedRoute'
-import { Login } from './routes/Login'
-import { Wasodex } from './routes/Wasodex'
-import { Badges } from './routes/Badges'
-import { Classement } from './routes/Classement'
-import { Profil } from './routes/Profil'
-import { Reconnaissance } from './routes/Reconnaissance'
-import { useSyncTrigger } from './sync/useSyncTrigger'
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { AuthProvider } from "./auth/AuthProvider";
+import { AppShell } from "./components/common/AppShell";
+import { ProtectedRoute } from "./components/common/ProtectedRoute";
+import { Login } from "./routes/Login";
+import { Wasodex } from "./routes/Wasodex";
+import { Badges } from "./routes/Badges";
+import { Classement } from "./routes/Classement";
+import { Profil } from "./routes/Profil";
+import { Reconnaissance } from "./routes/Reconnaissance";
+import { Reglages } from "./routes/Reglages";
+import { useSyncTrigger } from "./sync/useSyncTrigger";
 
 function SyncBootstrap() {
-  useSyncTrigger()
-  return null
+  useSyncTrigger();
+  return null;
 }
 
 export default function App() {
@@ -30,11 +31,12 @@ export default function App() {
               <Route path="/badges" element={<Badges />} />
               <Route path="/classement" element={<Classement />} />
               <Route path="/profil" element={<Profil />} />
+              <Route path="/reglages" element={<Reglages />} />
             </Route>
           </Route>
           <Route path="*" element={<Navigate to="/wasodex" replace />} />
         </Routes>
       </AuthProvider>
     </BrowserRouter>
-  )
+  );
 }

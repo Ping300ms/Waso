@@ -1,3 +1,4 @@
+import { IoChevronBackOutline } from 'react-icons/io5'
 import { ALL_BIRDS, FAMILIES } from '../../data/birds'
 import { usePlayerSightings } from '../../hooks/usePlayers'
 import { useBadgesForSightings } from '../../hooks/useBadges'
@@ -23,8 +24,9 @@ export function PlayerDetail({ playerId, pseudo, onBack }: PlayerDetailProps) {
   return (
     <div>
       <div className="p-4 flex items-center gap-3">
-        <button type="button" onClick={onBack} className="text-sm text-violet-600">
-          ← Retour
+        <button type="button" onClick={onBack} className="flex items-center gap-1 text-sm text-violet-600">
+          <IoChevronBackOutline size={18} aria-hidden />
+          Retour
         </button>
         <h2 className="text-lg font-bold">{pseudo}</h2>
       </div>
