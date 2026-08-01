@@ -15,6 +15,11 @@ const FILES = [
   'model.json',
   ...Array.from({ length: SHARD_COUNT }, (_, i) => `group1-shard${i + 1}of${SHARD_COUNT}.bin`),
   'labels/en_us.txt',
+  // area-model: BirdNET's location/season model (lat, lon, week -> per-species geoscore),
+  // used to filter acoustic detections by geographic/seasonal plausibility.
+  'area-model/model.json',
+  'area-model/group1-shard1of2.bin',
+  'area-model/group1-shard2of2.bin',
 ]
 
 async function fetchFile(name) {
@@ -26,6 +31,7 @@ async function fetchFile(name) {
 
 async function main() {
   await mkdir(path.join(OUT_DIR, 'labels'), { recursive: true })
+  await mkdir(path.join(OUT_DIR, 'area-model'), { recursive: true })
 
   for (const name of FILES) {
     const dest = path.join(OUT_DIR, name)

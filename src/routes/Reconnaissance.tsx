@@ -1,16 +1,30 @@
-import { useState } from 'react'
-import { IoMic, IoSquare } from 'react-icons/io5'
+import { useEffect, useState } from 'react'
+import { IoLocateOutline, IoMic, IoSquare } from 'react-icons/io5'
 import { useBirdRecognizer, type Detection } from '../birdnet/useBirdRecognizer'
 import { SpectrogramCanvas } from '../components/reconnaissance/SpectrogramCanvas'
 import { DetectedBirdRow } from '../components/reconnaissance/DetectedBirdRow'
+import { DepartmentPickerModal } from '../components/reconnaissance/DepartmentPickerModal'
 import { CatchAnimation } from '../components/wasodex/CatchAnimation'
 import { upsertSighting } from '../db/sightingsRepo'
 import type { Bird } from '../data/birds'
+import type { Departement } from '../data/departements'
+
+const DEPARTMENT_STORAGE_KEY = 'waso-reconnaissance-departement'
 
 export function Reconnaissance() {
-  const { status, progress, errorMessage, detections, analyser, start, stop } = useBirdRecognizer()
+  const { status, progress, errorMessage, detections, analyser, start, stop, setLocation } =
+    useBirdRecognizer()
   const [addedIds, setAddedIds] = useState<Set<string>>(new Set())
   const [celebrating, setCelebrating] = useState<Bird | null>(null)
+  const [pickerOpen, setPickerOpen] = useState(false)
+  const [departement, setDepartement] = useState<Departement | null>(() => {
+    const raw = localStorage.getItem(DEPARTMENT_STORAGE_KEY)
+    return raw ? (JSON.parse(raw) as Departement) : null
+  })
+
+  useEffect(() => {
+    if (departement) setLocation(departement.lat, departement.lon)
+  }, [departement, setLocation])
 
   async function handleQuickAdd(detection: Detection) {
     await upsertSighting(detection.bird.id, new Date())
@@ -18,8 +32,39 @@ export function Reconnaissance() {
     setCelebrating(detection.bird)
   }
 
+  function handleSelectDepartement(dept: Departement) {
+    setDepartement(dept)
+    localStorage.setItem(DEPARTMENT_STORAGE_KEY, JSON.stringify(dept))
+    setPickerOpen(false)
+  }
+
   return (
     <div className="p-4 pb-28 space-y-4">
+      <div className="flex items-center justify-between gap-2">
+        <p className="text-sm text-slate-500">
+          {departement ? `Localisation : ${departement.nom}` : 'Aucune localisation'}
+        </p>
+        <button
+          type="button"
+          onClick={() => setPickerOpen(true)}
+          aria-label="Choisir un département"
+          className={`p-2 rounded-lg border ${
+            departement
+              ? 'border-violet-400 text-violet-600 dark:text-violet-400'
+              : 'border-slate-300 dark:border-slate-700 text-slate-500 dark:text-slate-400'
+          }`}
+        >
+          <IoLocateOutline size={20} aria-hidden />
+        </button>
+      </div>
+
+      {pickerOpen && (
+        <DepartmentPickerModal
+          onSelect={handleSelectDepartement}
+          onClose={() => setPickerOpen(false)}
+        />
+      )}
+
       {status === 'downloading' && (
         <div className="space-y-1">
           <p className="text-sm text-slate-500">Chargement du modèle ({progress}%)...</p>

@@ -22,6 +22,7 @@ export interface RecognizerState {
   analyser: AnalyserNode | null
   start: () => Promise<void>
   stop: () => void
+  setLocation: (latitude: number, longitude: number) => void
 }
 
 export function useBirdRecognizer(): RecognizerState {
@@ -37,6 +38,12 @@ export function useBirdRecognizer(): RecognizerState {
   const pendingSamplesRef = useRef<Float32Array>(new Float32Array(0))
   const chunkIdRef = useRef(0)
   const detectionsMapRef = useRef<Map<string, Detection>>(new Map())
+  const locationRef = useRef<{ latitude: number; longitude: number } | null>(null)
+
+  const setLocation = useCallback((latitude: number, longitude: number) => {
+    locationRef.current = { latitude, longitude }
+    workerRef.current?.postMessage({ type: 'location', latitude, longitude })
+  }, [])
 
   const stop = useCallback(() => {
     workerRef.current?.terminate()
@@ -83,6 +90,9 @@ export function useBirdRecognizer(): RecognizerState {
         } else if (msg.type === 'ready') {
           setStatus('listening')
           setProgress(100)
+          if (locationRef.current) {
+            worker.postMessage({ type: 'location', ...locationRef.current })
+          }
         } else if (msg.type === 'error') {
           setErrorMessage(msg.message)
           setStatus('error')
@@ -122,5 +132,5 @@ export function useBirdRecognizer(): RecognizerState {
     }
   }, [stop])
 
-  return { status, progress, errorMessage, detections, analyser, start, stop }
+  return { status, progress, errorMessage, detections, analyser, start, stop, setLocation }
 }
