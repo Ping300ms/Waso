@@ -1,14 +1,20 @@
-import type { BadgeState } from '../../domain/badges'
+import type { BadgeState } from "../../domain/badges";
 
-export function BadgeCard({ badge, onClick }: { badge: BadgeState; onClick?: () => void }) {
+export function BadgeCard({
+  badge,
+  onClick,
+}: {
+  badge: BadgeState;
+  onClick?: () => void;
+}) {
   return (
     <button
       type="button"
       onClick={onClick}
-      className={`rounded-xl border-2 p-3 min-h-28 flex flex-col items-center justify-center gap-1 text-center ${
+      className={`rounded-xl p-3 min-h-28 flex flex-col items-center justify-center gap-1 text-center ${
         badge.obtained
-          ? 'bg-emerald-50 dark:bg-emerald-950 border-emerald-400'
-          : 'bg-slate-100 dark:bg-slate-800 border-slate-300 dark:border-slate-700 opacity-70'
+          ? "bg-violet-50 dark:bg-violet-950"
+          : "bg-slate-100 dark:bg-slate-800 border-slate-300 dark:border-slate-700 opacity-70"
       }`}
     >
       <span className="text-3xl" aria-hidden>
@@ -27,5 +33,5 @@ export function BadgeCard({ badge, onClick }: { badge: BadgeState; onClick?: () 
         </div>
       )}
     </button>
-  )
+  );
 }
